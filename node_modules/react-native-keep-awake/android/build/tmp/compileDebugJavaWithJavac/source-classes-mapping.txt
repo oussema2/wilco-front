@@ -1,0 +1,8 @@
+com/corbt/keepawake/KCKeepAwake.java
+ com.corbt.keepawake.KCKeepAwake
+ com.corbt.keepawake.KCKeepAwake$1
+ com.corbt.keepawake.KCKeepAwake$2
+com/corbt/keepawake/BuildConfig.java
+ com.corbt.keepawake.BuildConfig
+com/corbt/keepawake/KCKeepAwakePackage.java
+ com.corbt.keepawake.KCKeepAwakePackage

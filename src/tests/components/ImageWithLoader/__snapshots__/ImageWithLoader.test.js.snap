@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageWithLoader with size renders the ImageWithLoader component correctly 1`] = `undefined`;
+
+exports[`ImageWithLoader with source renders the ImageWithLoader component correctly 1`] = `undefined`;
+
+exports[`ImageWithLoader with the default props renders the ImageWithLoader component correctly 1`] = `undefined`;
+
+exports[`ImageWithLoader with tint color renders the Image component correctly 1`] = `undefined`;

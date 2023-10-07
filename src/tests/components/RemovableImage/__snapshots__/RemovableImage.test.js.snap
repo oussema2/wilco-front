@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemovableImage with the default props renders the RemovableImage component correctly 1`] = `undefined`;

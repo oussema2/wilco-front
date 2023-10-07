@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/oussema/Desktop/wilco-frontend-master/android/app/build/intermediates/incremental/mergeDevelopmentDebugResources/merged.dir/values-no/values-no.xml",
+            "map": [
+                {
+                    "source": "/home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-date-picker/android/build/intermediates/packaged_res/debug/values-no/values-no.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,166,219,274,316,378,427,484,531,597,662,725,790,863,930,996,1059,1105",
+                        "endColumns": "55,54,52,54,41,61,48,56,46,65,64,62,64,72,66,65,62,45,52",
+                        "endOffsets": "106,161,214,269,311,373,422,479,526,592,657,720,785,858,925,991,1054,1100,1153"
+                    }
+                }
+            ]
+        }
+    ]
+}

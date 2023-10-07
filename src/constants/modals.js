@@ -1,0 +1,15 @@
+export const DELETE_POST_CONFIRMATION_MODAL = 'deletePostConfirmationModal';
+export const DELETE_COMMENT_CONFIRMATION_MODAL = 'deleteCommentConfirmationModal';
+export const DELETE_AIRCRAFT_CONFIRMATION_MODAL = 'deleteAircraftConfirmationModal';
+export const DISCARD_CHANGES_CONFIRMATION_MODAL = 'discardChangesConfirmationModal';
+export const DISCARD_POST_CHANGES_CONFIRMATION_MODAL = 'discardPostChangesConfirmationModal';
+export const DISCARD_POST_FILTER_CHANGES_CONFIRMATION_MODAL = 'discardPostFilterChangesConfirmationModal';
+export const CANCEL_POST_CONFIRMATION_MODAL = 'cancelPostConfirmationModal';
+export const CANCEL_AIRCRAFT_CONFIRMATION_MODAL = 'cancelAircraftConfirmationModal';
+export const REPORT_CONFIRMATION_MODAL = 'reportConfirmationModal';
+export const DATE_PICKER_MODAL = 'datePickerModal';
+export const AIRCRAFT_PICKER_MODAL = 'aircraftPickerModal';
+export const VISIBILITY_PICKER_MODAL = 'visibilityPickerModal';
+export const LOG_OUT_CONFIRMATION_MODAL = 'logOutConfirmationModal';
+export const DELETE_ACCOUNT_CONFIRMATION_MODAL = 'deleteAccountConfirmationModal';
+export const BLOCK_USER_CONFIRMATION_MODAL = 'blockUserConfirmationModal';

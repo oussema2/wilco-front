@@ -1,0 +1,306 @@
+/// <reference types="node" />
+import React, { PropsWithChildren } from 'react';
+import { Animated, FlatList, ScrollView, StyleProp, NativeSyntheticEvent, NativeScrollEvent, LayoutChangeEvent, GestureResponderEvent, ViewStyle } from 'react-native';
+import type { CarouselProps, CarouselState } from './types';
+export declare class Carousel<TData> extends React.Component<CarouselProps<TData>, CarouselState> {
+    static defaultProps: {
+        activeSlideAlignment: string;
+        activeSlideOffset: number;
+        apparitionDelay: number;
+        autoplay: boolean;
+        autoplayDelay: number;
+        autoplayInterval: number;
+        callbackOffsetMargin: number;
+        containerCustomStyle: {};
+        contentContainerCustomStyle: {};
+        enableSnap: boolean;
+        firstItem: number;
+        hasParallaxImages: boolean;
+        inactiveSlideOpacity: number;
+        inactiveSlideScale: number;
+        inactiveSlideShift: number;
+        layout: string;
+        loop: boolean;
+        loopClonesPerSide: number;
+        scrollEnabled: boolean;
+        slideStyle: {};
+        shouldOptimizeUpdates: boolean;
+        useExperimentalSnap: boolean;
+        useScrollView: boolean;
+    };
+    _activeItem: number;
+    _onScrollActiveItem: number;
+    _previousFirstItem: number;
+    _previousItemsLength: number;
+    _mounted: boolean;
+    _positions: {
+        start: number;
+        end: number;
+    }[];
+    _currentScrollOffset: number;
+    _scrollEnabled: boolean;
+    _initTimeout?: ReturnType<typeof setTimeout>;
+    _apparitionTimeout?: ReturnType<typeof setTimeout>;
+    _hackSlideAnimationTimeout?: ReturnType<typeof setTimeout>;
+    _enableAutoplayTimeout?: ReturnType<typeof setTimeout>;
+    _autoplayTimeout?: ReturnType<typeof setTimeout>;
+    _snapNoMomentumTimeout?: ReturnType<typeof setTimeout>;
+    _androidRepositioningTimeout?: ReturnType<typeof setTimeout>;
+    _autoplayInterval?: ReturnType<typeof setInterval>;
+    _scrollPos?: Animated.Value;
+    _onScrollHandler?: ReturnType<typeof Animated.event>;
+    _carouselRef: ScrollView | FlatList<TData> | null;
+    _autoplaying?: boolean;
+    _autoplay?: boolean;
+    _onLayoutInitDone?: boolean;
+    constructor(props: CarouselProps<TData>);
+    componentDidMount(): void;
+    shouldComponentUpdate(nextProps: CarouselProps<TData>, nextState: CarouselState): boolean;
+    componentDidUpdate(prevProps: CarouselProps<TData>): void;
+    componentWillUnmount(): void;
+    get realIndex(): number;
+    get currentIndex(): number;
+    get currentScrollPosition(): number;
+    _setScrollHandler(props: CarouselProps<TData>): void;
+    _displayWarnings(props?: CarouselProps<TData>): void;
+    _needsScrollView(): boolean | React.ComponentClass<unknown, any> | React.FunctionComponent<unknown>;
+    _needsRTLAdaptations(): boolean;
+    _enableLoop(): boolean | 0;
+    _shouldAnimateSlides(props?: CarouselProps<TData>): boolean;
+    _shouldUseShiftLayout(): boolean;
+    _shouldUseStackLayout(): boolean;
+    _shouldUseTinderLayout(): boolean;
+    _shouldRepositionScroll(index: number): boolean;
+    _roundNumber(num: number, decimals?: number): number;
+    _isMultiple(x: number, y: number): boolean;
+    _getCustomData(props?: CarouselProps<TData>): TData[];
+    _getCustomDataLength(props?: CarouselProps<TData>): number;
+    _getCustomIndex(index: number, props?: CarouselProps<TData>): number;
+    _getDataIndex(index: number): number;
+    _getPositionIndex(index: number): number;
+    _getSnapOffsets(props?: CarouselProps<TData>): number[];
+    _getFirstItem(index: number, props?: CarouselProps<TData>): number;
+    _getWrappedRef(): any;
+    _getScrollEnabled(): boolean;
+    _setScrollEnabled(scrollEnabled?: boolean): void;
+    _getItemMainDimension(): number;
+    _getItemScrollOffset(index: number): number;
+    _getItemLayout(_: TData[], index: number): {
+        index: number;
+        length: number;
+        offset: number;
+    };
+    _getCellRendererComponent({ children, index, style, ...props }: PropsWithChildren<{
+        index: number;
+        style: StyleProp<ViewStyle>;
+    }>): JSX.Element;
+    _getKeyExtractor(_: TData, index: number): string;
+    _getScrollOffset(event: NativeSyntheticEvent<NativeScrollEvent>): number;
+    _getContainerInnerMargin(opposite?: boolean): number;
+    _getActiveSlideOffset(): number;
+    _getActiveItem(offset: number): number;
+    _getSlideInterpolatedStyle(index: number, animatedValue: Animated.AnimatedInterpolation): {} | null | undefined;
+    _initPositionsAndInterpolators(props?: CarouselProps<TData>): void;
+    _hackActiveSlideAnimation(index: number, scrollValue?: number): void;
+    _repositionScroll(index: number, animated?: boolean): void;
+    _scrollTo({ offset, index, animated }: {
+        offset: number;
+        index?: number;
+        animated: boolean;
+    }): void;
+    _onTouchStart(event: GestureResponderEvent): void;
+    _onTouchEnd(event: GestureResponderEvent): void;
+    _onScroll(event: NativeSyntheticEvent<NativeScrollEvent>): void;
+    _onMomentumScrollEnd(event: NativeSyntheticEvent<NativeScrollEvent>): void;
+    _onLayout(event: LayoutChangeEvent): void;
+    _snapToItem(index: number, animated?: boolean, fireCallback?: boolean, forceScrollTo?: boolean): void;
+    startAutoplay(): void;
+    pauseAutoPlay(): void;
+    stopAutoplay(): void;
+    snapToItem(index: number, animated?: boolean, fireCallback?: boolean): void;
+    snapToNext(animated?: boolean, fireCallback?: boolean): void;
+    snapToPrev(animated?: boolean, fireCallback?: boolean): void;
+    triggerRenderingHack(offset?: number): void;
+    _renderItem({ item, index }: {
+        item: TData;
+        index: number;
+    }): JSX.Element | null;
+    _getComponentOverridableProps(): {
+        automaticallyAdjustContentInsets: boolean;
+        decelerationRate: "fast";
+        directionalLockEnabled: boolean;
+        disableScrollViewPanResponder: boolean;
+        inverted: boolean;
+        overScrollMode: "never";
+        pinchGestureEnabled: boolean;
+        pointerEvents: "none" | "auto";
+        scrollsToTop: boolean;
+        showsHorizontalScrollIndicator: boolean;
+        showsVerticalScrollIndicator: boolean;
+        initialNumToRender: number;
+        maxToRenderPerBatch: number;
+        windowSize: number;
+    } | {
+        automaticallyAdjustContentInsets: boolean;
+        decelerationRate: "fast";
+        directionalLockEnabled: boolean;
+        disableScrollViewPanResponder: boolean;
+        inverted: boolean;
+        overScrollMode: "never";
+        pinchGestureEnabled: boolean;
+        pointerEvents: "none" | "auto";
+        scrollsToTop: boolean;
+        showsHorizontalScrollIndicator: boolean;
+        showsVerticalScrollIndicator: boolean;
+        initialNumToRender?: undefined;
+        maxToRenderPerBatch?: undefined;
+        windowSize?: undefined;
+    };
+    _getComponentStaticProps(): {
+        ref: (c: any) => void;
+        contentContainerStyle: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined> | {
+            paddingTop: number;
+            paddingBottom: number;
+            paddingLeft?: undefined;
+            paddingRight?: undefined;
+        } | {
+            paddingLeft: number;
+            paddingRight: number;
+            paddingTop?: undefined;
+            paddingBottom?: undefined;
+        })[];
+        data: TData[];
+        horizontal: boolean;
+        scrollEventThrottle: number;
+        style: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined>)[];
+        onLayout: (event: LayoutChangeEvent) => void;
+        onMomentumScrollEnd: (event: NativeSyntheticEvent<NativeScrollEvent>) => void;
+        onScroll: ((...args: any[]) => void) | undefined;
+        onTouchStart: (event: GestureResponderEvent) => void;
+        onTouchEnd: (event: GestureResponderEvent) => void;
+        snapToAlignment: "center" | "end" | "start";
+        snapToInterval: number;
+        snapToOffsets?: undefined;
+        CellRendererComponent: React.ComponentClass<any, any> | React.FunctionComponent<any> | (({ children, index, style, ...props }: React.PropsWithChildren<{
+            index: number;
+            style: StyleProp<ViewStyle>;
+        }>) => JSX.Element);
+        getItemLayout: (_: TData[], index: number) => {
+            index: number;
+            length: number;
+            offset: number;
+        };
+        initialScrollIndex: number;
+        keyExtractor: (item: TData, index: number) => string;
+        numColumns: number;
+        renderItem: ({ item, index }: {
+            item: TData;
+            index: number;
+        }) => JSX.Element | null;
+    } | {
+        ref: (c: any) => void;
+        contentContainerStyle: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined> | {
+            paddingTop: number;
+            paddingBottom: number;
+            paddingLeft?: undefined;
+            paddingRight?: undefined;
+        } | {
+            paddingLeft: number;
+            paddingRight: number;
+            paddingTop?: undefined;
+            paddingBottom?: undefined;
+        })[];
+        data: TData[];
+        horizontal: boolean;
+        scrollEventThrottle: number;
+        style: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined>)[];
+        onLayout: (event: LayoutChangeEvent) => void;
+        onMomentumScrollEnd: (event: NativeSyntheticEvent<NativeScrollEvent>) => void;
+        onScroll: ((...args: any[]) => void) | undefined;
+        onTouchStart: (event: GestureResponderEvent) => void;
+        onTouchEnd: (event: GestureResponderEvent) => void;
+        snapToOffsets: number[];
+        snapToAlignment?: undefined;
+        snapToInterval?: undefined;
+        CellRendererComponent: React.ComponentClass<any, any> | React.FunctionComponent<any> | (({ children, index, style, ...props }: React.PropsWithChildren<{
+            index: number;
+            style: StyleProp<ViewStyle>;
+        }>) => JSX.Element);
+        getItemLayout: (_: TData[], index: number) => {
+            index: number;
+            length: number;
+            offset: number;
+        };
+        initialScrollIndex: number;
+        keyExtractor: (item: TData, index: number) => string;
+        numColumns: number;
+        renderItem: ({ item, index }: {
+            item: TData;
+            index: number;
+        }) => JSX.Element | null;
+    } | {
+        ref: (c: any) => void;
+        contentContainerStyle: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined> | {
+            paddingTop: number;
+            paddingBottom: number;
+            paddingLeft?: undefined;
+            paddingRight?: undefined;
+        } | {
+            paddingLeft: number;
+            paddingRight: number;
+            paddingTop?: undefined;
+            paddingBottom?: undefined;
+        })[];
+        data: TData[];
+        horizontal: boolean;
+        scrollEventThrottle: number;
+        style: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined>)[];
+        onLayout: (event: LayoutChangeEvent) => void;
+        onMomentumScrollEnd: (event: NativeSyntheticEvent<NativeScrollEvent>) => void;
+        onScroll: ((...args: any[]) => void) | undefined;
+        onTouchStart: (event: GestureResponderEvent) => void;
+        onTouchEnd: (event: GestureResponderEvent) => void;
+        snapToAlignment: "center" | "end" | "start";
+        snapToInterval: number;
+        snapToOffsets?: undefined;
+        CellRendererComponent?: undefined;
+        getItemLayout?: undefined;
+        initialScrollIndex?: undefined;
+        keyExtractor?: undefined;
+        numColumns?: undefined;
+        renderItem?: undefined;
+    } | {
+        ref: (c: any) => void;
+        contentContainerStyle: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined> | {
+            paddingTop: number;
+            paddingBottom: number;
+            paddingLeft?: undefined;
+            paddingRight?: undefined;
+        } | {
+            paddingLeft: number;
+            paddingRight: number;
+            paddingTop?: undefined;
+            paddingBottom?: undefined;
+        })[];
+        data: TData[];
+        horizontal: boolean;
+        scrollEventThrottle: number;
+        style: (ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | import("react-native").RecursiveArray<false | ViewStyle | import("react-native").RegisteredStyle<ViewStyle> | null | undefined>)[];
+        onLayout: (event: LayoutChangeEvent) => void;
+        onMomentumScrollEnd: (event: NativeSyntheticEvent<NativeScrollEvent>) => void;
+        onScroll: ((...args: any[]) => void) | undefined;
+        onTouchStart: (event: GestureResponderEvent) => void;
+        onTouchEnd: (event: GestureResponderEvent) => void;
+        snapToOffsets: number[];
+        snapToAlignment?: undefined;
+        snapToInterval?: undefined;
+        CellRendererComponent?: undefined;
+        getItemLayout?: undefined;
+        initialScrollIndex?: undefined;
+        keyExtractor?: undefined;
+        numColumns?: undefined;
+        renderItem?: undefined;
+    };
+    render(): JSX.Element | null;
+}
+export default Carousel;

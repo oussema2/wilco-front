@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar with the default props renders the NavigationBar component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 44,
+    }
+  }
+  testID="testing-navigationBar-component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minHeight": 44,
+        },
+        Object {
+          "flex": 0.25,
+          "justifyContent": "flex-start",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 15,
+          "left": 15,
+          "right": 15,
+          "top": 15,
+        }
+      }
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/icons/chevronLeft.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "width": 20,
+          }
+        }
+        testID="backArrow-image"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minHeight": 44,
+        },
+        Object {
+          "flex": 0.5,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      onPress={null}
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#000000",
+          "flex": 1,
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "textAlign": "center",
+        }
+      }
+      testID="title-text"
+    >
+      Title
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minHeight": 44,
+        },
+        Object {
+          "flex": 0.25,
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 20,
+        }
+      }
+      testID="rightPlaceholder-view"
+    />
+  </View>
+</View>
+`;

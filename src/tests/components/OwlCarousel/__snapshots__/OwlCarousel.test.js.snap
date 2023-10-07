@@ -1,0 +1,718 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OwlCarousel /> with the default props renders the OwlCarousel component correctly 1`] = `
+<View
+  testID="testing-OwlCarousel-Component"
+>
+  <RCTScrollView
+    CellRendererComponent={[Function]}
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    contentContainerStyle={
+      Array [
+        Object {
+          "paddingLeft": 0,
+          "paddingRight": 0,
+        },
+        Object {},
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+        Object {
+          "id": 3,
+        },
+      ]
+    }
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    disableScrollViewPanResponder={false}
+    enableSnap={true}
+    firstItem={0}
+    forwardedRef={[Function]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    initialNumToRender={6}
+    initialScrollIndex={0}
+    invertStickyHeaders={false}
+    inverted={false}
+    itemWidth={1000}
+    keyExtractor={[Function]}
+    layout="default"
+    loop={false}
+    loopClonesPerSide={3}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollIndexChanged={[Function]}
+    onSnapToItem={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    pointerEvents="auto"
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={Object {}}
+    sliderWidth={1000}
+    snapToOffsets={
+      Array [
+        0,
+        1000,
+        2000,
+      ]
+    }
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexDirection": "row",
+        "width": 1000,
+      }
+    }
+    useExperimentalSnap={false}
+    useScrollView={false}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={3}
+  >
+    <View>
+      <View
+        CellRendererComponent={[Function]}
+        cellKey="flatlist-item-0"
+        fillRateHelper={
+          FillRateHelper {
+            "_anyBlankStartTime": null,
+            "_enabled": false,
+            "_getFrameMetrics": [Function],
+            "_info": Info {
+              "any_blank_count": 0,
+              "any_blank_ms": 0,
+              "any_blank_speed_sum": 0,
+              "mostly_blank_count": 0,
+              "mostly_blank_ms": 0,
+              "pixels_blank": 0,
+              "pixels_sampled": 0,
+              "pixels_scrolled": 0,
+              "sample_count": 0,
+              "total_time_spent": 0,
+            },
+            "_mostlyBlankStartTime": null,
+            "_samplesStartTime": null,
+          }
+        }
+        horizontal={true}
+        inversionStyle={null}
+        item={
+          Object {
+            "id": 1,
+          }
+        }
+        onUnmount={[Function]}
+        onUpdateSeparators={[Function]}
+        parentProps={
+          Object {
+            "CellRendererComponent": [Function],
+            "activeSlideAlignment": "center",
+            "activeSlideOffset": 20,
+            "apparitionDelay": 0,
+            "automaticallyAdjustContentInsets": false,
+            "autoplay": false,
+            "autoplayDelay": 1000,
+            "autoplayInterval": 3000,
+            "callbackOffsetMargin": 5,
+            "containerCustomStyle": Object {},
+            "contentContainerCustomStyle": Object {},
+            "contentContainerStyle": Array [
+              Object {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+              },
+              Object {},
+            ],
+            "data": Array [
+              Object {
+                "id": 1,
+              },
+              Object {
+                "id": 2,
+              },
+              Object {
+                "id": 3,
+              },
+            ],
+            "decelerationRate": "fast",
+            "directionalLockEnabled": true,
+            "disableScrollViewPanResponder": false,
+            "enableSnap": true,
+            "firstItem": 0,
+            "forwardedRef": [Function],
+            "getItem": [Function],
+            "getItemCount": [Function],
+            "getItemLayout": [Function],
+            "hasParallaxImages": false,
+            "horizontal": true,
+            "inactiveSlideOpacity": 0.7,
+            "inactiveSlideScale": 0.9,
+            "inactiveSlideShift": 0,
+            "initialNumToRender": 6,
+            "initialScrollIndex": 0,
+            "inverted": false,
+            "itemWidth": 1000,
+            "keyExtractor": [Function],
+            "layout": "default",
+            "loop": false,
+            "loopClonesPerSide": 3,
+            "maxToRenderPerBatch": 10,
+            "onLayout": [Function],
+            "onMomentumScrollEnd": [Function],
+            "onScroll": [Function],
+            "onScrollIndexChanged": [Function],
+            "onSnapToItem": [Function],
+            "onTouchEnd": [Function],
+            "onTouchStart": [Function],
+            "overScrollMode": "never",
+            "pinchGestureEnabled": false,
+            "pointerEvents": "auto",
+            "removeClippedSubviews": false,
+            "renderItem": [Function],
+            "scrollEnabled": true,
+            "scrollEventThrottle": 1,
+            "scrollsToTop": false,
+            "shouldOptimizeUpdates": true,
+            "showsHorizontalScrollIndicator": false,
+            "showsVerticalScrollIndicator": false,
+            "slideStyle": Object {},
+            "sliderWidth": 1000,
+            "snapToOffsets": Array [
+              0,
+              1000,
+              2000,
+            ],
+            "style": Object {
+              "flexDirection": "row",
+              "width": 1000,
+            },
+            "useExperimentalSnap": false,
+            "useScrollView": false,
+            "viewabilityConfigCallbackPairs": Array [],
+            "windowSize": 3,
+          }
+        }
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ],
+            Object {
+              "zIndex": 3,
+            },
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          nativeID="animatedComponent"
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 1000,
+            }
+          }
+        />
+      </View>
+      <View
+        CellRendererComponent={[Function]}
+        cellKey="flatlist-item-1"
+        fillRateHelper={
+          FillRateHelper {
+            "_anyBlankStartTime": null,
+            "_enabled": false,
+            "_getFrameMetrics": [Function],
+            "_info": Info {
+              "any_blank_count": 0,
+              "any_blank_ms": 0,
+              "any_blank_speed_sum": 0,
+              "mostly_blank_count": 0,
+              "mostly_blank_ms": 0,
+              "pixels_blank": 0,
+              "pixels_sampled": 0,
+              "pixels_scrolled": 0,
+              "sample_count": 0,
+              "total_time_spent": 0,
+            },
+            "_mostlyBlankStartTime": null,
+            "_samplesStartTime": null,
+          }
+        }
+        horizontal={true}
+        inversionStyle={null}
+        item={
+          Object {
+            "id": 2,
+          }
+        }
+        onUnmount={[Function]}
+        onUpdateSeparators={[Function]}
+        parentProps={
+          Object {
+            "CellRendererComponent": [Function],
+            "activeSlideAlignment": "center",
+            "activeSlideOffset": 20,
+            "apparitionDelay": 0,
+            "automaticallyAdjustContentInsets": false,
+            "autoplay": false,
+            "autoplayDelay": 1000,
+            "autoplayInterval": 3000,
+            "callbackOffsetMargin": 5,
+            "containerCustomStyle": Object {},
+            "contentContainerCustomStyle": Object {},
+            "contentContainerStyle": Array [
+              Object {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+              },
+              Object {},
+            ],
+            "data": Array [
+              Object {
+                "id": 1,
+              },
+              Object {
+                "id": 2,
+              },
+              Object {
+                "id": 3,
+              },
+            ],
+            "decelerationRate": "fast",
+            "directionalLockEnabled": true,
+            "disableScrollViewPanResponder": false,
+            "enableSnap": true,
+            "firstItem": 0,
+            "forwardedRef": [Function],
+            "getItem": [Function],
+            "getItemCount": [Function],
+            "getItemLayout": [Function],
+            "hasParallaxImages": false,
+            "horizontal": true,
+            "inactiveSlideOpacity": 0.7,
+            "inactiveSlideScale": 0.9,
+            "inactiveSlideShift": 0,
+            "initialNumToRender": 6,
+            "initialScrollIndex": 0,
+            "inverted": false,
+            "itemWidth": 1000,
+            "keyExtractor": [Function],
+            "layout": "default",
+            "loop": false,
+            "loopClonesPerSide": 3,
+            "maxToRenderPerBatch": 10,
+            "onLayout": [Function],
+            "onMomentumScrollEnd": [Function],
+            "onScroll": [Function],
+            "onScrollIndexChanged": [Function],
+            "onSnapToItem": [Function],
+            "onTouchEnd": [Function],
+            "onTouchStart": [Function],
+            "overScrollMode": "never",
+            "pinchGestureEnabled": false,
+            "pointerEvents": "auto",
+            "removeClippedSubviews": false,
+            "renderItem": [Function],
+            "scrollEnabled": true,
+            "scrollEventThrottle": 1,
+            "scrollsToTop": false,
+            "shouldOptimizeUpdates": true,
+            "showsHorizontalScrollIndicator": false,
+            "showsVerticalScrollIndicator": false,
+            "slideStyle": Object {},
+            "sliderWidth": 1000,
+            "snapToOffsets": Array [
+              0,
+              1000,
+              2000,
+            ],
+            "style": Object {
+              "flexDirection": "row",
+              "width": 1000,
+            },
+            "useExperimentalSnap": false,
+            "useScrollView": false,
+            "viewabilityConfigCallbackPairs": Array [],
+            "windowSize": 3,
+          }
+        }
+        prevCellKey="flatlist-item-0"
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ],
+            Object {
+              "zIndex": 2,
+            },
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          nativeID="animatedComponent"
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 0.7,
+              "transform": Array [
+                Object {
+                  "scale": 0.9,
+                },
+              ],
+              "width": 1000,
+            }
+          }
+        />
+      </View>
+      <View
+        CellRendererComponent={[Function]}
+        cellKey="flatlist-item-2"
+        fillRateHelper={
+          FillRateHelper {
+            "_anyBlankStartTime": null,
+            "_enabled": false,
+            "_getFrameMetrics": [Function],
+            "_info": Info {
+              "any_blank_count": 0,
+              "any_blank_ms": 0,
+              "any_blank_speed_sum": 0,
+              "mostly_blank_count": 0,
+              "mostly_blank_ms": 0,
+              "pixels_blank": 0,
+              "pixels_sampled": 0,
+              "pixels_scrolled": 0,
+              "sample_count": 0,
+              "total_time_spent": 0,
+            },
+            "_mostlyBlankStartTime": null,
+            "_samplesStartTime": null,
+          }
+        }
+        horizontal={true}
+        inversionStyle={null}
+        item={
+          Object {
+            "id": 3,
+          }
+        }
+        onUnmount={[Function]}
+        onUpdateSeparators={[Function]}
+        parentProps={
+          Object {
+            "CellRendererComponent": [Function],
+            "activeSlideAlignment": "center",
+            "activeSlideOffset": 20,
+            "apparitionDelay": 0,
+            "automaticallyAdjustContentInsets": false,
+            "autoplay": false,
+            "autoplayDelay": 1000,
+            "autoplayInterval": 3000,
+            "callbackOffsetMargin": 5,
+            "containerCustomStyle": Object {},
+            "contentContainerCustomStyle": Object {},
+            "contentContainerStyle": Array [
+              Object {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+              },
+              Object {},
+            ],
+            "data": Array [
+              Object {
+                "id": 1,
+              },
+              Object {
+                "id": 2,
+              },
+              Object {
+                "id": 3,
+              },
+            ],
+            "decelerationRate": "fast",
+            "directionalLockEnabled": true,
+            "disableScrollViewPanResponder": false,
+            "enableSnap": true,
+            "firstItem": 0,
+            "forwardedRef": [Function],
+            "getItem": [Function],
+            "getItemCount": [Function],
+            "getItemLayout": [Function],
+            "hasParallaxImages": false,
+            "horizontal": true,
+            "inactiveSlideOpacity": 0.7,
+            "inactiveSlideScale": 0.9,
+            "inactiveSlideShift": 0,
+            "initialNumToRender": 6,
+            "initialScrollIndex": 0,
+            "inverted": false,
+            "itemWidth": 1000,
+            "keyExtractor": [Function],
+            "layout": "default",
+            "loop": false,
+            "loopClonesPerSide": 3,
+            "maxToRenderPerBatch": 10,
+            "onLayout": [Function],
+            "onMomentumScrollEnd": [Function],
+            "onScroll": [Function],
+            "onScrollIndexChanged": [Function],
+            "onSnapToItem": [Function],
+            "onTouchEnd": [Function],
+            "onTouchStart": [Function],
+            "overScrollMode": "never",
+            "pinchGestureEnabled": false,
+            "pointerEvents": "auto",
+            "removeClippedSubviews": false,
+            "renderItem": [Function],
+            "scrollEnabled": true,
+            "scrollEventThrottle": 1,
+            "scrollsToTop": false,
+            "shouldOptimizeUpdates": true,
+            "showsHorizontalScrollIndicator": false,
+            "showsVerticalScrollIndicator": false,
+            "slideStyle": Object {},
+            "sliderWidth": 1000,
+            "snapToOffsets": Array [
+              0,
+              1000,
+              2000,
+            ],
+            "style": Object {
+              "flexDirection": "row",
+              "width": 1000,
+            },
+            "useExperimentalSnap": false,
+            "useScrollView": false,
+            "viewabilityConfigCallbackPairs": Array [],
+            "windowSize": 3,
+          }
+        }
+        prevCellKey="flatlist-item-1"
+        style={
+          Array [
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ],
+            Object {
+              "zIndex": 1,
+            },
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          nativeID="animatedComponent"
+          pointerEvents="box-none"
+          style={
+            Object {
+              "opacity": 0.7,
+              "transform": Array [
+                Object {
+                  "scale": 0.9,
+                },
+              ],
+              "width": 1000,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    testID="pagination-testID"
+  >
+    <View
+      accessible={false}
+      pointerEvents="box-none"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+            "paddingVertical": 30,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "marginTop": 8,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={false}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 4,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#12A3BE",
+              "borderRadius": 5,
+              "height": 8,
+              "opacity": 1,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 8,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={false}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 4,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          nativeID="animatedComponent"
+          style={
+            Object {
+              "backgroundColor": "#D3D3D3",
+              "borderRadius": 5,
+              "height": 8,
+              "opacity": 1,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 8,
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={false}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 4,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          nativeID="animatedComponent"
+          style={
+            Object {
+              "backgroundColor": "#D3D3D3",
+              "borderRadius": 5,
+              "height": 8,
+              "opacity": 1,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 8,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

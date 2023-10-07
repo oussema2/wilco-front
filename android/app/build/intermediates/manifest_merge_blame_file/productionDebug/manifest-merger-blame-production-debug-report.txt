@@ -1,0 +1,1010 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="aero.rogerwilco.app"
+4    android:versionCode="14" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+8        android:targetSdkVersion="30" />
+9
+10    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+10-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/debug/AndroidManifest.xml:5:5-77
+10-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/debug/AndroidManifest.xml:5:22-75
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:6:22-63
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.99.0] /home/oussema/.gradle/caches/transforms-3/42a51f02ebd14d4c30404f42b1bf56fb/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.99.0] /home/oussema/.gradle/caches/transforms-3/42a51f02ebd14d4c30404f42b1bf56fb/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+16-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:baronha_react-native-multiple-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/@baronha/react-native-multiple-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+17-->[:baronha_react-native-multiple-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/@baronha/react-native-multiple-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+18
+19    <queries>
+19-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+20        <intent>
+20-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+21-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+22        </intent>
+23        <intent>
+23-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:10:9-16:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:13-64
+24-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:21-62
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:13-73
+26-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:23-71
+27
+28            <data android:scheme="https" />
+28-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+28-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+29        </intent>
+30    </queries> <!-- Required to access Google Play Licensing -->
+31    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+31-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+31-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+32-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+33-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+33-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/oussema/.gradle/caches/transforms-3/fa1c79307508abce8343e429b48af61f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+34-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /home/oussema/.gradle/caches/transforms-3/fa1c79307508abce8343e429b48af61f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+35
+36    <application
+36-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:8:5-41:19
+37        android:name="aero.rogerwilco.app.MainApplication"
+37-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:9:7-38
+38        android:allowBackup="false"
+38-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:13:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.6.0] /home/oussema/.gradle/caches/transforms-3/4f3da9a826a8c2af9dd55a79872e9020/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:11:7-41
+42        android:label="@string/app_name"
+42-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:10:7-39
+43        android:requestLegacyExternalStorage="true"
+43-->[:baronha_react-native-multiple-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/@baronha/react-native-multiple-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-61
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:12:7-52
+45        android:theme="@style/AppTheme"
+45-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:14:7-38
+46        android:usesCleartextTraffic="true" >
+46-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/debug/AndroidManifest.xml:8:9-44
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/debug/AndroidManifest.xml:11:9-86
+47-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/debug/AndroidManifest.xml:11:19-83
+48        <activity
+48-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:15:7-39:18
+49            android:name="aero.rogerwilco.app.MainActivity"
+49-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:16:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+50-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:18:9-86
+51            android:label="@string/app_name"
+51-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:17:9-41
+52            android:launchMode="singleTask"
+52-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:19:9-40
+53            android:windowSoftInputMode="adjustResize" >
+53-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:20:9-51
+54            <intent-filter>
+54-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:21:9-24:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:22:13-65
+55-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:22:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:23:13-73
+57-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:23:23-70
+58            </intent-filter>
+59            <intent-filter android:autoVerify="true" >
+59-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:25:11-38:27
+59-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:25:26-51
+60                <action android:name="android.intent.action.VIEW" />
+60-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:13-64
+60-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:21-62
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:13-71
+62-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:23-69
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:13-73
+63-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:23-71
+64
+65                <data
+65-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+66                    android:host="wilcodev.page.link"
+66-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:30:17-50
+67                    android:scheme="https" />
+67-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+68                <data
+68-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+69                    android:host="wilcostg.page.link"
+69-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:30:17-50
+70                    android:scheme="https" />
+70-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+71                <data
+71-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+72                    android:host="rogerwilco.page.link"
+72-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:30:17-50
+73                    android:scheme="https" />
+73-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+74            </intent-filter>
+75        </activity>
+76        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+76-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:40:7-95
+76-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:40:17-64
+77
+78        <meta-data
+78-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+79            android:name="firebase_analytics_collection_enabled"
+79-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+80            android:value="true" />
+80-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+81        <meta-data
+81-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+82            android:name="firebase_analytics_collection_deactivated"
+82-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+83            android:value="false" />
+83-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+84        <meta-data
+84-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+85            android:name="google_analytics_adid_collection_enabled"
+85-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+86            android:value="true" />
+86-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+87        <meta-data
+87-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+88            android:name="google_analytics_ssaid_collection_enabled"
+88-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+89            android:value="true" />
+89-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+90        <meta-data
+90-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+91            android:name="google_analytics_default_allow_ad_personalization_signals"
+91-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+92            android:value="true" />
+92-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+93        <meta-data
+93-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+94            android:name="google_analytics_automatic_screen_reporting_enabled"
+94-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+95            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+95-->[:react-native-firebase_analytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+96        <meta-data
+96-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+97            android:name="firebase_crashlytics_collection_enabled"
+97-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+98            android:value="false" />
+98-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+99
+100        <provider
+100-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+101            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+101-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+102            android:authorities="aero.rogerwilco.app.reactnativefirebasecrashlyticsinitprovider"
+102-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+103            android:exported="false"
+103-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+104            android:initOrder="98" />
+104-->[:react-native-firebase_crashlytics] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+105
+106        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+106-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+106-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+107        <service
+107-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+108            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+108-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+109            android:exported="false" >
+109-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+110            <intent-filter>
+110-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+111-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+112            </intent-filter>
+113        </service>
+114
+115        <receiver
+115-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+116            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+116-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+117            android:exported="true"
+117-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+118            android:permission="com.google.android.c2dm.permission.SEND" >
+118-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+119            <intent-filter>
+119-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+120                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+120-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+120-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+121            </intent-filter>
+122        </receiver>
+123
+124        <meta-data
+124-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+125            android:name="firebase_messaging_auto_init_enabled"
+125-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+126            android:value="true" />
+126-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+127        <meta-data
+127-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+128            android:name="com.google.firebase.messaging.default_notification_channel_id"
+128-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+129            android:value="" />
+129-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+130        <meta-data
+130-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+131            android:name="com.google.firebase.messaging.default_notification_color"
+131-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+132            android:resource="@color/white" />
+132-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+133        <meta-data
+133-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+134            android:name="firebase_performance_collection_enabled"
+134-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-67
+135            android:value="true" />
+135-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+136        <meta-data
+136-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:37
+137            android:name="firebase_performance_collection_deactivated"
+137-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+138            android:value="false" />
+138-->[:react-native-firebase_perf] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/perf/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-34
+139        <meta-data
+139-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+140            android:name="app_data_collection_default_enabled"
+140-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+141            android:value="true" />
+141-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+142
+143        <service
+143-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+147            <meta-data
+147-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+148                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+148-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:23:13-25:85
+154                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+154-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:24:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:25:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /home/oussema/.gradle/caches/transforms-3/00da193cf3c540af991afcd836036e6c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:35:13-37:85
+157                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+157-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /home/oussema/.gradle/caches/transforms-3/00da193cf3c540af991afcd836036e6c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:36:17-122
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /home/oussema/.gradle/caches/transforms-3/00da193cf3c540af991afcd836036e6c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:37:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-crashlytics:18.2.8] /home/oussema/.gradle/caches/transforms-3/31bf9421c34fbc373b5d286718db6b49/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:18:13-20:85
+160                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+160-->[com.google.firebase:firebase-crashlytics:18.2.8] /home/oussema/.gradle/caches/transforms-3/31bf9421c34fbc373b5d286718db6b49/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:19:17-115
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-crashlytics:18.2.8] /home/oussema/.gradle/caches/transforms-3/31bf9421c34fbc373b5d286718db6b49/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:20:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+163                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+163-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-datatransport:18.1.0] /home/oussema/.gradle/caches/transforms-3/77b35b17297d6fbbfcc0187d5abf4344/transformed/jetified-firebase-datatransport-18.1.0/AndroidManifest.xml:28:13-30:85
+166                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+166-->[com.google.firebase:firebase-datatransport:18.1.0] /home/oussema/.gradle/caches/transforms-3/77b35b17297d6fbbfcc0187d5abf4344/transformed/jetified-firebase-datatransport-18.1.0/AndroidManifest.xml:29:17-115
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-datatransport:18.1.0] /home/oussema/.gradle/caches/transforms-3/77b35b17297d6fbbfcc0187d5abf4344/transformed/jetified-firebase-datatransport-18.1.0/AndroidManifest.xml:30:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-config:21.0.1] /home/oussema/.gradle/caches/transforms-3/8c33940fba50c7e183b72d58ed74a25f/transformed/jetified-firebase-config-21.0.1/AndroidManifest.xml:32:13-34:85
+169                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+169-->[com.google.firebase:firebase-config:21.0.1] /home/oussema/.gradle/caches/transforms-3/8c33940fba50c7e183b72d58ed74a25f/transformed/jetified-firebase-config-21.0.1/AndroidManifest.xml:33:17-117
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-config:21.0.1] /home/oussema/.gradle/caches/transforms-3/8c33940fba50c7e183b72d58ed74a25f/transformed/jetified-firebase-config-21.0.1/AndroidManifest.xml:34:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-dynamic-links:21.0.0] /home/oussema/.gradle/caches/transforms-3/8a099039b3041fc747882d8cbd7d3a6a/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:27:13-29:85
+172                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+172-->[com.google.firebase:firebase-dynamic-links:21.0.0] /home/oussema/.gradle/caches/transforms-3/8a099039b3041fc747882d8cbd7d3a6a/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:28:17-133
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-dynamic-links:21.0.0] /home/oussema/.gradle/caches/transforms-3/8a099039b3041fc747882d8cbd7d3a6a/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:29:17-82
+174            <meta-data
+174-->[com.google.android.gms:play-services-measurement-api:20.1.0] /home/oussema/.gradle/caches/transforms-3/e6a22517a13279087c9a6dca578c8fc5/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+175                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+175-->[com.google.android.gms:play-services-measurement-api:20.1.0] /home/oussema/.gradle/caches/transforms-3/e6a22517a13279087c9a6dca578c8fc5/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.android.gms:play-services-measurement-api:20.1.0] /home/oussema/.gradle/caches/transforms-3/e6a22517a13279087c9a6dca578c8fc5/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-installations:17.0.0] /home/oussema/.gradle/caches/transforms-3/216216a57ca8eef2f67b990c031a540b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+178                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+178-->[com.google.firebase:firebase-installations:17.0.0] /home/oussema/.gradle/caches/transforms-3/216216a57ca8eef2f67b990c031a540b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-installations:17.0.0] /home/oussema/.gradle/caches/transforms-3/216216a57ca8eef2f67b990c031a540b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-abt:21.0.0] /home/oussema/.gradle/caches/transforms-3/01c5afb5ab780dfd2ac16a5498cc1e40/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
+181                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+181-->[com.google.firebase:firebase-abt:21.0.0] /home/oussema/.gradle/caches/transforms-3/01c5afb5ab780dfd2ac16a5498cc1e40/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-abt:21.0.0] /home/oussema/.gradle/caches/transforms-3/01c5afb5ab780dfd2ac16a5498cc1e40/transformed/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
+183        </service>
+184
+185        <provider
+185-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+186            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+186-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+187            android:authorities="aero.rogerwilco.app.reactnativefirebaseappinitprovider"
+187-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+188            android:exported="false"
+188-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+189            android:initOrder="99" />
+189-->[:react-native-firebase_app] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+190        <provider
+190-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+191            android:name="androidx.core.content.FileProvider"
+191-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+192            android:authorities="aero.rogerwilco.app.provider"
+192-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+193            android:exported="false"
+193-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+194            android:grantUriPermissions="true" >
+194-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+195            <meta-data
+195-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+196                android:name="android.support.FILE_PROVIDER_PATHS"
+196-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+197                android:resource="@xml/provider_paths" />
+197-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+198        </provider>
+199        <provider
+199-->[:react-native-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+200            android:name="com.imagepicker.ImagePickerProvider"
+200-->[:react-native-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+201            android:authorities="aero.rogerwilco.app.imagepickerprovider"
+201-->[:react-native-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+202            android:exported="false"
+202-->[:react-native-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+203            android:grantUriPermissions="true" >
+203-->[:react-native-image-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+204            <meta-data
+204-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+205                android:name="android.support.FILE_PROVIDER_PATHS"
+205-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+206                android:resource="@xml/imagepicker_provider_paths" />
+206-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+207        </provider>
+208        <provider
+208-->[:react-native-webview] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+209            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+209-->[:react-native-webview] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+210            android:authorities="aero.rogerwilco.app.fileprovider"
+210-->[:react-native-webview] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+211            android:exported="false"
+211-->[:react-native-webview] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+212            android:grantUriPermissions="true" >
+212-->[:react-native-webview] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+213            <meta-data
+213-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+214                android:name="android.support.FILE_PROVIDER_PATHS"
+214-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+215                android:resource="@xml/file_provider_paths" />
+215-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+216        </provider>
+217        <provider
+217-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+218            android:name="com.RNFetchBlob.Utils.FileProvider"
+218-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+219            android:authorities="aero.rogerwilco.app.provider"
+219-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+220            android:exported="false"
+220-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+221            android:grantUriPermissions="true" >
+221-->[:rn-fetch-blob] /home/oussema/Desktop/wilco-frontend-master/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+222            <meta-data
+222-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+223                android:name="android.support.FILE_PROVIDER_PATHS"
+223-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+224                android:resource="@xml/provider_paths" />
+224-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+225        </provider>
+226
+227        <activity
+227-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+228            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+228-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+229            android:excludeFromRecents="true"
+229-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+230            android:exported="true"
+230-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+231            android:launchMode="singleTask"
+231-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+232-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+233            <intent-filter>
+233-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+234                <action android:name="android.intent.action.VIEW" />
+234-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:13-64
+234-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:21-62
+235
+236                <category android:name="android.intent.category.DEFAULT" />
+236-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:13-71
+236-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:23-69
+237                <category android:name="android.intent.category.BROWSABLE" />
+237-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:13-73
+237-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:23-71
+238
+239                <data
+239-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+240                    android:host="firebase.auth"
+240-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:30:17-50
+241                    android:path="/"
+242                    android:scheme="genericidp" />
+242-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+243            </intent-filter>
+244        </activity>
+245        <activity
+245-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+246            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+246-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+247            android:excludeFromRecents="true"
+247-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+248            android:exported="true"
+248-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+249            android:launchMode="singleTask"
+249-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+250-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+251            <intent-filter>
+251-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+252                <action android:name="android.intent.action.VIEW" />
+252-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:13-64
+252-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:21-62
+253
+254                <category android:name="android.intent.category.DEFAULT" />
+254-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:13-71
+254-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:23-69
+255                <category android:name="android.intent.category.BROWSABLE" />
+255-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:13-73
+255-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:23-71
+256
+257                <data
+257-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+258                    android:host="firebase.auth"
+258-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:30:17-50
+259                    android:path="/"
+260                    android:scheme="recaptcha" />
+260-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+261            </intent-filter>
+262        </activity>
+263
+264        <service
+264-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+265            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+265-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+266            android:enabled="true"
+266-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+267            android:exported="false" >
+267-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+268            <intent-filter>
+268-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+269                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+269-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+269-->[com.google.firebase:firebase-auth:21.0.1] /home/oussema/.gradle/caches/transforms-3/70bd76144dbc98ba6321db75dcc88d7b/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+270
+271                <category android:name="android.intent.category.DEFAULT" />
+271-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:13-71
+271-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:23-69
+272            </intent-filter>
+273        </service>
+274
+275        <provider
+275-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:14:9-18:39
+276            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+276-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:15:13-82
+277            android:authorities="aero.rogerwilco.app.firebaseperfprovider"
+277-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:16:13-72
+278            android:exported="false"
+278-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:17:13-37
+279            android:initOrder="101" />
+279-->[com.google.firebase:firebase-perf:20.0.5] /home/oussema/.gradle/caches/transforms-3/dea8de15e7cbec759bd98d6b6b435468/transformed/jetified-firebase-perf-20.0.5/AndroidManifest.xml:18:13-36
+280
+281        <service
+281-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:10:9-17:19
+282            android:name="io.intercom.android.sdk.fcm.IntercomFcmMessengerService"
+282-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:11:13-83
+283            android:exported="false" >
+283-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:12:13-37
+284            <intent-filter android:priority="-400" >
+284-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:13:13-16:29
+284-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:13:28-51
+285                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+285-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+285-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+286                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+286-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:15:17-80
+286-->[io.intercom.android:intercom-sdk-fcm:10.3.0] /home/oussema/.gradle/caches/transforms-3/2487237733bbaf77211ce0ddfe408847/transformed/jetified-intercom-sdk-fcm-10.3.0/AndroidManifest.xml:15:25-77
+287            </intent-filter>
+288        </service>
+289
+290        <receiver
+290-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+291            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+291-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+292            android:exported="true"
+292-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+293            android:permission="com.google.android.c2dm.permission.SEND" >
+293-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+294            <intent-filter>
+294-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+295                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+295-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+295-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+296            </intent-filter>
+297        </receiver>
+298        <!--
+299             FirebaseMessagingService performs security checks at runtime,
+300             but set to not exported to explicitly avoid allowing another app to call it.
+301        -->
+302        <service
+302-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+303            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+303-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+304            android:directBootAware="true"
+304-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+305            android:exported="false" >
+305-->[com.google.firebase:firebase-messaging:23.0.0] /home/oussema/.gradle/caches/transforms-3/6f316335d3ae1ce80b92f9436874bccc/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+306            <intent-filter android:priority="-500" >
+306-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+307                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+307-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+307-->[:react-native-firebase_messaging] /home/oussema/Desktop/wilco-frontend-master/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+308            </intent-filter>
+309        </service>
+310        <service
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+311            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+311-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+312            android:exported="false" >
+312-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+313            <meta-data
+313-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+314                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+314-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+315                android:value="cct" />
+315-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/oussema/.gradle/caches/transforms-3/cd394185493eff1f173986e7c9cf8f12/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+316        </service>
+317        <service
+317-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+318            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+318-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+319            android:exported="false"
+319-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+320            android:permission="android.permission.BIND_JOB_SERVICE" >
+320-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+321        </service>
+322
+323        <receiver
+323-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+324            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+324-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+325            android:exported="false" />
+325-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/oussema/.gradle/caches/transforms-3/fb9d85cd113bec129523f260d0cda3ba/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+326
+327        <service
+327-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:27:9-30:40
+328            android:name="com.google.android.gms.tagmanager.TagManagerService"
+328-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:28:13-79
+329            android:enabled="true"
+329-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:29:13-35
+330            android:exported="false" />
+330-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:30:13-37
+331
+332        <activity
+332-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:32:9-44:20
+333            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+333-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:33:13-87
+334            android:exported="true"
+334-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:34:13-36
+335            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+335-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:35:13-37
+336            <intent-filter>
+336-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] /home/oussema/.gradle/caches/transforms-3/b62b5d6cabdd48830991dd3df10edc23/transformed/jetified-play-services-tagmanager-api-17.0.0/AndroidManifest.xml:36:13-43:29
+337                <data android:scheme="tagmanager.c.aero.rogerwilco.app" />
+337-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:29:13-31:41
+337-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:31:17-39
+338
+339                <action android:name="android.intent.action.VIEW" />
+339-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:13-64
+339-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:26:21-62
+340
+341                <category android:name="android.intent.category.DEFAULT" />
+341-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:13-71
+341-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:27:23-69
+342                <category android:name="android.intent.category.BROWSABLE" />
+342-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:13-73
+342-->/home/oussema/Desktop/wilco-frontend-master/android/app/src/main/AndroidManifest.xml:28:23-71
+343            </intent-filter>
+344        </activity>
+345
+346        <provider
+346-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+347            android:name="com.google.firebase.provider.FirebaseInitProvider"
+347-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+348            android:authorities="aero.rogerwilco.app.firebaseinitprovider"
+348-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+349            android:directBootAware="true"
+349-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+350            android:exported="false"
+350-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+351            android:initOrder="100" />
+351-->[com.google.firebase:firebase-common:20.0.0] /home/oussema/.gradle/caches/transforms-3/6ccf708db30ff93b9dde7dd45f1076f5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+352
+353        <receiver
+353-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+354            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+354-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+355            android:enabled="true"
+355-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+356            android:exported="false" >
+356-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+357        </receiver>
+358
+359        <service
+359-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+360            android:name="com.google.android.gms.measurement.AppMeasurementService"
+360-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+361            android:enabled="true"
+361-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+362            android:exported="false" />
+362-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+363        <service
+363-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+364            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+364-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+365            android:enabled="true"
+365-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+366            android:exported="false"
+366-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+367            android:permission="android.permission.BIND_JOB_SERVICE" />
+367-->[com.google.android.gms:play-services-measurement:20.1.0] /home/oussema/.gradle/caches/transforms-3/1966b5db6f7ce195eb17ebd49f3b94ff/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+368
+369        <activity
+369-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+370            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+370-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+371            android:excludeFromRecents="true"
+371-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+372            android:exported="false"
+372-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+373            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+373-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+374        <!--
+375            Service handling Google Sign-In user revocation. For apps that do not integrate with
+376            Google Sign-In, this service will never be started.
+377        -->
+378        <service
+378-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+379            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+379-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+380            android:exported="true"
+380-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+381            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+381-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+382            android:visibleToInstantApps="true" />
+382-->[com.google.android.gms:play-services-auth:20.1.0] /home/oussema/.gradle/caches/transforms-3/27b65eb9de111b813b870d7fb2b5eec9/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+383
+384        <activity
+384-->[com.google.android.gms:play-services-base:18.0.1] /home/oussema/.gradle/caches/transforms-3/a28ef77587fd0d624ec86fbdb68bbb47/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+385            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+385-->[com.google.android.gms:play-services-base:18.0.1] /home/oussema/.gradle/caches/transforms-3/a28ef77587fd0d624ec86fbdb68bbb47/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+386            android:exported="false"
+386-->[com.google.android.gms:play-services-base:18.0.1] /home/oussema/.gradle/caches/transforms-3/a28ef77587fd0d624ec86fbdb68bbb47/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+387            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+387-->[com.google.android.gms:play-services-base:18.0.1] /home/oussema/.gradle/caches/transforms-3/a28ef77587fd0d624ec86fbdb68bbb47/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+388
+389        <meta-data
+389-->[com.google.android.gms:play-services-basement:18.0.0] /home/oussema/.gradle/caches/transforms-3/12cd098d1eb612b3d81903af423fade2/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+390            android:name="com.google.android.gms.version"
+390-->[com.google.android.gms:play-services-basement:18.0.0] /home/oussema/.gradle/caches/transforms-3/12cd098d1eb612b3d81903af423fade2/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+391            android:value="@integer/google_play_services_version" />
+391-->[com.google.android.gms:play-services-basement:18.0.0] /home/oussema/.gradle/caches/transforms-3/12cd098d1eb612b3d81903af423fade2/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+392
+393        <provider
+393-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:14:9-22:20
+394            android:name="com.luck.picture.lib.PictureFileProvider"
+394-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:15:13-68
+395            android:authorities="aero.rogerwilco.app.luckProvider"
+395-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:16:13-64
+396            android:exported="false"
+396-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:17:13-37
+397            android:grantUriPermissions="true" >
+397-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:18:13-47
+398            <meta-data
+398-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+399                android:name="android.support.FILE_PROVIDER_PATHS"
+399-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+400                android:resource="@xml/file_paths" />
+400-->[:react-native-image-crop-picker] /home/oussema/Desktop/wilco-frontend-master/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+401        </provider>
+402
+403        <activity
+403-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:24:9-26:77
+404            android:name="com.luck.picture.lib.PictureSelectorActivity"
+404-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:25:13-72
+405            android:configChanges="orientation|keyboardHidden|screenSize" />
+405-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:26:13-74
+406        <activity
+406-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:27:9-29:77
+407            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+407-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:28:13-83
+408            android:configChanges="orientation|keyboardHidden|screenSize" />
+408-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:29:13-74
+409        <activity
+409-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:30:9-33:64
+410            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+410-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:31:13-83
+411            android:configChanges="orientation|keyboardHidden|screenSize"
+411-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:32:13-74
+412            android:theme="@style/Picture.Theme.Translucent" />
+412-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:33:13-61
+413        <activity
+413-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:34:9-36:77
+414            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+414-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:35:13-76
+415            android:configChanges="orientation|keyboardHidden|screenSize" />
+415-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:36:13-74
+416        <activity
+416-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:37:9-39:77
+417            android:name="com.luck.picture.lib.PicturePreviewActivity"
+417-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:38:13-71
+418            android:configChanges="orientation|keyboardHidden|screenSize" />
+418-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:39:13-74
+419        <activity
+419-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:40:9-42:77
+420            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+420-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:41:13-90
+421            android:configChanges="orientation|keyboardHidden|screenSize" />
+421-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:42:13-74
+422        <activity
+422-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:43:9-46:50
+423            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+423-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:44:13-73
+424            android:configChanges="orientation|keyboardHidden|screenSize"
+424-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:45:13-74
+425            android:screenOrientation="sensor" />
+425-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:46:13-47
+426        <activity
+426-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:47:9-49:77
+427            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+427-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:48:13-79
+428            android:configChanges="orientation|keyboardHidden|screenSize" />
+428-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:49:13-74
+429        <activity
+429-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:50:9-52:77
+430            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+430-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:51:13-73
+431            android:configChanges="orientation|keyboardHidden|screenSize" />
+431-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:52:13-74
+432        <activity
+432-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:56:9-58:61
+433            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+433-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:57:13-74
+434            android:theme="@style/Base.Theme.NoActionBar" />
+434-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /home/oussema/.gradle/caches/transforms-3/c026e99face65d05b511730e5e87a064/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:58:13-58
+435        <activity
+435-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:22:9-28:73
+436            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
+436-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:23:13-88
+437            android:configChanges="screenSize|orientation"
+437-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:24:13-59
+438            android:exported="false"
+438-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:25:13-37
+439            android:launchMode="singleTop"
+439-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:26:13-43
+440            android:theme="@style/Intercom_PanelTheme"
+440-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:27:13-55
+441            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+441-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:28:13-70
+442        <activity
+442-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:29:9-34:73
+443            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
+443-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:30:13-77
+444            android:configChanges="screenSize|orientation"
+444-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:31:13-59
+445            android:exported="false"
+445-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:32:13-37
+446            android:theme="@style/Intercom_LightBoxTheme"
+446-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:33:13-58
+447            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+447-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:34:13-70
+448        <activity
+448-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:35:9-41:57
+449            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
+449-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:36:13-83
+450            android:configChanges="screenSize|orientation"
+450-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:37:13-59
+451            android:exported="false"
+451-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:38:13-37
+452            android:launchMode="singleTask"
+452-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:39:13-44
+453            android:theme="@style/Intercom_PostTheme"
+453-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:40:13-54
+454            android:windowSoftInputMode="stateHidden" />
+454-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:41:13-54
+455        <activity
+455-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:42:9-48:73
+456            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
+456-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:43:13-83
+457            android:configChanges="screenSize|orientation"
+457-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:44:13-59
+458            android:exported="false"
+458-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:45:13-37
+459            android:launchMode="singleTask"
+459-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:46:13-44
+460            android:theme="@style/Intercom_NoteTheme"
+460-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:47:13-54
+461            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+461-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:48:13-70
+462        <activity
+462-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:49:9-55:57
+463            android:name="io.intercom.android.sdk.activities.IntercomSheetActivity"
+463-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:50:13-84
+464            android:configChanges="screenSize|orientation"
+464-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:51:13-59
+465            android:exported="false"
+465-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:52:13-37
+466            android:launchMode="singleTop"
+466-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:53:13-43
+467            android:theme="@style/Intercom_ModalActivityTheme"
+467-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:54:13-63
+468            android:windowSoftInputMode="stateHidden" />
+468-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:55:13-54
+469        <activity
+469-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:56:9-62:57
+470            android:name="io.intercom.android.sdk.activities.IntercomVideoActivity"
+470-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:57:13-84
+471            android:configChanges="screenSize|orientation"
+471-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:58:13-59
+472            android:exported="false"
+472-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:59:13-37
+473            android:launchMode="singleTop"
+473-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:60:13-43
+474            android:theme="@style/Intercom_PanelTheme"
+474-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:61:13-55
+475            android:windowSoftInputMode="stateHidden" />
+475-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:62:13-54
+476        <activity
+476-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:63:9-69:57
+477            android:name="io.intercom.android.sdk.activities.IntercomCarouselActivity"
+477-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:64:13-87
+478            android:exported="false"
+478-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:65:13-37
+479            android:launchMode="singleTask"
+479-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:66:13-44
+480            android:screenOrientation="portrait"
+480-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:67:13-49
+481            android:theme="@style/Intercom_CarouselTheme"
+481-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:68:13-58
+482            android:windowSoftInputMode="stateHidden" />
+482-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:69:13-54
+483        <activity
+483-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:70:9-72:60
+484            android:name="io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+484-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:71:13-101
+485            android:theme="@style/Intercom.BaseMaterial" />
+485-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:72:13-57
+486        <activity
+486-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:73:9-77:57
+487            android:name="io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+487-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:74:13-87
+488            android:exported="false"
+488-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:75:13-37
+489            android:theme="@style/Intercom.BaseMaterial"
+489-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:76:13-57
+490            android:windowSoftInputMode="stateHidden" />
+490-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:77:13-54
+491        <activity
+491-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:78:9-81:60
+492            android:name="io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity"
+492-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:79:13-99
+493            android:exported="false"
+493-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:80:13-37
+494            android:theme="@style/Intercom.BaseMaterial" />
+494-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:81:13-57
+495
+496        <receiver
+496-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:83:9-92:20
+497            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+497-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:84:13-86
+498            android:exported="false" >
+498-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:85:13-37
+499            <intent-filter>
+499-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:86:13-88:29
+500                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
+500-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:87:17-87
+500-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:87:25-84
+501            </intent-filter>
+502            <intent-filter>
+502-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:89:13-91:29
+503                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
+503-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:90:17-90
+503-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:90:25-87
+504            </intent-filter>
+505        </receiver>
+506
+507        <provider
+507-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:94:9-97:40
+508            android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"
+508-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:95:13-85
+509            android:authorities="aero.rogerwilco.app.IntercomInitializeContentProvider"
+509-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:96:13-85
+510            android:exported="false" />
+510-->[io.intercom.android:intercom-sdk-base:10.3.0] /home/oussema/.gradle/caches/transforms-3/0deb727ea22bf9f4bd4b95aec86d6ae2/transformed/jetified-intercom-sdk-base-10.3.0/AndroidManifest.xml:97:13-37
+511
+512        <activity
+512-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:8:9-11:72
+513            android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity"
+513-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:9:13-85
+514            android:theme="@style/intercom_composer_full_screen_theme"
+514-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:10:13-71
+515            android:windowSoftInputMode="adjustNothing|stateVisible" />
+515-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:11:13-69
+516        <activity
+516-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:12:9-15:74
+517            android:name="com.intercom.input.gallery.GalleryLightBoxActivity"
+517-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:13:13-78
+518            android:configChanges="orientation|screenLayout|density|screenSize"
+518-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:14:13-80
+519            android:theme="@style/intercom_composer_full_screen_theme" />
+519-->[com.intercom:android-composer-gallery:3.2.0] /home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/AndroidManifest.xml:15:13-71
+520
+521        <meta-data
+521-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/oussema/.gradle/caches/transforms-3/c8617bfd4e6a6fcb8fbee9894edfc415/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+522            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+522-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/oussema/.gradle/caches/transforms-3/c8617bfd4e6a6fcb8fbee9894edfc415/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+523            android:value="GlideModule" />
+523-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/oussema/.gradle/caches/transforms-3/c8617bfd4e6a6fcb8fbee9894edfc415/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+524        <!--
+525        Service for holding metadata. Cannot be instantiated.
+526        Metadata will be merged from other manifests.
+527        -->
+528        <service
+528-->[androidx.camera:camera-core:1.1.0-alpha08] /home/oussema/.gradle/caches/transforms-3/c3fd1b0c910f480f396a4ff8fd1e1fde/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:31:9-35:45
+529            android:name="androidx.camera.core.impl.MetadataHolderService"
+529-->[androidx.camera:camera-core:1.1.0-alpha08] /home/oussema/.gradle/caches/transforms-3/c3fd1b0c910f480f396a4ff8fd1e1fde/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:32:13-75
+530            android:enabled="false"
+530-->[androidx.camera:camera-core:1.1.0-alpha08] /home/oussema/.gradle/caches/transforms-3/c3fd1b0c910f480f396a4ff8fd1e1fde/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:33:13-36
+531            android:exported="false" />
+531-->[androidx.camera:camera-core:1.1.0-alpha08] /home/oussema/.gradle/caches/transforms-3/c3fd1b0c910f480f396a4ff8fd1e1fde/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:34:13-37
+532    </application>
+533
+534</manifest>

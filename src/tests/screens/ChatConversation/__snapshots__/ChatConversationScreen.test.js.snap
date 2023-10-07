@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatConversationScreen shows the CometChatMessages component inside a screen container 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="base-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+        "right",
+        "bottom",
+        "left",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    mocked component
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;

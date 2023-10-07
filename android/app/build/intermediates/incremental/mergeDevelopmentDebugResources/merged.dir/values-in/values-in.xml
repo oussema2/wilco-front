@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notifikasi baru</item>
+    <item quantity="other">%d notifikasi baru</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
+    <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
+    <string name="clear_text_end_icon_content_description">Menghapus teks</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktifkan</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s tidak akan berfungsi jika layanan Google Play tidak diaktifkan.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktifkan layanan Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instal</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Dapatkan layanan Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Ketersediaan layanan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Kesalahan layanan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Perbarui layanan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="common_google_play_services_wear_update_text">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="common_open_on_phone">Buka di ponsel</string>
+    <string name="common_signin_button_text">Login</string>
+    <string name="common_signin_button_text_long">Login dengan Google</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="fcm_fallback_notification_channel_label">Lain-Lain</string>
+    <string name="icon_content_description">Ikon Dialog</string>
+    <string name="intercom_access_background_location_message">Buka pengaturan perangkat Anda untuk memungkinkan aplikasi menggunakan lokasi Anda di latar belakang</string>
+    <string name="intercom_access_background_location_title">Berikan akses ke lokasi Anda sepanjang waktu</string>
+    <string name="intercom_access_photos">Akses foto Anda</string>
+    <string name="intercom_active_15m_ago">Aktif dalam {minutes}m terakhir</string>
+    <string name="intercom_active_day_ago">Aktif {days}h lalu</string>
+    <string name="intercom_active_hour_ago">Aktif {hours}j lalu</string>
+    <string name="intercom_active_minute_ago">Aktif {minutes}m lalu</string>
+    <string name="intercom_active_state">Aktif</string>
+    <string name="intercom_active_week_ago">Aktif lebih dari 1p lalu</string>
+    <string name="intercom_allow_access">Bolehkan akses</string>
+    <string name="intercom_allow_storage_access">Perbolehkan akses ke penyimpanan untuk melihat foto-foto Anda</string>
+    <string name="intercom_also_in_this_conversation">Juga berada dalam percakapan ini</string>
+    <string name="intercom_android_activated_message">Aplikasi Android Anda sekarang terintegrasi dengan platform Intercom</string>
+    <string name="intercom_app_settings">Pengaturan aplikasi</string>
+    <string name="intercom_article_load_error">Tidak dapat memuat artikel</string>
+    <string name="intercom_article_question">Apakah ini menjawab pertanyaan Anda?</string>
+    <string name="intercom_article_response">Anda bereaksi dengan</string>
+    <string name="intercom_article_search_hint_text">Cari artikel...</string>
+    <string name="intercom_ask_a_question">Ajukan pertanyaan</string>
+    <string name="intercom_asked_about">Terkait</string>
+    <string name="intercom_attribute_collector_negative">Tidak</string>
+    <string name="intercom_attribute_collector_positive">Ya</string>
+    <string name="intercom_away_state">Pergi</string>
+    <string name="intercom_bot">Bot</string>
+    <string name="intercom_bot_expectation_text">Bot kami dapat menjawab berbagai pertanyaan umum</string>
+    <string name="intercom_browse_all_help_topics">Jelajahi semua topik bantuan</string>
+    <string name="intercom_browse_collections">Jelajahi koleksi</string>
+    <string name="intercom_cancel">Batal</string>
+    <string name="intercom_choose_one">Pilih satu…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Tutup</string>
+    <string name="intercom_close">Tutup</string>
+    <string name="intercom_congratulations">Selamat</string>
+    <string name="intercom_connected">Anda terhubung</string>
+    <string name="intercom_continue_the_conversation">Lanjutkan percakapan</string>
+    <string name="intercom_conversation_card_office_hours_header">Waktu kami kembali online</string>
+    <string name="intercom_conversation_card_reply_time_header">Waktu balasan kami biasanya</string>
+    <string name="intercom_conversation_has_ended">Percakapan Anda telah berakhir</string>
+    <string name="intercom_conversations">Percakapan</string>
+    <string name="intercom_conversations_with_app">Percakapan dengan {name}</string>
+    <string name="intercom_copied_to_clipboard">Disalin ke clipboard</string>
+    <string name="intercom_couldnt_complete_action">Tidak dapat menyelesaikan tindakan ini</string>
+    <string name="intercom_couldnt_load_apps">Tidak bisa memuat aplikasi.</string>
+    <string name="intercom_couldnt_load_content">Tidak dapat memuat konten</string>
+    <string name="intercom_couldnt_load_messenger">Tidak dapat memuat Messenger.</string>
+    <string name="intercom_delivered">Terkirim</string>
+    <string name="intercom_disappointed_face_emoji">Wajah kecewa</string>
+    <string name="intercom_dismiss">Tutup</string>
+    <string name="intercom_empty_conversations">Belum ada percakapan dengan {name}</string>
+    <string name="intercom_error_loading_conversation">Tidak dapat memuat percakapan</string>
+    <string name="intercom_expected_response_delay_10800">kurang dari 3 jam</string>
+    <string name="intercom_expected_response_delay_1200">kurang dari 20 menit</string>
+    <string name="intercom_expected_response_delay_14400">kurang dari 4 jam</string>
+    <string name="intercom_expected_response_delay_172800">2 hari</string>
+    <string name="intercom_expected_response_delay_1800">kurang dari 30 menit</string>
+    <string name="intercom_expected_response_delay_18000">kurang dari 5 jam</string>
+    <string name="intercom_expected_response_delay_21600">kurang dari 6 jam</string>
+    <string name="intercom_expected_response_delay_300">kurang dari 5 menit</string>
+    <string name="intercom_expected_response_delay_3600">kurang dari 1 jam</string>
+    <string name="intercom_expected_response_delay_600">kurang dari 10 menit</string>
+    <string name="intercom_expected_response_delay_604800">kurang dari 1 minggu</string>
+    <string name="intercom_expected_response_delay_7200">kurang dari 2 jam</string>
+    <string name="intercom_expected_response_delay_86400">1 hari</string>
+    <string name="intercom_facebook_like">Sukai kami di Facebook</string>
+    <string name="intercom_failed_delivery">Tidak dapat mengirim pesan</string>
+    <string name="intercom_failed_to_load_conversation">Tidak dapat memuat percakapan Anda</string>
+    <string name="intercom_failed_to_send">Tidak dapat mengirim</string>
+    <string name="intercom_file_access_failed">Tidak dapat mengakses file tersebut</string>
+    <string name="intercom_file_too_big">Tidak dapat mengirim file lebih dari 40MB</string>
+    <string name="intercom_get_help">Dapatkan bantuan</string>
+    <string name="intercom_gif_attribution">melalui {providername}</string>
+    <string name="intercom_gifs_load_error">Tidak bisa memuat GIF</string>
+    <string name="intercom_give_it_another_try">Coba lagi</string>
+    <string name="intercom_go_to_device_settings">Untuk membolehkan akses, buka menu izin pengaturan aplikasi perangkat</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Wajah menyeringai dengan mata besar</string>
+    <string name="intercom_help_center">Pusat Bantuan</string>
+    <string name="intercom_how_can_we_help">Bagaimana kami dapat membantu?</string>
+    <string name="intercom_image_attached">(gambar dilampirkan)</string>
+    <string name="intercom_inbox_error_state_title">Terjadi kesalahan</string>
+    <string name="intercom_loading">Memuat</string>
+    <string name="intercom_message_failed_try_again">Tidak dapat mengirim, ketuk untuk mencoba lagi</string>
+    <string name="intercom_message_seen">Dilihat</string>
+    <string name="intercom_message_state_sending">Mengirim…</string>
+    <string name="intercom_message_unseen">Belum dilihat</string>
+    <string name="intercom_name_and_1_other">{name} dan 1 lagi</string>
+    <string name="intercom_name_and_x_others">{name} dan {count} lagi</string>
+    <string name="intercom_navigation_back">Kembali</string>
+    <string name="intercom_neutral_face_emoji">Wajah netral</string>
+    <string name="intercom_new_conversation">Percakapan Baru</string>
+    <string name="intercom_new_message">Pesan baru</string>
+    <string name="intercom_new_messages">Anda memiliki {n} pesan baru</string>
+    <string name="intercom_new_notifications">Pemberitahuan baru</string>
+    <string name="intercom_no_articles_to_display">Tidak ada artikel untuk ditampilkan</string>
+    <string name="intercom_no_conversations">Tidak ada percakapan</string>
+    <string name="intercom_no_gifs_found">GIF tidak ada</string>
+    <string name="intercom_no_gifs_matching_query">Kami tidak dapat menemukan GIF yang sesuai permintaan Anda</string>
+    <string name="intercom_no_messages_from_the_team">Tidak ada pesan dari tim</string>
+    <string name="intercom_no_network_connection">Tidak ada sambungan jaringan</string>
+    <string name="intercom_no_photos">Tidak ada foto</string>
+    <string name="intercom_no_photos_on_device">Tidak ada foto pada perangkat ini</string>
+    <string name="intercom_no_results_for_searchterm">Tidak ditemukan hasil pencarian untuk {searchTerm}</string>
+    <string name="intercom_not_now">Tidak sekarang</string>
+    <string name="intercom_nothing_to_see_here_yet">Tidak ada yang bisa dilihat di sini</string>
+    <string name="intercom_notification_channel_actions_description">Berisi tautan untuk mengambil tindakan di aplikasi ini</string>
+    <string name="intercom_notification_channel_actions_title">Tindakan</string>
+    <string name="intercom_notification_channel_chat_replies_description">Balas pemberitahuan dari obrolan di aplikasi ini</string>
+    <string name="intercom_notification_channel_chat_replies_title">Balasan obrolan</string>
+    <string name="intercom_notification_channel_new_chats_description">Pesan-pesan obrolan baru dikirim dari aplikasi ini</string>
+    <string name="intercom_notification_channel_new_chats_title">Obrolan baru</string>
+    <string name="intercom_number_is_incorrect">Angka itu tampaknya tidak benar</string>
+    <string name="intercom_one_new_message">Anda memiliki pesan baru</string>
+    <string name="intercom_page_not_found">Halaman itu sudah tidak ada lagi</string>
+    <string name="intercom_permission_denied">Izin ini ditolak</string>
+    <string name="intercom_photo_access_denied">Anda menolak akses ke foto</string>
+    <string name="intercom_plus_x_more">+{n} lainnya</string>
+    <string name="intercom_profile_location">{time} dalam {location}</string>
+    <string name="intercom_rate_your_conversation">Nilai percakapan Anda</string>
+    <string name="intercom_reload">Muat ulang</string>
+    <string name="intercom_reply">Balas</string>
+    <string name="intercom_reply_from_admin">Balasan dari {name}</string>
+    <string name="intercom_reply_to_conversation">Tulis balasan</string>
+    <string name="intercom_retry">Coba lagi</string>
+    <string name="intercom_search_browse_empty_state_text">Maaf, kami tidak dapat menemukan hasil apa pun untuk itu. Coba pakai kata lain untuk pencarian Anda.</string>
+    <string name="intercom_search_for_help">Cari bantuan</string>
+    <string name="intercom_search_gif">Cari GIF…</string>
+    <string name="intercom_search_help_articles">Cari artikel bantuan</string>
+    <string name="intercom_see_all">Lihat semua</string>
+    <string name="intercom_see_all_conversations">Lihat semua percakapan Anda</string>
+    <string name="intercom_see_past_conversations">Lihat percakapan lampau</string>
+    <string name="intercom_see_previous_conversations">Lihat percakapan Anda sebelumnya</string>
+    <string name="intercom_send">Kirim</string>
+    <string name="intercom_send_us_a_message">Kirimi kami pesan</string>
+    <string name="intercom_some_things_failed_to_load">Beberapa hal gagal dimuat. Coba lagi.</string>
+    <string name="intercom_something_went_wrong_try_again">Ada yang tidak beres. Coba lagi.</string>
+    <string name="intercom_start_a_conversation">Mulai percakapan</string>
+    <string name="intercom_start_another_conversation">Mulai percakapan lain</string>
+    <string name="intercom_start_conversation">Mulai percakapan</string>
+    <string name="intercom_storage_access_request">Untuk melihat foto Anda harus membolehkan akses ke penyimpanan</string>
+    <string name="intercom_string_is_incorrect">Hal tersebut tampaknya tidak benar</string>
+    <string name="intercom_submit">Kirim</string>
+    <string name="intercom_tap_to_send_image">Ketuk untuk mengirim gambar</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} biasanya menjawab dalam satu hari</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} biasanya menjawab dalam satu hari kerja</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} biasanya menjawab dalam dua hari kerja</string>
+    <string name="intercom_teammate_from_company">{name} dari {company}</string>
+    <string name="intercom_tell_us_more">Beri tahu kami selengkapnya …</string>
+    <string name="intercom_tell_us_what_you_need">Beri tahu kami bantuan apa yang Anda butuhkan dan bot kami akan melakukan yang terbaik untuk menjawabnya</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Terima kasih! Tim akan menjawab dalam satu hari kerja</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Terima kasih! Tim akan menjawab dalam satu hari kerja</string>
+    <string name="intercom_thanks_for_letting_us_know">Terima kasih telah memberi tahu kami</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Terima kasih! Tim akan menjawab secepat yang mereka bisa</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Kode negara itu tampaknya tidak benar</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Alamat email Anda tampaknya tidak benar</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Angka itu tampaknya tidak benar</string>
+    <string name="intercom_that_number_has_too_many_digits">Angka itu memiliki terlalu banyak digit</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Angka itu kehilangan beberapa digit</string>
+    <string name="intercom_that_number_needs_a_prefix">Angka itu membutuhkan awalan (+ or 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Tim dapat membantu bila diperlukan</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Tim biasanya menjawab dalam beberapa jam.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Tim biasanya menjawab dalam satu hari kerja.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Tim biasanya menjawab dalam dua hari kerja</string>
+    <string name="intercom_time_day_ago">{delta}h lalu</string>
+    <string name="intercom_time_future_1h">1 jam</string>
+    <string name="intercom_time_future_2h">2 jam</string>
+    <string name="intercom_time_future_30m">30 menit</string>
+    <string name="intercom_time_future_3h">3 jam</string>
+    <string name="intercom_time_future_day_0">Senin</string>
+    <string name="intercom_time_future_day_1">Selasa</string>
+    <string name="intercom_time_future_day_2">Rabu</string>
+    <string name="intercom_time_future_day_3">Kamis</string>
+    <string name="intercom_time_future_day_4">Jumat</string>
+    <string name="intercom_time_future_day_5">Sabtu</string>
+    <string name="intercom_time_future_day_6">Minggu</string>
+    <string name="intercom_time_future_later_today">Nanti hari ini</string>
+    <string name="intercom_time_future_next_week">Minggu depan</string>
+    <string name="intercom_time_future_tomorrow">Besok</string>
+    <string name="intercom_time_hour_ago">{delta}j lalu</string>
+    <string name="intercom_time_just_now">Baru saja</string>
+    <string name="intercom_time_minute_ago">{delta}m lalu</string>
+    <string name="intercom_time_week_ago">{delta}p lalu</string>
+    <string name="intercom_time_yesterday">kemarin</string>
+    <string name="intercom_try_again">Coba Lagi</string>
+    <string name="intercom_try_again_minute">Coba sebentar lagi.</string>
+    <string name="intercom_try_use_different_keywords">Coba gunakan kata kunci yang berbeda atau ketik pertanyaan lengkap Anda</string>
+    <string name="intercom_twitter_follow">Ikuti kami di Twitter</string>
+    <string name="intercom_two_business_days">Dua hari kerja</string>
+    <string name="intercom_type_a_number">Ketik angka…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Biasanya menjawab dalam satu hari kerja</string>
+    <string name="intercom_typically_replies_in_two_business_days">Biasanya menjawab dalam dua hari kerja</string>
+    <string name="intercom_upfront_collection_form_close_out">Anda dapat kembali ke sini kapan saja untuk melihat respons dan mengirimkan pembaruan.</string>
+    <string name="intercom_upfront_collection_form_introduction">Bagikan sedikit konteks untuk membantu tim merespons lebih baik dan lebih cepat.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Terima kasih sudah membagikan konteksnya. Untuk menghemat waktu nanti, silahkan menambahkan detail lebih lanjut sekarang.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Kirim sedikit konteks kepada tim</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Mereka akan mengingat konteks ini</string>
+    <string name="intercom_upfront_collection_form_title">Dapatkan bantuan lebih cepat</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Dikirim ke tim!</string>
+    <string name="intercom_we_run_on_intercom">Kita menggunakan Intercom</string>
+    <string name="intercom_you">Anda</string>
+    <string name="intercom_you_rated_the_conversation">Anda telah menilai percakapan</string>
+    <string name="intercom_your_conversations">Percakapan Anda</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_selection">Pilih jam</string>
+    <string name="material_hour_suffix">Pukul %1$s</string>
+    <string name="material_minute_selection">Pilih menit</string>
+    <string name="material_minute_suffix">%1$s menit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Beralih ke mode jam untuk masukan waktu.</string>
+    <string name="material_timepicker_hour">Jam</string>
+    <string name="material_timepicker_minute">Menit</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pilih waktu</string>
+    <string name="material_timepicker_text_input_mode_description">Beralih ke mode masukan teks untuk masukan waktu.</string>
+    <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Lebih dari %1$d notifikasi baru</string>
+    <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
+    <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
+    <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
+    <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
+    <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
+    <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
+    <string name="mtrl_picker_text_input_day_abbr">h</string>
+    <string name="mtrl_picker_text_input_month_abbr">b</string>
+    <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke memilih hari</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke memilih tahun</string>
+    <string name="password_toggle_content_description">Tampilkan sandi</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Telusuri"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Lanjutkan"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Mode pratinjau diperbarui."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Pratinjau"</string>
+</resources>

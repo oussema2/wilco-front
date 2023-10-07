@@ -1,0 +1,140 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+ANDROID_CONFIG_PER_ENVIRONMENT = {
+  dev: {
+    env: 'dev',
+    app_id: '1:586889191010:android:08cb607c805dc8cf1d3b3b',
+    flavor: 'Development',
+    env_file: '.env.dev'
+  },
+  staging: {
+    env: 'staging',
+    app_id: '1:628165506283:android:134901200ce13c10127aae',
+    flavor: 'Staging',
+    env_file: '.env.staging'
+  },
+  production: {
+    env: 'production',
+    app_id: '1:404438257634:android:6e174d2061eac84afb73bb',
+    flavor: 'Production',
+    env_file: '.env.production'
+  }
+}.freeze
+
+GRADLE_TASK_PER_OUTPUT_TYPE = {
+  apk: 'assemble',
+  bundle: 'bundle'
+}.freeze
+
+def config_for_env(env:)
+  ANDROID_CONFIG_PER_ENVIRONMENT[env&.to_sym || :production]
+end
+
+def gradle_task_for(output_type:)
+  GRADLE_TASK_PER_OUTPUT_TYPE[output_type&.to_sym || :apk]
+end
+
+def default_credentials_file_for(env: 'production')
+  "android/deploy_credentials/#{env}.json"
+end
+
+# Android lanes
+platform :android do
+    desc 'Builds an APK for the selected environment'
+    lane :build do |options|
+        config = config_for_env(env: options[:env])
+        task = gradle_task_for(output_type: options[:output_type])
+
+        ENV['ENVFILE'] = config[:env_file]
+        ENV['VERSION_NAME'] = last_git_tag || "1.0.0"
+
+        gradle(task: 'clean', project_dir: 'android/')
+
+        gradle(
+          task: task,
+          flavor: config[:flavor],
+          build_type: 'Release',
+          project_dir: 'android/'
+        )
+    end
+
+    desc 'Upload a new Beta Build to Firebase App Distribution'
+    lane :beta do |options|
+        config = config_for_env(env: options[:env])
+
+        build(env: config[:env])
+
+        credentials_file = options[:credentials_file] || default_credentials_file_for(env: config[:env])
+
+        firebase_app_distribution(
+            app: config[:app_id],
+            service_credentials_file: credentials_file,
+            release_notes: "Environment: #{config[:env].capitalize}\n\nVersion: #{ENV['VERSION_NAME']}",
+            groups: "beta-deploy"
+        )
+    end
+end
+
+platform :ios do
+    desc "Push a new beta build to TestFlight"
+    desc "Build the app with the specified `scheme`. Defaults value is Development."
+
+    lane :beta do |options|
+        scheme = options.fetch(:scheme, 'Development')
+        version_number = last_git_tag || "1.0.0"
+
+        increment_build_number({
+            xcodeproj: "./ios/Wilco.xcodeproj",
+            build_number: latest_testflight_build_number + 1
+        })
+
+        increment_version_number(
+            version_number: version_number,
+            xcodeproj: "./ios/Wilco.xcodeproj"
+        )
+
+        match(type: "appstore", app_identifier: "aero.rogerwilco.app")
+
+        case scheme
+            when "Development", "Staging", "Production"
+                build_app(
+                    workspace: "ios/wilco.xcworkspace",
+                    scheme: scheme,
+                    export_method: "app-store",
+                    xcargs: "-allowProvisioningUpdates"
+                )
+                upload_to_testflight(changelog: "Environment: #{scheme}")
+            else
+                raise "Invalid scheme '#{scheme}'"
+        end
+
+    end
+end
+
+def commit_tag_and_push_version_bump
+    build_number = get_build_number
+    version_number = get_version_number
+    git_commit(
+    path: [
+        # "android/app/build.gradle",
+        "ios/Wilco/Info.plist",
+        "ios/Wilco/Tests/Info.plist",
+    ],
+    message: "Bump version to #{version_number} (#{build_number})",
+    )
+    add_git_tag(tag: "v#{version_number}+#{build_number}")
+    push_to_git_remote
+end

@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> when a source is provided renders the provided image source 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#A0A0A0",
+      "borderRadius": 68,
+      "display": "flex",
+      "height": 44,
+      "justifyContent": "center",
+    }
+  }
+  testID="testing-Avatar-Component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 68,
+          "height": "100%",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      onFastImageLoadEnd={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "test/uri",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 18,
+              "marginLeft": 2,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/aircraft.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="testing-Avatar-Component-loader"
+          tintColor="#FFFFFF"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Avatar /> when the variant is "aircraft renders the aircraft content 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#A0A0A0",
+      "borderRadius": 68,
+      "display": "flex",
+      "height": 44,
+      "justifyContent": "center",
+    }
+  }
+  testID="testing-Avatar-Component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 18,
+          "marginLeft": 2,
+          "width": 24,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      onFastImageLoadEnd={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/aircraft.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image"
+      tintColor="#FFFFFF"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 18,
+              "marginLeft": 2,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/aircraft.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="testing-Avatar-Component-loader"
+          tintColor="#FFFFFF"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Avatar /> with the default props renders the EditAvatar component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#A0A0A0",
+      "borderRadius": 68,
+      "display": "flex",
+      "height": 44,
+      "justifyContent": "center",
+    }
+  }
+  testID="testing-Avatar-Component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "aspectRatio": 1,
+          "height": 24,
+          "width": 32,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      onFastImageLoadEnd={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/user.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image"
+      tintColor="#FFFFFF"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "aspectRatio": 1,
+              "height": 24,
+              "width": 32,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/user.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="testing-Avatar-Component-loader"
+          tintColor="#FFFFFF"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

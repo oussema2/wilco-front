@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>586889191010-47vfbplsvpq0v8846nkqdfolfsbqu5jv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.586889191010-47vfbplsvpq0v8846nkqdfolfsbqu5jv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>586889191010-l21tqk15gavp79lnj5fpk7op36blfa0i.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxFOKAKt50IGJlNRi-FwmHwvx6Y6pBsCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>586889191010</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>aero.rogerwilco.app</string>
+	<key>PROJECT_ID</key>
+	<string>wilco-b61fc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wilco-b61fc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:586889191010:ios:a0b418b3faf4790d1d3b3b</string>
+</dict>
+</plist>

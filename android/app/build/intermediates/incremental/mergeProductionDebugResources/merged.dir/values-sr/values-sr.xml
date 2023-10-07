@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново обавештење</item>
+    <item quantity="few">%d нова обавештења</item>
+    <item quantity="other">%d нових обавештења</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Идите на почетну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Идите нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изаберите апликацију"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УКЉУЧЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"тастер за размак"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Претражите…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Обришите упит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Претражите упит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Претражите"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Пошаљите упит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Делите помоћу"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Делите помоћу апликације <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
+    <string name="character_counter_content_description">Унети знакови: %1$d од %2$d</string>
+    <string name="character_counter_overflowed_content_description">Прекорачено је ограничење броја знакова: %1$d од %2$d</string>
+    <string name="clear_text_end_icon_content_description">Обриши текст</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Омогући</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Омогућите Google Play услуге</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s не може да се покрене без Google Play услуга, које нису инсталиране на уређају.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Преузмите Google Play услуге</string>
+    <string name="common_google_play_services_notification_channel_name">Доступност Google Play услуга</string>
+    <string name="common_google_play_services_notification_ticker">Грешка Google Play услуга</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не може да се покрене без Google Play услуга, које уређај не подржава.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Ажурирај</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
+    <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати.</string>
+    <string name="common_open_on_phone">Отвори на телефону</string>
+    <string name="common_signin_button_text">Пријави ме</string>
+    <string name="common_signin_button_text_long">Пријави ме на Google</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
+    <string name="fcm_fallback_notification_channel_label">Разно</string>
+    <string name="icon_content_description">Икона дијалога</string>
+    <string name="intercom_access_background_location_message">Idite na podešavanja uređaja da biste aplikaciji omogućili da koristi vašu lokaciju u pozadini</string>
+    <string name="intercom_access_background_location_title">Omogućite pristup vašoj lokaciji sve vreme</string>
+    <string name="intercom_access_photos">Pristupite fotografijama</string>
+    <string name="intercom_active_15m_ago">Aktivan poslednje/ih {minutes} min.</string>
+    <string name="intercom_active_day_ago">Aktivan pre {days} dana</string>
+    <string name="intercom_active_hour_ago">Aktivan pre {hours} č.</string>
+    <string name="intercom_active_minute_ago">Aktivan pre {minutes} min.</string>
+    <string name="intercom_active_state">Активан</string>
+    <string name="intercom_active_week_ago">Aktivan pre više od 1 ned.</string>
+    <string name="intercom_allow_access">Omogući pristup</string>
+    <string name="intercom_allow_storage_access">Omogućite pristup skladištu da biste gledali fotografije</string>
+    <string name="intercom_also_in_this_conversation">Takođe u ovom razgovoru</string>
+    <string name="intercom_android_activated_message">Android aplikacija je sada integrisana sa Intercom platformom</string>
+    <string name="intercom_app_settings">Podešavanja aplikacije</string>
+    <string name="intercom_article_load_error">Učitavanje članka nije moguće</string>
+    <string name="intercom_article_question">Da li je ovo odgovor na vaše pitanje?</string>
+    <string name="intercom_article_response">Imali ste interakciju sa</string>
+    <string name="intercom_article_search_hint_text">Pretražite članke...</string>
+    <string name="intercom_ask_a_question">Postavite pitanje</string>
+    <string name="intercom_asked_about">U vezi sa</string>
+    <string name="intercom_attribute_collector_negative">Ne</string>
+    <string name="intercom_attribute_collector_positive">Da</string>
+    <string name="intercom_away_state">Одсутан</string>
+    <string name="intercom_bot">Robot</string>
+    <string name="intercom_bot_expectation_text">Naš robot može da odgovori na veliki broj uobičajenih pitanja</string>
+    <string name="intercom_browse_all_help_topics">Pregledajte sve teme pomoći</string>
+    <string name="intercom_browse_collections">Pregledajte kolekcije</string>
+    <string name="intercom_cancel">Otkaži</string>
+    <string name="intercom_choose_one">Izaberite jedan…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Obriši</string>
+    <string name="intercom_close">Zatvori</string>
+    <string name="intercom_congratulations">Čestitamo</string>
+    <string name="intercom_connected">Povezani ste</string>
+    <string name="intercom_continue_the_conversation">Nastavite razgovor</string>
+    <string name="intercom_conversation_card_office_hours_header">Kada se vratimo na mrežu</string>
+    <string name="intercom_conversation_card_reply_time_header">Naše uobičajeno vreme za davanje odgovora</string>
+    <string name="intercom_conversation_has_ended">Vaš razgovor je završen</string>
+    <string name="intercom_conversations">Razgovori</string>
+    <string name="intercom_conversations_with_app">Razgovori sa {name}</string>
+    <string name="intercom_copied_to_clipboard">Kopirano u ostavu</string>
+    <string name="intercom_couldnt_complete_action">Nismo mogli da dovršimo ovu radnju</string>
+    <string name="intercom_couldnt_load_apps">Učitavanje aplikacija nije moguće</string>
+    <string name="intercom_couldnt_load_content">Učitavanje sadržaja nije moguće</string>
+    <string name="intercom_couldnt_load_messenger">Učitavanje aplikacije Messenger nije moguće.</string>
+    <string name="intercom_delivered">Isporučeno</string>
+    <string name="intercom_disappointed_face_emoji">Razočarano lice</string>
+    <string name="intercom_dismiss">Odbaci</string>
+    <string name="intercom_empty_conversations">Još uvek nema razgovora sa {name}</string>
+    <string name="intercom_error_loading_conversation">Razgovor ne može da se učita</string>
+    <string name="intercom_expected_response_delay_10800">manje od 3 sata</string>
+    <string name="intercom_expected_response_delay_1200">manje od 20 minuta</string>
+    <string name="intercom_expected_response_delay_14400">manje od 4 sata</string>
+    <string name="intercom_expected_response_delay_172800">2 dana</string>
+    <string name="intercom_expected_response_delay_1800">manje od 30 minuta</string>
+    <string name="intercom_expected_response_delay_18000">manje od 5 sati</string>
+    <string name="intercom_expected_response_delay_21600">manje od 6 sati</string>
+    <string name="intercom_expected_response_delay_300">manje od 5 minuta</string>
+    <string name="intercom_expected_response_delay_3600">manje od 1 sat</string>
+    <string name="intercom_expected_response_delay_600">manje od 10 minuta</string>
+    <string name="intercom_expected_response_delay_604800">manje od 1 nedelje</string>
+    <string name="intercom_expected_response_delay_7200">manje od 2 sata</string>
+    <string name="intercom_expected_response_delay_86400">1 dan</string>
+    <string name="intercom_facebook_like">Lajkujte nas na Fejsbuku</string>
+    <string name="intercom_failed_delivery">Poruka ne može da se isporuči</string>
+    <string name="intercom_failed_to_load_conversation">Razgovori ne mogu da se učitaju</string>
+    <string name="intercom_failed_to_send">Ne može da se pošalje</string>
+    <string name="intercom_file_access_failed">Ne može da se pristupi toj datoteci</string>
+    <string name="intercom_file_too_big">Ne mogu da se pošalju datoteke veće od 40 MB</string>
+    <string name="intercom_get_help">Potražite pomoć</string>
+    <string name="intercom_gif_attribution">putem {providername}</string>
+    <string name="intercom_gifs_load_error">Učitavanje GIF datoteka nije moguće</string>
+    <string name="intercom_give_it_another_try">Pokušaj ponovo</string>
+    <string name="intercom_go_to_device_settings">Da biste omogućili pristup, idite u meni za dozvole u podešavanjima aplikacije na uređaju</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Nasmejano lice sa velikim očima</string>
+    <string name="intercom_help_center">Centar za pomoć</string>
+    <string name="intercom_how_can_we_help">Kako možemo da pomognemo?</string>
+    <string name="intercom_image_attached">(slika je priložena)</string>
+    <string name="intercom_inbox_error_state_title">Nešto nije u redu</string>
+    <string name="intercom_loading">Učitavanje</string>
+    <string name="intercom_message_failed_try_again">Ne može da se pošalje, dodirnite da biste ponovo pokušali</string>
+    <string name="intercom_message_seen">Viđeno</string>
+    <string name="intercom_message_state_sending">Slanje u toku…</string>
+    <string name="intercom_message_unseen">Još nije viđeno</string>
+    <string name="intercom_name_and_1_other">{name} i još 1 osoba</string>
+    <string name="intercom_name_and_x_others">{name} i {count} osoba</string>
+    <string name="intercom_navigation_back">Nazad</string>
+    <string name="intercom_neutral_face_emoji">Neutralno lice</string>
+    <string name="intercom_new_conversation">Novi razgovor</string>
+    <string name="intercom_new_message">Nova poruka</string>
+    <string name="intercom_new_messages">Imate {n} nove/ih poruke/a</string>
+    <string name="intercom_new_notifications">Nova obaveštenja</string>
+    <string name="intercom_no_articles_to_display">Nema članaka za prikaz</string>
+    <string name="intercom_no_conversations">Nema razgovora</string>
+    <string name="intercom_no_gifs_found">Nije pronađena nijedna GIF datoteka</string>
+    <string name="intercom_no_gifs_matching_query">Nismo pronašli nijednu GIF datoteku koja odgovara vašem upitu</string>
+    <string name="intercom_no_messages_from_the_team">Nema poruka od tima</string>
+    <string name="intercom_no_network_connection">Nema mrežne veze</string>
+    <string name="intercom_no_photos">Nema fotografija</string>
+    <string name="intercom_no_photos_on_device">Na ovom uređaju nema fotografija</string>
+    <string name="intercom_no_results_for_searchterm">Nema rezultata za {searchTerm}</string>
+    <string name="intercom_not_now">Ne sada</string>
+    <string name="intercom_nothing_to_see_here_yet">Još uvek nema sadržaja za prikaz</string>
+    <string name="intercom_notification_channel_actions_description">Sadrži veze za preduzimanje radnje u ovoj aplikaciji</string>
+    <string name="intercom_notification_channel_actions_title">Radnje</string>
+    <string name="intercom_notification_channel_chat_replies_description">Obaveštenja o odgovorima iz ćaskanja iz ove aplikacije</string>
+    <string name="intercom_notification_channel_chat_replies_title">Odgovori ćaskanja</string>
+    <string name="intercom_notification_channel_new_chats_description">Nove poruke ćaskanja poslate iz ove aplikacije</string>
+    <string name="intercom_notification_channel_new_chats_title">Nova ćaskanja</string>
+    <string name="intercom_number_is_incorrect">Taj broj ne izgleda sasvim ispravno</string>
+    <string name="intercom_one_new_message">Imate novu poruku</string>
+    <string name="intercom_page_not_found">Ta stranica više nije ovde</string>
+    <string name="intercom_permission_denied">Ova dozvola je odbijena</string>
+    <string name="intercom_photo_access_denied">Niste dozvolili pristup svojim fotografijama</string>
+    <string name="intercom_plus_x_more">+{n} još</string>
+    <string name="intercom_profile_location">{time} u {location}</string>
+    <string name="intercom_rate_your_conversation">Ocenite razgovor</string>
+    <string name="intercom_reload">Ponovo učitaj</string>
+    <string name="intercom_reply">Odgovori</string>
+    <string name="intercom_reply_from_admin">Odgovor od {name}</string>
+    <string name="intercom_reply_to_conversation">Napišite odgovor…</string>
+    <string name="intercom_retry">Pokušajte ponovo</string>
+    <string name="intercom_search_browse_empty_state_text">Žao nam je, nismo pronašli nijedan rezultat za to. Pokušajte preformulisati pretragu.</string>
+    <string name="intercom_search_for_help">Potražite pomoć</string>
+    <string name="intercom_search_gif">Pretraži GIF datoteke…</string>
+    <string name="intercom_search_help_articles">Potražite članke pomoći</string>
+    <string name="intercom_see_all">Vidi sve</string>
+    <string name="intercom_see_all_conversations">Pogledajte sve vaše razgovore</string>
+    <string name="intercom_see_past_conversations">Vidi prošle razgovore</string>
+    <string name="intercom_see_previous_conversations">Pogledajte vaše prethodne razgovore</string>
+    <string name="intercom_send">Pošalji</string>
+    <string name="intercom_send_us_a_message">Pošaljite nam poruku</string>
+    <string name="intercom_some_things_failed_to_load">Neke stvari se nisu učitale. Pokušajte ponovo.</string>
+    <string name="intercom_something_went_wrong_try_again">Nešto nije u redu. Pokušajte ponovo.</string>
+    <string name="intercom_start_a_conversation">Započni razgovor</string>
+    <string name="intercom_start_another_conversation">Započnite drugi razgovor</string>
+    <string name="intercom_start_conversation">Započni razgovor…</string>
+    <string name="intercom_storage_access_request">Za gledanje fotografija, potrebno je da omogućite pristup skladištu</string>
+    <string name="intercom_string_is_incorrect">To ne izgleda sasvim ispravno</string>
+    <string name="intercom_submit">Pošalji</string>
+    <string name="intercom_tap_to_send_image">Dodirnite da biste poslali sliku</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} obično odgovara u roku od jednog dana</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} obično odgovori u roku od jednog radnog dana</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} obično odgovori u roku od dva radna dana</string>
+    <string name="intercom_teammate_from_company">{name} iz {company}</string>
+    <string name="intercom_tell_us_more">Recite nam više…</string>
+    <string name="intercom_tell_us_what_you_need">Recite nam u vezi sa čim vam je potrebna pomoć i naš robot će se potruditi da odgovori</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Hvala! Tim će da odgovori u roku od jednog radnog dana</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Hvala! Tim će odgovoriti u roku od dva radna dana</string>
+    <string name="intercom_thanks_for_letting_us_know">Hvala što ste nas obavestili</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Hvala! Tim će odgovoriti čim bude u mogućnosti</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Taj kôd zemlje ne izgleda sasvim ispravno</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Ta adresa e-pošte ne izgleda sasvim ispravno</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Taj broj ne izgleda sasvim ispravno</string>
+    <string name="intercom_that_number_has_too_many_digits">Тај broj ima previše cifara</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Тom broju nedostaje nekoliko cifara</string>
+    <string name="intercom_that_number_needs_a_prefix">Tom broju nedostaje prefiks (+ ili 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Tim može da pomogne ako je potrebno</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Tim obično odgovara u roku od nekoliko sati.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Tim obično odgovori u roku od jednog radnog dana.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Tim obično odgovori u roku od dva radna dana</string>
+    <string name="intercom_time_day_ago">Pre {delta} dana</string>
+    <string name="intercom_time_future_1h">1 sat</string>
+    <string name="intercom_time_future_2h">2 sata</string>
+    <string name="intercom_time_future_30m">30 minuta</string>
+    <string name="intercom_time_future_3h">3 sata</string>
+    <string name="intercom_time_future_day_0">Ponedeljak</string>
+    <string name="intercom_time_future_day_1">Utorak</string>
+    <string name="intercom_time_future_day_2">Sreda</string>
+    <string name="intercom_time_future_day_3">Četvrtak</string>
+    <string name="intercom_time_future_day_4">Petak</string>
+    <string name="intercom_time_future_day_5">Subota</string>
+    <string name="intercom_time_future_day_6">Nedelja</string>
+    <string name="intercom_time_future_later_today">Kasnije ovog dana</string>
+    <string name="intercom_time_future_next_week">Sledeće nedelje</string>
+    <string name="intercom_time_future_tomorrow">Sutra</string>
+    <string name="intercom_time_hour_ago">Pre {delta} č.</string>
+    <string name="intercom_time_just_now">Upravo sada</string>
+    <string name="intercom_time_minute_ago">Pre {delta} min.</string>
+    <string name="intercom_time_week_ago">Pre {delta} ned.</string>
+    <string name="intercom_time_yesterday">juče</string>
+    <string name="intercom_try_again">Pokušajte ponovo</string>
+    <string name="intercom_try_again_minute">Pokušajte ponovo za jedan minut</string>
+    <string name="intercom_try_use_different_keywords">Pokušajte sa drugim ključnim rečima ili upišite celo pitanje</string>
+    <string name="intercom_twitter_follow">Pratite nas na Tviteru</string>
+    <string name="intercom_two_business_days">Dva radna dana</string>
+    <string name="intercom_type_a_number">Unesite broj…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Obično odgovori u roku od jednog radnog dana</string>
+    <string name="intercom_typically_replies_in_two_business_days">Tim odgovara u roku od dva radna dana</string>
+    <string name="intercom_upfront_collection_form_close_out">Uvek možete da se vratite ovde da vidite odgovore i pošaljete ažuriranja.</string>
+    <string name="intercom_upfront_collection_form_introduction">Podelite kontekst da biste pomogli da tim bolje i brže reaguje.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Hvala što ste poslali kontekst. Da biste kasnije uštedeli na vremenu, slobodno sada dodajte više pojedinosti.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Pošaljite timu neki kontekst</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Oni će voditi računa o kontekstu</string>
+    <string name="intercom_upfront_collection_form_title">Još brže dobijte pomoć</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Poslato timu!</string>
+    <string name="intercom_we_run_on_intercom">Naša platforma je Intercom</string>
+    <string name="intercom_you">Vi</string>
+    <string name="intercom_you_rated_the_conversation">Ocenili ste razgovor</string>
+    <string name="intercom_your_conversations">Vaš razgovor</string>
+    <string name="item_view_role_description">Картица</string>
+    <string name="material_clock_toggle_content_description">Изаберите пре подне или по подне</string>
+    <string name="material_hour_selection">Изаберите сат</string>
+    <string name="material_hour_suffix">%1$s с</string>
+    <string name="material_minute_selection">Изаберите минуте</string>
+    <string name="material_minute_suffix">%1$s мин</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Пређите у режим сата ради уноса времена.</string>
+    <string name="material_timepicker_hour">Сат</string>
+    <string name="material_timepicker_minute">Минут</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Изаберите време</string>
+    <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
+    <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
+    <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изаберите датум</string>
+    <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона са данима: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Формат је неважећи.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користите: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Неважећи период.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Идите на годину %1$s</string>
+    <string name="mtrl_picker_out_of_range">Изван периода: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Датум почетка – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Датум завршетка</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Изаберите период</string>
+    <string name="mtrl_picker_range_header_unselected">Датум почетка – Датум завршетка</string>
+    <string name="mtrl_picker_save">Сачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Датум завршетка</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Датум почетка</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Пређите на режим уноса у Календару</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="password_toggle_content_description">Прикажи лозинку</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Претражите"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Настави"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Режим за преглед је ажуриран."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Преглед"</string>
+</resources>

@@ -1,0 +1,743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput when the error prop is set renders the TextInput component with error style and the given error message 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textInput"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFEBF2",
+            "borderBottomWidth": 0,
+            "borderColor": "#86939e",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "marginBottom": 5,
+            "minHeight": 52,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          autoCorrect={true}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder=""
+          placeholderTextColor="#A0A0A0"
+          returnKeyType="default"
+          scrollEnabled={true}
+          secureTextEntry={false}
+          selectionColor="#12A3BE"
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "minHeight": 40,
+              "paddingVertical": 0,
+            }
+          }
+          testID="input"
+          textAlignVertical="center"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 12,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "margin": 0,
+            "marginLeft": 0,
+          }
+        }
+      >
+        Invalid format
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TextInput when the isPassword prop is set renders the TextInput component with secure text entry 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textInput"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F2F2F2",
+            "borderBottomWidth": 0,
+            "borderColor": "#86939e",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "marginBottom": 5,
+            "minHeight": 52,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          autoCorrect={true}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder=""
+          placeholderTextColor="#A0A0A0"
+          returnKeyType="default"
+          scrollEnabled={true}
+          secureTextEntry={true}
+          selectionColor="#12A3BE"
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "minHeight": 40,
+              "paddingVertical": 0,
+            }
+          }
+          testID="input"
+          textAlignVertical="center"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/eyeSlash.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 28,
+                  "tintColor": "#000000",
+                  "width": 28,
+                }
+              }
+              testID="password-switch"
+            />
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 12,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "margin": 0,
+            "marginLeft": 0,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TextInput when the required prop is set renders the TextInput component with a mandatory mark next to the label 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textInput"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#D60A50",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 14,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 4,
+        }
+      }
+      testID="input-required"
+    >
+      *
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F2F2F2",
+            "borderBottomWidth": 0,
+            "borderColor": "#86939e",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "marginBottom": 5,
+            "minHeight": 52,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          autoCorrect={true}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder=""
+          placeholderTextColor="#A0A0A0"
+          returnKeyType="default"
+          scrollEnabled={true}
+          secureTextEntry={false}
+          selectionColor="#12A3BE"
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "minHeight": 40,
+              "paddingVertical": 0,
+            }
+          }
+          testID="input"
+          textAlignVertical="center"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 12,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "margin": 0,
+            "marginLeft": 0,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TextInput with the autoCapitalize prop renders the TextInput component with the given capitalize option 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textInput"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F2F2F2",
+            "borderBottomWidth": 0,
+            "borderColor": "#86939e",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "marginBottom": 5,
+            "minHeight": 52,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="words"
+          autoCorrect={true}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder=""
+          placeholderTextColor="#A0A0A0"
+          returnKeyType="default"
+          scrollEnabled={true}
+          secureTextEntry={false}
+          selectionColor="#12A3BE"
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "minHeight": 40,
+              "paddingVertical": 0,
+            }
+          }
+          testID="input"
+          textAlignVertical="center"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 12,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "margin": 0,
+            "marginLeft": 0,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TextInput with the default props renders the TextInput component correctly 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textInput"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F2F2F2",
+            "borderBottomWidth": 0,
+            "borderColor": "#86939e",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "marginBottom": 5,
+            "minHeight": 52,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          autoCorrect={true}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder=""
+          placeholderTextColor="#A0A0A0"
+          returnKeyType="default"
+          scrollEnabled={true}
+          secureTextEntry={false}
+          selectionColor="#12A3BE"
+          style={
+            Object {
+              "color": "#000000",
+              "flex": 1,
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "minHeight": 40,
+              "paddingVertical": 0,
+            }
+          }
+          testID="input"
+          textAlignVertical="center"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginVertical": 4,
+              "paddingRight": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 12,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "margin": 0,
+            "marginLeft": 0,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

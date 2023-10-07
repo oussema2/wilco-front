@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DivisorLine with custom testID prop uses the given testID 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#E3E3E3",
+        "borderTopWidth": 1,
+        "marginBottom": 32,
+      },
+      null,
+    ]
+  }
+  testID="testID"
+/>
+`;
+
+exports[`DivisorLine with default props renders the DivisorLine component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#E3E3E3",
+        "borderTopWidth": 1,
+        "marginBottom": 32,
+      },
+      null,
+    ]
+  }
+  testID="divisorLine-component"
+/>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SuplementalTitle /> with the default props renders the SuplementalTitle component correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#12A3BE",
+        "fontFamily": "NotoSansJP-Black",
+        "fontSize": 18,
+        "fontWeight": undefined,
+        "letterSpacing": -0.5,
+        "lineHeight": 24,
+        "minHeight": 24,
+      },
+      Object {},
+    ]
+  }
+  testID="testing-SuplementalTitle-component"
+>
+  A title
+</Text>
+`;

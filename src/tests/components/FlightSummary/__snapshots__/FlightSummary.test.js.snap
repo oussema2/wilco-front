@@ -1,0 +1,1628 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightSummary when the post flight has no distance renders the FlightSummary component without distance 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 16,
+          "minHeight": 52,
+        }
+      }
+      testID="test-ID"
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginRight": 24,
+          }
+        }
+        testID="origin-and-destination"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            ABC
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            09:05
+          </Text>
+        </View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/arrowRight.png",
+            }
+          }
+          style={
+            Object {
+              "height": 18,
+              "margin": 7,
+              "tintColor": "#A0A0A0",
+              "width": 18,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            DEF
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            20:17
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="aircraft-info"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+            }
+          }
+          testID="Avatar-Component"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 68,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              onFastImageLoadEnd={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://fake.pic/ture/thumbnail",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "height": 12,
+                      "marginLeft": 2,
+                      "width": 14,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/aircraft.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="Avatar-Component-loader"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          Piper 111
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="duration-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/stopwatch.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          258 m
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-speed-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/speed.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          23245 kts
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-altitude-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/rulerVertical.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          1123400 ft
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`FlightSummary when the post flight has no max altitude renders the FlightSummary component without max altitude 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 16,
+          "minHeight": 52,
+        }
+      }
+      testID="test-ID"
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginRight": 24,
+          }
+        }
+        testID="origin-and-destination"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            ABC
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            09:05
+          </Text>
+        </View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/arrowRight.png",
+            }
+          }
+          style={
+            Object {
+              "height": 18,
+              "margin": 7,
+              "tintColor": "#A0A0A0",
+              "width": 18,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            DEF
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            20:17
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="aircraft-info"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+            }
+          }
+          testID="Avatar-Component"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 68,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              onFastImageLoadEnd={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://fake.pic/ture/thumbnail",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "height": 12,
+                      "marginLeft": 2,
+                      "width": 14,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/aircraft.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="Avatar-Component-loader"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          Piper 111
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="duration-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/stopwatch.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          258 m
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-speed-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/speed.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          23245 kts
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="distance-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/route.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          946294 mi
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`FlightSummary when the post flight has no max speed renders the FlightSummary component without max speed 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 16,
+          "minHeight": 52,
+        }
+      }
+      testID="test-ID"
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginRight": 24,
+          }
+        }
+        testID="origin-and-destination"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            ABC
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            09:05
+          </Text>
+        </View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/arrowRight.png",
+            }
+          }
+          style={
+            Object {
+              "height": 18,
+              "margin": 7,
+              "tintColor": "#A0A0A0",
+              "width": 18,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            DEF
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            20:17
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="aircraft-info"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+            }
+          }
+          testID="Avatar-Component"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 68,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              onFastImageLoadEnd={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://fake.pic/ture/thumbnail",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "height": 12,
+                      "marginLeft": 2,
+                      "width": 14,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/aircraft.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="Avatar-Component-loader"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          Piper 111
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="duration-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/stopwatch.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          258 m
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-altitude-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/rulerVertical.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          1123400 ft
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="distance-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/route.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          946294 mi
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`FlightSummary with the default props renders the FlightSummary component correctly 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginTop": 16,
+          "minHeight": 52,
+        }
+      }
+      testID="test-ID"
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginRight": 24,
+          }
+        }
+        testID="origin-and-destination"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            ABC
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            09:05
+          </Text>
+        </View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/arrowRight.png",
+            }
+          }
+          style={
+            Object {
+              "height": 18,
+              "margin": 7,
+              "tintColor": "#A0A0A0",
+              "width": 18,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "marginTop": 5,
+              }
+            }
+          >
+            DEF
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 14,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+          >
+            20:17
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="aircraft-info"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+            }
+          }
+          testID="Avatar-Component"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 68,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              onFastImageLoadEnd={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://fake.pic/ture/thumbnail",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "height": 12,
+                      "marginLeft": 2,
+                      "width": 14,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/aircraft.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="Avatar-Component-loader"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          Piper 111
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="duration-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/stopwatch.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          258 m
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-speed-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/speed.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          23245 kts
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="max-altitude-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/rulerVertical.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          1123400 ft
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": 24,
+          }
+        }
+        testID="distance-info"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/route.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "margin": 2,
+              "tintColor": "#1F2E4E",
+              "width": 24,
+            }
+          }
+          testID="flightInfoImage-component"
+        />
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+        >
+          946294 mi
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

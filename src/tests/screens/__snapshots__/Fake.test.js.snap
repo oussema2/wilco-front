@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fake renders the Fake screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="fake-view"
+>
+  <Text
+    testID="fake-text"
+  >
+    Log In title
+  </Text>
+</View>
+`;

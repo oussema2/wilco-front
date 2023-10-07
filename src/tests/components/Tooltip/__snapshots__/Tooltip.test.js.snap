@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> with the default props renders the Tooltip component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+  testID="tooltip-Component"
+>
+  <View
+    collapsable={false}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+    <Modal
+      animationType="fade"
+      hardwareAccelerated={false}
+      onShow={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgba(250, 250, 250, 0.70)",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "height": 0,
+                "left": 0,
+                "overflow": "visible",
+                "position": "absolute",
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "left": -7.5,
+                "position": "absolute",
+                "top": -2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomColor": "#1F2E4E",
+                  "borderBottomWidth": 15,
+                  "borderLeftColor": "transparent",
+                  "borderLeftWidth": 8,
+                  "borderRightColor": "transparent",
+                  "borderRightWidth": 8,
+                  "borderStyle": "solid",
+                  "height": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1F2E4E",
+                "borderRadius": 10,
+                "display": "flex",
+                "flex": 1,
+                "height": null,
+                "justifyContent": "center",
+                "left": -17.999,
+                "padding": 16,
+                "position": "absolute",
+                "top": 10,
+                "width": 246,
+              }
+            }
+            testID="tooltipPopoverContainer"
+          />
+        </View>
+      </View>
+    </Modal>
+  </View>
+</View>
+`;

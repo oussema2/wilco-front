@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "aero.rogerwilco.app",
+  "variantName": "developmentRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 14,
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

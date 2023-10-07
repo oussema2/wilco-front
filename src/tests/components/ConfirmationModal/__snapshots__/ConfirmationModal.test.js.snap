@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< ConfirmationModal/> renders the ConfirmationModal component correctly 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  testID="Testing-ConfirmationModal"
+  theme={
+    Object {
+      "colors": Object {
+        "black": "#242424",
+        "disabled": "hsl(208, 8%, 90%)",
+        "divider": "#bcbbc1",
+        "error": "#ff190c",
+        "grey0": "#393e42",
+        "grey1": "#43484d",
+        "grey2": "#5e6977",
+        "grey3": "#86939e",
+        "grey4": "#bdc6cf",
+        "grey5": "#e1e8ee",
+        "greyOutline": "#bbb",
+        "platform": Object {
+          "android": Object {
+            "error": "#f44336",
+            "grey": "rgba(0, 0, 0, 0.54)",
+            "primary": "#2196f3",
+            "searchBg": "#dcdce1",
+            "secondary": "#9C27B0",
+            "success": "#4caf50",
+            "warning": "#ffeb3b",
+          },
+          "default": Object {
+            "error": "#ff3b30",
+            "grey": "#7d7d7d",
+            "primary": "#007aff",
+            "searchBg": "#dcdce1",
+            "secondary": "#5856d6",
+            "success": "#4cd964",
+            "warning": "#ffcc00",
+          },
+          "ios": Object {
+            "error": "#ff3b30",
+            "grey": "#7d7d7d",
+            "primary": "#007aff",
+            "searchBg": "#dcdce1",
+            "secondary": "#5856d6",
+            "success": "#4cd964",
+            "warning": "#ffcc00",
+          },
+          "web": Object {
+            "error": "#ff190c",
+            "grey": "#393e42",
+            "primary": "#2089dc",
+            "searchBg": "#303337",
+            "secondary": "#ca71eb",
+            "success": "#52c41a",
+            "warning": "#faad14",
+          },
+        },
+        "primary": "#2089dc",
+        "searchBg": "#303337",
+        "secondary": "#ca71eb",
+        "success": "#52c41a",
+        "warning": "#faad14",
+        "white": "#ffffff",
+      },
+    }
+  }
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, .4)",
+        "height": "100%",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+    testID="RNE__Overlay__backdrop"
+  />
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 8,
+          "height": 224,
+          "padding": 10,
+          "paddingHorizontal": 0,
+          "paddingVertical": 0,
+          "shadowColor": "rgba(0, 0, 0, .3)",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowRadius": 4,
+          "width": 335,
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          Array [
+            4291295231,
+            4294967295,
+          ]
+        }
+        endPoint={
+          Object {
+            "x": 0.9,
+            "y": 0.8,
+          }
+        }
+        locations={null}
+        startPoint={
+          Object {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 5,
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "100%",
+            "justifyContent": "space-evenly",
+            "paddingHorizontal": 20,
+            "paddingTop": 24,
+            "width": "100%",
+          }
+        }
+        testID="linearGradient"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": "50%",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "NotoSansJP-Black",
+                "fontSize": 18,
+                "fontWeight": undefined,
+                "letterSpacing": -0.5,
+                "lineHeight": 24,
+                "textAlign": "center",
+              }
+            }
+            testID="modalTitle-Text"
+          >
+            Modal title
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "textAlign": "center",
+                },
+                Object {},
+              ]
+            }
+            testID="modalDescription-Text"
+          >
+            Modal description
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 3,
+              },
+              undefined,
+              false,
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "busy": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="action-sheet-button"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 0,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "height": 52,
+                  "justifyContent": "center",
+                  "padding": 0,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#5B5B5B",
+                    "fontFamily": "NotoSansJP-Bold",
+                    "fontSize": 15,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 20,
+                    "paddingVertical": 1,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Confirm
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 3,
+              },
+              undefined,
+              false,
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "busy": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="action-sheet-button"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 0,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "height": 52,
+                  "justifyContent": "center",
+                  "padding": 0,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#5B5B5B",
+                    "fontFamily": "NotoSansJP-Bold",
+                    "fontSize": 15,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0.4,
+                    "lineHeight": 20,
+                    "paddingVertical": 1,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </View>
+          </View>
+        </View>
+      </BVLinearGradient>
+    </View>
+  </View>
+</Modal>
+`;

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nové oznámení</item>
+    <item quantity="few">%d nová oznámení</item>
+    <item quantity="many">%d nového oznámení</item>
+    <item quantity="other">%d nových oznámení</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Další možnosti"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VYP"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ZAP"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mezerník"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Dotaz pro vyhledávání"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Sdílet s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Sdílet s aplikací <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
+    <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
+    <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Vymazat text</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Povolit</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Ke spuštění aplikace %1$s je třeba aktivovat služby Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktivace služeb Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalovat</string>
+    <string name="common_google_play_services_install_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v zařízení nemáte.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Instalace služeb Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost služeb Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služeb Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Zkuste to prosím znovu.</string>
+    <string name="common_google_play_services_unsupported_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tomto zařízení nejsou podporovány.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualizovat</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Ke spuštění aplikace %1$s je třeba aktualizovat služby Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Aktualizace služeb Google Play</string>
+    <string name="common_google_play_services_updating_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které jsou právě aktualizovány.</string>
+    <string name="common_google_play_services_wear_update_text">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
+    <string name="common_open_on_phone">Otevřít v telefonu</string>
+    <string name="common_signin_button_text">Přihlásit se</string>
+    <string name="common_signin_button_text_long">Přihlásit se k účtu Google</string>
+    <string name="error_icon_content_description">Chyba</string>
+    <string name="exposed_dropdown_menu_content_description">Zobrazit rozbalovací nabídku</string>
+    <string name="fcm_fallback_notification_channel_label">Různé</string>
+    <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="intercom_access_background_location_message">Přejděte do nastavení vašeho zařízení a povolte aplikaci používat vaši polohu na pozadí</string>
+    <string name="intercom_access_background_location_title">Povolit přístup k vaší poloze po celou dobu</string>
+    <string name="intercom_access_photos">Přístup k vašim fotografiím</string>
+    <string name="intercom_active_15m_ago">Aktivní posledních {minutes} min.</string>
+    <string name="intercom_active_day_ago">Aktivní před {days} dny</string>
+    <string name="intercom_active_hour_ago">Aktivní před {hours} hod.</string>
+    <string name="intercom_active_minute_ago">Aktivní před {minutes} min.</string>
+    <string name="intercom_active_state">Aktivní</string>
+    <string name="intercom_active_week_ago">Aktivní před více než 1 týdnem</string>
+    <string name="intercom_allow_access">Povolit přístup</string>
+    <string name="intercom_allow_storage_access">Povolte úložišti zobrazení vašich fotografií, prosím</string>
+    <string name="intercom_also_in_this_conversation">Také v této konverzaci</string>
+    <string name="intercom_android_activated_message">Vaše aplikace pro Android je nyní integrována s platformou Intercom</string>
+    <string name="intercom_app_settings">Nastavení aplikace</string>
+    <string name="intercom_article_load_error">Článek nelze načíst</string>
+    <string name="intercom_article_question">Dostali jste odpověď na svou otázku?</string>
+    <string name="intercom_article_response">Reagovali jste pomocí</string>
+    <string name="intercom_article_search_hint_text">Prohledat články...</string>
+    <string name="intercom_ask_a_question">Položit otázku</string>
+    <string name="intercom_asked_about">Dotaz</string>
+    <string name="intercom_attribute_collector_negative">Ne</string>
+    <string name="intercom_attribute_collector_positive">Ano</string>
+    <string name="intercom_away_state">Nepřítomen</string>
+    <string name="intercom_bot">Bot</string>
+    <string name="intercom_bot_expectation_text">Náš robot dokáže odpovědět na mnoho běžných otázek</string>
+    <string name="intercom_browse_all_help_topics">Procházet všechna témata nápovědy</string>
+    <string name="intercom_browse_collections">Procházet sbírky</string>
+    <string name="intercom_cancel">Zrušit</string>
+    <string name="intercom_choose_one">Vyberte jedno…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Vymazat</string>
+    <string name="intercom_close">Zavřít</string>
+    <string name="intercom_congratulations">Blahopřejeme</string>
+    <string name="intercom_connected">Jste připojeni</string>
+    <string name="intercom_continue_the_conversation">Pokračovat v konverzaci</string>
+    <string name="intercom_conversation_card_office_hours_header">Kdy budeme opět online</string>
+    <string name="intercom_conversation_card_reply_time_header">Naše obvyklá doba odpovědi</string>
+    <string name="intercom_conversation_has_ended">Vaše konverzace skončila</string>
+    <string name="intercom_conversations">Konverzace</string>
+    <string name="intercom_conversations_with_app">Konverzace s {name}</string>
+    <string name="intercom_copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="intercom_couldnt_complete_action">Tuto akci nelze dokončit</string>
+    <string name="intercom_couldnt_load_apps">Aplikaci nebylo možné nahrát.</string>
+    <string name="intercom_couldnt_load_content">Obsah nelze načíst</string>
+    <string name="intercom_couldnt_load_messenger">Messenger nebylo možné nahrát.</string>
+    <string name="intercom_delivered">Doručeno</string>
+    <string name="intercom_disappointed_face_emoji">Zklamaný obličej</string>
+    <string name="intercom_dismiss">Odmítnuto</string>
+    <string name="intercom_empty_conversations">S uživatelem {name} ještě nemáte žádnou konverzaci</string>
+    <string name="intercom_error_loading_conversation">Nelze načíst konverzaci</string>
+    <string name="intercom_expected_response_delay_10800">do 3 hodin</string>
+    <string name="intercom_expected_response_delay_1200">do 20 minut</string>
+    <string name="intercom_expected_response_delay_14400">do 4 hodin</string>
+    <string name="intercom_expected_response_delay_172800">2 dny</string>
+    <string name="intercom_expected_response_delay_1800">do 30 minut</string>
+    <string name="intercom_expected_response_delay_18000">do 5 hodin</string>
+    <string name="intercom_expected_response_delay_21600">do 6 hodin</string>
+    <string name="intercom_expected_response_delay_300">do 5 minut</string>
+    <string name="intercom_expected_response_delay_3600">do 1 hodiny</string>
+    <string name="intercom_expected_response_delay_600">do 10 minut</string>
+    <string name="intercom_expected_response_delay_604800">do 1 týdne</string>
+    <string name="intercom_expected_response_delay_7200">do 2 hodin</string>
+    <string name="intercom_expected_response_delay_86400">1 den</string>
+    <string name="intercom_facebook_like">Lajkněte nás na Facebooku</string>
+    <string name="intercom_failed_delivery">Nepodařilo se doručit vaši zprávu</string>
+    <string name="intercom_failed_to_load_conversation">Nelze načíst vaše konverzace</string>
+    <string name="intercom_failed_to_send">Nelze odeslat</string>
+    <string name="intercom_file_access_failed">Nelze získat přístup k tomuto souboru</string>
+    <string name="intercom_file_too_big">Nelze odeslat soubory nad 40 MB</string>
+    <string name="intercom_get_help">Získat pomoc</string>
+    <string name="intercom_gif_attribution">prostřednictvím {providername}</string>
+    <string name="intercom_gifs_load_error">Nelze nahrát žádné soubory GIF</string>
+    <string name="intercom_give_it_another_try">Zkuste to znovu</string>
+    <string name="intercom_go_to_device_settings">Abyste povolili přístup, přejděte do nastavení menu vaší aplikace</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Zubící se obličej s velkýma očima</string>
+    <string name="intercom_help_center">Centrum nápovědy</string>
+    <string name="intercom_how_can_we_help">Jak vám můžeme pomoci?</string>
+    <string name="intercom_image_attached">(obrázek v příloze)</string>
+    <string name="intercom_inbox_error_state_title">Došlo k chybě</string>
+    <string name="intercom_loading">Načítání</string>
+    <string name="intercom_message_failed_try_again">Nelze odeslat, klepnutím opakujte</string>
+    <string name="intercom_message_seen">Je viděno</string>
+    <string name="intercom_message_state_sending">Odesíláno…</string>
+    <string name="intercom_message_unseen">Zatím nebylo viděno</string>
+    <string name="intercom_name_and_1_other">{name} a 1 další</string>
+    <string name="intercom_name_and_x_others">{name} a {count} dalších</string>
+    <string name="intercom_navigation_back">Zpět</string>
+    <string name="intercom_neutral_face_emoji">Obličej s neutrálním výrazem</string>
+    <string name="intercom_new_conversation">Nová konverzace</string>
+    <string name="intercom_new_message">Nová zpráva</string>
+    <string name="intercom_new_messages">Máte {n} nových zpráv</string>
+    <string name="intercom_new_notifications">Nová oznámení</string>
+    <string name="intercom_no_articles_to_display">Žádné články k zobrazení</string>
+    <string name="intercom_no_conversations">Žádné konverzace</string>
+    <string name="intercom_no_gifs_found">Nebyly nalezeny žádné soubory GIF</string>
+    <string name="intercom_no_gifs_matching_query">Nepodařilo se nám najít žádné soubory GIF odpovídající vašemu dotazu</string>
+    <string name="intercom_no_messages_from_the_team">Žádné zprávy od týmu</string>
+    <string name="intercom_no_network_connection">Žádné připojení k síti</string>
+    <string name="intercom_no_photos">Žádné fotografie</string>
+    <string name="intercom_no_photos_on_device">Na tomto zařízení nejsou žádné fotografie</string>
+    <string name="intercom_no_results_for_searchterm">Žádné výsledky pro {searchTerm}</string>
+    <string name="intercom_not_now">Teď ne</string>
+    <string name="intercom_nothing_to_see_here_yet">Nic k zobrazení</string>
+    <string name="intercom_notification_channel_actions_description">Zahrnout odkazy na provedení akce v této aplikaci</string>
+    <string name="intercom_notification_channel_actions_title">Akce</string>
+    <string name="intercom_notification_channel_chat_replies_description">Odpovědět na oznámení z chatů v této aplikaci</string>
+    <string name="intercom_notification_channel_chat_replies_title">Odpovědi na chaty</string>
+    <string name="intercom_notification_channel_new_chats_description">Nové zprávy z chatů odeslané z této aplikace</string>
+    <string name="intercom_notification_channel_new_chats_title">Nové chaty</string>
+    <string name="intercom_number_is_incorrect">Toto číslo nevypadá zcela správně</string>
+    <string name="intercom_one_new_message">Máte novou zprávu</string>
+    <string name="intercom_page_not_found">Tato stránka už tu není</string>
+    <string name="intercom_permission_denied">Toto oprávnění bylo zamítnuto</string>
+    <string name="intercom_photo_access_denied">Odmítli jste přístup k vašim fotografiím</string>
+    <string name="intercom_plus_x_more">+{n} více</string>
+    <string name="intercom_profile_location">{time} v {location}</string>
+    <string name="intercom_rate_your_conversation">Ohodnoťte konverzaci</string>
+    <string name="intercom_reload">Načíst znovu</string>
+    <string name="intercom_reply">Odpovědět</string>
+    <string name="intercom_reply_from_admin">Odpověď od {name}</string>
+    <string name="intercom_reply_to_conversation">Napsat odpověď</string>
+    <string name="intercom_retry">Zkusit znovu</string>
+    <string name="intercom_search_browse_empty_state_text">Je nám líto, ale na to jsme nedokázali najít žádné výsledky. Zkuste přeformulovat vyhledávání.</string>
+    <string name="intercom_search_for_help">Vyhledat pomoc</string>
+    <string name="intercom_search_gif">Vyhledat soubory GIF…</string>
+    <string name="intercom_search_help_articles">Vyhledat články nápovědy</string>
+    <string name="intercom_see_all">Zobrazit vše</string>
+    <string name="intercom_see_all_conversations">Podívejte se na všechny vaše konverzace</string>
+    <string name="intercom_see_past_conversations">Zobrazit dřívější konverzace</string>
+    <string name="intercom_see_previous_conversations">Podívejte se na předchozí konverzace</string>
+    <string name="intercom_send">Odeslat</string>
+    <string name="intercom_send_us_a_message">Pošlete nám zprávu</string>
+    <string name="intercom_some_things_failed_to_load">Některé věci se nepodařilo načíst. Zkuste to znovu.</string>
+    <string name="intercom_something_went_wrong_try_again">Něco se pokazilo. Zkuste to znovu.</string>
+    <string name="intercom_start_a_conversation">Zahájit konverzaci</string>
+    <string name="intercom_start_another_conversation">Zahájit další konverzaci</string>
+    <string name="intercom_start_conversation">Zahájit konverzaci</string>
+    <string name="intercom_storage_access_request">Chcete-li zobrazit své fotografie, musíte povolit přístup k úložišti</string>
+    <string name="intercom_string_is_incorrect">Nevypadá to zcela správně</string>
+    <string name="intercom_submit">Odeslat</string>
+    <string name="intercom_tap_to_send_image">Klepnutím odešlete fotografii</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} zpravidla odpoví během dne.</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} obvykle odpoví do jednoho pracovního dne</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} obvykle odpoví do dvou pracovních dnů</string>
+    <string name="intercom_teammate_from_company">{name} z {company}</string>
+    <string name="intercom_tell_us_more">Řekněte nám více…</string>
+    <string name="intercom_tell_us_what_you_need">Řekněte nám, s čím potřebujete pomoci a náš robot udělá vše pro to, aby vám odpověděl</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Děkujeme! Tým odpoví do jednoho pracovního dne</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Děkujeme! Tým odpoví do dvou pracovních dnů</string>
+    <string name="intercom_thanks_for_letting_us_know">Děkujeme za Váš názor</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Děkujeme! Tým odpoví co nejdříve to bude možné.</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Tento kód země nevypadá zcela správně</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Ten e-mail nevypadá zcela správně</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Toto číslo nevypadá zcela správně</string>
+    <string name="intercom_that_number_has_too_many_digits">Toto číslo obsahuje příliš mnoho číslic</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">V tomto čísle chybí několik číslic</string>
+    <string name="intercom_that_number_needs_a_prefix">Toto číslo vyžaduje předčíslí (+ nebo 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">V případě potřeby může pomoci tým</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Tým obvykle odpoví do několika hodin.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Tým obvykle odpoví do jednoho pracovního dne.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Tým obvykle odpoví do dvou pracovních dnů</string>
+    <string name="intercom_time_day_ago">Před {delta} dny</string>
+    <string name="intercom_time_future_1h">1 hodina</string>
+    <string name="intercom_time_future_2h">2 hodiny</string>
+    <string name="intercom_time_future_30m">30 minut</string>
+    <string name="intercom_time_future_3h">3 hodiny</string>
+    <string name="intercom_time_future_day_0">Pondělí</string>
+    <string name="intercom_time_future_day_1">Úterý</string>
+    <string name="intercom_time_future_day_2">Středa</string>
+    <string name="intercom_time_future_day_3">Čtvrtek</string>
+    <string name="intercom_time_future_day_4">Pátek</string>
+    <string name="intercom_time_future_day_5">Sobota</string>
+    <string name="intercom_time_future_day_6">Neděle</string>
+    <string name="intercom_time_future_later_today">Později dnes</string>
+    <string name="intercom_time_future_next_week">Příští týden</string>
+    <string name="intercom_time_future_tomorrow">Zítra</string>
+    <string name="intercom_time_hour_ago">Před {delta} hod.</string>
+    <string name="intercom_time_just_now">Právě teď</string>
+    <string name="intercom_time_minute_ago">Před {delta} min.</string>
+    <string name="intercom_time_week_ago">Před {delta} týd.</string>
+    <string name="intercom_time_yesterday">včera</string>
+    <string name="intercom_try_again">Zkuste to znovu</string>
+    <string name="intercom_try_again_minute">Za chvíli to zkuste znovu.</string>
+    <string name="intercom_try_use_different_keywords">Zkuste použít jiná klíčová slova nebo napište celou otázku</string>
+    <string name="intercom_twitter_follow">Sledujte nás na Twitteru</string>
+    <string name="intercom_two_business_days">Dva pracovní dny</string>
+    <string name="intercom_type_a_number">Napište číslo…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Obvykle odpoví do jednoho pracovního dne</string>
+    <string name="intercom_typically_replies_in_two_business_days">Obvykle odpoví do dvou pracovních dnů</string>
+    <string name="intercom_upfront_collection_form_close_out">Můžete se sem kdykoli vrátit, zobrazit si odpovědi a odeslat aktualizace.</string>
+    <string name="intercom_upfront_collection_form_introduction">Sdílejte nějaký kontext, který pomůže týmu reagovat lépe a rychleji.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Díky, že jste nám poslali tento kontext. Chcete-li později ušetřit čas, neváhejte a již nyní přidejte další podrobnosti.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Pošlete týmu nějaký kontext</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Budou na tento kontext pamatovat</string>
+    <string name="intercom_upfront_collection_form_title">Získejte pomoc rychleji</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Odesláno týmu!</string>
+    <string name="intercom_we_run_on_intercom">Pracujeme s platformou Intercom</string>
+    <string name="intercom_you">Vy</string>
+    <string name="intercom_you_rated_the_conversation">Konverzaci jste ohodnotili</string>
+    <string name="intercom_your_conversations">Vaše konverzace</string>
+    <string name="item_view_role_description">Karta</string>
+    <string name="material_clock_toggle_content_description">Vyberte AM nebo PM</string>
+    <string name="material_hour_selection">Vyberte hodinu</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Zvolte minuty</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Chcete-li zadat čas, přepněte na režim hodin.</string>
+    <string name="material_timepicker_hour">Hodina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Vyberte čas</string>
+    <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
+    <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
+    <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vyberte datum</string>
+    <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
+    <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
+    <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
+    <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="password_toggle_content_description">Zobrazit heslo</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Pokračovat"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Režim náhledu byl aktualizován."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Náhled"</string>
+</resources>

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenLoader with a custom testID renders the ScreenLoader component correctly with the provided testID 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.6)",
+      "display": "flex",
+      "flexDirection": "column-reverse",
+      "height": "100%",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+  testID="aCustomID"
+>
+  <View
+    animated={true}
+    animationConfig={
+      Object {
+        "bounciness": 0,
+      }
+    }
+    animationType="spring"
+    indeterminate={true}
+    indeterminateAnimationDuration={1000}
+    onLayout={[Function]}
+    progress={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "borderColor": "#12A3BE",
+          "borderRadius": 0,
+          "borderWidth": 0,
+          "overflow": "hidden",
+          "width": null,
+        },
+        undefined,
+      ]
+    }
+    testID="progress-bar"
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#12A3BE",
+          "height": 6,
+          "transform": Array [
+            Object {
+              "translateX": -0,
+            },
+            Object {
+              "translateX": -0,
+            },
+            Object {
+              "scaleX": 0.30007,
+            },
+          ],
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`ScreenLoader with the default props renders the ScreenLoader component correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.6)",
+      "display": "flex",
+      "flexDirection": "column-reverse",
+      "height": "100%",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+  testID="screenLoader"
+>
+  <View
+    animated={true}
+    animationConfig={
+      Object {
+        "bounciness": 0,
+      }
+    }
+    animationType="spring"
+    indeterminate={true}
+    indeterminateAnimationDuration={1000}
+    onLayout={[Function]}
+    progress={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "borderColor": "#12A3BE",
+          "borderRadius": 0,
+          "borderWidth": 0,
+          "overflow": "hidden",
+          "width": null,
+        },
+        undefined,
+      ]
+    }
+    testID="progress-bar"
+    useNativeDriver={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#12A3BE",
+          "height": 6,
+          "transform": Array [
+            Object {
+              "translateX": -0,
+            },
+            Object {
+              "translateX": -0,
+            },
+            Object {
+              "scaleX": 0.30007,
+            },
+          ],
+        }
+      }
+    />
+  </View>
+</View>
+`;

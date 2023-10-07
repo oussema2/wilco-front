@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightListItem /> with the default props renders the FlightListItem component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": 40,
+      "marginTop": 4,
+    }
+  }
+  testID="testing-FlightListItem-Component"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 40,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      accessibilityRole="checkbox"
+      accessibilityState={
+        Object {
+          "checked": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "margin": 0,
+          "marginLeft": 10,
+          "marginRight": 10,
+          "opacity": 1,
+          "padding": 0,
+          "width": 20,
+        }
+      }
+      testID="checkbox"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#bfbfbf",
+                "fontSize": 24,
+              },
+              Object {
+                "minWidth": 24,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "maxWidth": 55,
+            "textTransform": "uppercase",
+          }
+        }
+        testID="departureAirport-Text"
+      >
+        KHPN
+      </Text>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 4,
+            "marginVertical": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "height": 15,
+                "width": 15,
+              },
+            ]
+          }
+        >
+          <FastImageView
+            resizeMode="cover"
+            source={
+              Object {
+                "testUri": "../../../src/assets/icons/arrowRight.png",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="rightArrow-Image"
+            tintColor="#A0A0A0"
+          />
+        </View>
+      </View>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "maxWidth": 55,
+            "textTransform": "uppercase",
+          }
+        }
+        testID="arrivalAirport-Text"
+      >
+        JFK
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#767676",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+          }
+        }
+      >
+        22:41
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#5B5B5B",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 13,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "marginHorizontal": 8,
+          }
+        }
+        testID="hourSeparator-Text"
+      >
+        •
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#767676",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+          }
+        }
+      >
+        23:42
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "NotoSansJP-Regular",
+          "fontSize": 14,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "textAlign": "right",
+        }
+      }
+    >
+      06/29
+    </Text>
+  </View>
+</View>
+`;

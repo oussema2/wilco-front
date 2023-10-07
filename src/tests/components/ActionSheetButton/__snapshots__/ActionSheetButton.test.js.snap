@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionSheetButton /> with the default props renders the ActionSheetButton component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="action-sheet-button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#2089dc",
+          "borderRadius": 0,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 52,
+          "justifyContent": "center",
+          "padding": 0,
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;

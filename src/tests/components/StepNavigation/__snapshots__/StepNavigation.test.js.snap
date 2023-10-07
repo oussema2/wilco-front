@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepNavigation with the default props renders the StepNavigation component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        null,
+      ]
+    }
+    testID="horizontalPadding-component"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minHeight": 44,
+        }
+      }
+      testID="navigationBar-component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "minHeight": 44,
+            },
+            Object {
+              "flex": 0.25,
+              "justifyContent": "flex-start",
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 15,
+              "left": 15,
+              "right": 15,
+              "top": 15,
+            }
+          }
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/icons/chevronLeft.png",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "width": 20,
+              }
+            }
+            testID="backArrow-image"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "minHeight": 44,
+            },
+            Object {
+              "flex": 0.5,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+          testID="FirstStep-component"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#12A3BE",
+                "borderRadius": 5,
+                "height": 8,
+                "marginRight": 8,
+                "width": 24,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#D3D3D3",
+                "borderRadius": 5,
+                "height": 8,
+                "marginRight": 8,
+                "width": 24,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "minHeight": 44,
+            },
+            Object {
+              "flex": 0.25,
+              "justifyContent": "flex-end",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 20,
+            }
+          }
+          testID="rightPlaceholder-view"
+        />
+      </View>
+    </View>
+  </View>
+  <RNCViewPager
+    layoutDirection="ltr"
+    onMoveShouldSetResponderCapture={[Function]}
+    onPageScroll={[Function]}
+    onPageScrollStateChanged={[Function]}
+    onPageSelected={[Function]}
+  >
+    <View
+      collapsable={false}
+      style={
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+            "height": undefined,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": undefined,
+          },
+        ]
+      }
+      testID="step_one"
+    >
+      <Text>
+        Step one
+      </Text>
+    </View>
+    <View
+      collapsable={false}
+      style={
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+            "height": undefined,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": undefined,
+          },
+        ]
+      }
+      testID="step_two"
+    >
+      <Text>
+        Step two
+      </Text>
+    </View>
+  </RNCViewPager>
+</View>
+`;

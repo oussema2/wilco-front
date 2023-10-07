@@ -1,0 +1,3760 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Members when the app is refreshing renders the PostDetail screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={false}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={true}
+              />
+            }
+            refreshing={true}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`Members with members when the app finished to load members renders the Members screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={false}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={false}
+              />
+            }
+            refreshing={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`Members with members when the app is loading members hides members from store 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={true}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={false}
+              />
+            }
+            refreshing={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="gray"
+                    size="large"
+                    testID="activityIndicator-testID"
+                  />
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`Members with members when the app is loading members renders a loading component initially 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={true}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={false}
+              />
+            }
+            refreshing={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="gray"
+                    size="large"
+                    testID="activityIndicator-testID"
+                  />
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`Members without members when the app finished to load members renders the Members screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={false}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={false}
+              />
+            }
+            refreshing={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`Members without members when the app is loading members renders a loading component initially 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="members-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "marginBottom": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "minHeight": 60,
+            }
+          }
+          testID="title-header"
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 32,
+                "fontWeight": undefined,
+                "letterSpacing": -1,
+                "lineHeight": 40,
+              }
+            }
+            testID="header-text"
+          >
+            Members
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityRole="tablist"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "position": "relative",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "All members",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              All members
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 3,
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Array [
+              Object {
+                "borderRadius": 0,
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+              },
+            ],
+            false,
+          ]
+        }
+      >
+        <View
+          accessibilityRole="tab"
+          accessibilityState={
+            Object {
+              "disabled": false,
+              "selected": false,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "text": "Chats",
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "NotoSansJP-Medium",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "paddingHorizontal": 16,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                  "textTransform": "none",
+                }
+              }
+            >
+              Chats
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "bottom": 0,
+            "display": "flex",
+            "height": 2,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View />
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 1500,
+        }
+      }
+      testID="tabView-test"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          <RCTScrollView
+            ListFooterComponent={
+              <ActivityIndicator
+                color="gray"
+                containerStyle={
+                  Object {
+                    "marginBottom": 30,
+                    "marginTop": 0,
+                    "paddingVertical": 0,
+                    "position": "relative",
+                  }
+                }
+                isLoading={true}
+                size="large"
+                testID="activityIndicator-testID"
+              />
+            }
+            ListHeaderComponent={
+              <View
+                style={
+                  Object {
+                    "height": 32,
+                  }
+                }
+              />
+            }
+            data={null}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onEndReached={[Function]}
+            onEndReachedThreshold={0.5}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onRefresh={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            refreshControl={
+              <RefreshControlMock
+                onRefresh={[Function]}
+                refreshing={false}
+              />
+            }
+            refreshing={false}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            testID="members-flatList"
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <RCTRefreshControl />
+            <View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 32,
+                    }
+                  }
+                />
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 30,
+                      "marginTop": 0,
+                      "paddingVertical": 0,
+                      "position": "relative",
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="gray"
+                    size="large"
+                    testID="activityIndicator-testID"
+                  />
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "stretch",
+            "flex": 1,
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          onMoveShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flex": 1,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "default": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                  "web": Object {
+                    "error": "#ff190c",
+                    "grey": "#393e42",
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+        >
+          mocked component
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;

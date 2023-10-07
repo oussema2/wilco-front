@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadMoreText ReadMoreText component with the default props renders the ReadMoreText component correctly 1`] = `
+<View
+  testID="read-more-testID"
+>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="clip"
+      numberOfLines={2}
+      onPress={[Function]}
+      style={Object {}}
+      text=""
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ReadMoreText ReadMoreText component without default props renders the ReadMoreText component correctly 1`] = `
+<View
+  testID="test-testID"
+>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="clip"
+      numberOfLines={2}
+      onPress={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      style={Object {}}
+      text=""
+    >
+      Text for test ReadMoreText component.
+    </Text>
+  </View>
+</View>
+`;

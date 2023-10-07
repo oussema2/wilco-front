@@ -1,0 +1,16 @@
+aero/rogerwilco/app/BuildConfig.java
+ aero.rogerwilco.app.BuildConfig
+aero/rogerwilco/app/ReactNativeFlipper.java
+ aero.rogerwilco.app.ReactNativeFlipper
+ aero.rogerwilco.app.ReactNativeFlipper$1
+ aero.rogerwilco.app.ReactNativeFlipper$2
+ aero.rogerwilco.app.ReactNativeFlipper$2$1
+aero/rogerwilco/app/MainActivity.java
+ aero.rogerwilco.app.MainActivity
+aero/rogerwilco/app/CustomMMKVJSIModulePackage.java
+ aero.rogerwilco.app.CustomMMKVJSIModulePackage
+aero/rogerwilco/app/MainApplication.java
+ aero.rogerwilco.app.MainApplication
+ aero.rogerwilco.app.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

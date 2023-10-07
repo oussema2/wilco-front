@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Snackbar /> when is a success message renders the Snackbar as success 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  pointerEvents="box-none"
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLiveRegion="polite"
+    collapsable={false}
+    nativeID="animatedComponent"
+    pointerEvents="box-none"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#000000",
+        "borderRadius": 8,
+        "color": "#FFFFFF",
+        "elevation": 6,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 8,
+        "marginBottom": 50,
+        "marginHorizontal": 8,
+        "minHeight": 67,
+        "opacity": 0,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 6,
+        "transform": Array [
+          Object {
+            "scale": 0.9,
+          },
+        ],
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexWrap": "wrap",
+              "marginLeft": 16,
+              "marginVertical": 14,
+            },
+            Object {
+              "color": "#ffffff",
+              "marginRight": 16,
+            },
+          ],
+        ]
+      }
+    >
+      A message
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`<Snackbar /> when is an error message renders the Snackbar as error 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  pointerEvents="box-none"
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLiveRegion="polite"
+    collapsable={false}
+    nativeID="animatedComponent"
+    pointerEvents="box-none"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00A86F",
+        "borderRadius": 8,
+        "color": "#FFFFFF",
+        "elevation": 6,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 8,
+        "marginBottom": 50,
+        "marginHorizontal": 8,
+        "minHeight": 67,
+        "opacity": 0,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 6,
+        "transform": Array [
+          Object {
+            "scale": 0.9,
+          },
+        ],
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexWrap": "wrap",
+              "marginLeft": 16,
+              "marginVertical": 14,
+            },
+            Object {
+              "color": "#ffffff",
+              "marginRight": 16,
+            },
+          ],
+        ]
+      }
+    >
+      A message
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`<Snackbar /> when the snackbar is not visible renders the Snackbar as not visible 1`] = `null`;
+
+exports[`<Snackbar /> when the snackbar is visible renders the Snackbar as info 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  pointerEvents="box-none"
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLiveRegion="polite"
+    collapsable={false}
+    nativeID="animatedComponent"
+    pointerEvents="box-none"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#000000",
+        "borderRadius": 8,
+        "color": "#FFFFFF",
+        "elevation": 6,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 8,
+        "marginBottom": 50,
+        "marginHorizontal": 8,
+        "minHeight": 67,
+        "opacity": 0,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 6,
+        "transform": Array [
+          Object {
+            "scale": 0.9,
+          },
+        ],
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+          },
+          Object {
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "flex": 1,
+              "flexWrap": "wrap",
+              "marginLeft": 16,
+              "marginVertical": 14,
+            },
+            Object {
+              "color": "#ffffff",
+              "marginRight": 16,
+            },
+          ],
+        ]
+      }
+    >
+      A message
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

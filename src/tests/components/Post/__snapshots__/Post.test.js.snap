@@ -1,0 +1,1057 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post with the default props renders the Post component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 24,
+        "paddingTop": 16,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+    ]
+  }
+  testID="testing-Post"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        null,
+      ]
+    }
+    testID="horizontalPadding-component"
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "minHeight": 44,
+        }
+      }
+      testID="headerView-component"
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "minHeight": 44,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 22,
+              "height": 44,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 44,
+                  "justifyContent": "center",
+                }
+              }
+              testID="userAvatar-image"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 68,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  onFastImageLoadEnd={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "uri": "http://profile/picture/url",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="image"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "bottom": 0,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "aspectRatio": 1,
+                      "backgroundColor": "#A0A0A0",
+                      "borderRadius": 68,
+                      "display": "flex",
+                      "height": 44,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "overflow": "hidden",
+                        },
+                        Object {
+                          "aspectRatio": 1,
+                          "height": 24,
+                          "width": 32,
+                        },
+                      ]
+                    }
+                  >
+                    <FastImageView
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "testUri": "../../../src/assets/icons/user.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                      testID="userAvatar-image-loader"
+                      tintColor="#FFFFFF"
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+              "marginLeft": 10,
+              "marginVertical": 2,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#1F2E4E",
+                  "flexWrap": "wrap",
+                  "fontFamily": "NotoSansJP-Bold",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+              testID="pilotName-text"
+            >
+              <Text>
+                Pilot name
+              </Text>
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "flexWrap": "wrap",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 12,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 16,
+                }
+              }
+              testID="bodyInfo-text"
+            >
+              1h
+              <Text
+                style={
+                  Object {
+                    "color": "#5B5B5B",
+                    "fontFamily": "NotoSansJP-Regular",
+                    "fontSize": 12,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 16,
+                  }
+                }
+                testID="bodySecondaryInfoSeparator-Text"
+              >
+                  •  
+              </Text>
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/icons/privacyPublic.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 11.67,
+                    "width": 11.67,
+                  }
+                }
+                testID="public-post"
+              />
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/icons/meatballsMenu.png",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "marginTop": 1,
+                "width": 20,
+              }
+            }
+            testID="options-image"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "NotoSansJP-Regular",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "marginTop": 8,
+          }
+        }
+        testID="MentionText-testID"
+      >
+        <Text
+          style={Object {}}
+          testID="autolink-testID"
+        />
+      </Text>
+    </View>
+    <RCTScrollView
+      horizontal={true}
+      showsHorizontalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "marginTop": 16,
+              "minHeight": 52,
+            }
+          }
+          testID="post-flight-presenter"
+        >
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "marginRight": 24,
+              }
+            }
+            testID="origin-and-destination"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "NotoSansJP-Bold",
+                    "fontSize": 14,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 20,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                ABC
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#767676",
+                    "fontFamily": "NotoSansJP-Regular",
+                    "fontSize": 14,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 20,
+                  }
+                }
+              >
+                23:04
+              </Text>
+            </View>
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/arrowRight.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 18,
+                  "margin": 7,
+                  "tintColor": "#A0A0A0",
+                  "width": 18,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "NotoSansJP-Bold",
+                    "fontSize": 14,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 20,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                DEF
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#767676",
+                    "fontFamily": "NotoSansJP-Regular",
+                    "fontSize": 14,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 20,
+                  }
+                }
+              >
+                5:32
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "marginRight": 24,
+              }
+            }
+            testID="aircraft-info"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+              testID="Avatar-Component"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "height": 12,
+                      "marginLeft": 2,
+                      "width": 14,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  onFastImageLoadEnd={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/aircraft.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="image"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "bottom": 0,
+                    "justifyContent": "center",
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "aspectRatio": 1,
+                      "backgroundColor": "#A0A0A0",
+                      "borderRadius": 68,
+                      "display": "flex",
+                      "height": 28,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "overflow": "hidden",
+                        },
+                        Object {
+                          "height": 12,
+                          "marginLeft": 2,
+                          "width": 14,
+                        },
+                      ]
+                    }
+                  >
+                    <FastImageView
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "testUri": "../../../src/assets/icons/aircraft.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                      testID="Avatar-Component-loader"
+                      tintColor="#FFFFFF"
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Cessna 123
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "marginRight": 24,
+              }
+            }
+            testID="duration-info"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/stopwatch.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 2,
+                  "tintColor": "#1F2E4E",
+                  "width": 24,
+                }
+              }
+              testID="flightInfoImage-component"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              340 m
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "marginRight": 24,
+              }
+            }
+            testID="max-speed-info"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/speed.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 2,
+                  "tintColor": "#1F2E4E",
+                  "width": 24,
+                }
+              }
+              testID="flightInfoImage-component"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              2421 kn
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "marginRight": 24,
+              }
+            }
+            testID="max-altitude-info"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/rulerVertical.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 2,
+                  "tintColor": "#1F2E4E",
+                  "width": 24,
+                }
+              }
+              testID="flightInfoImage-component"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              6320 ft
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "space-between",
+                "marginRight": 24,
+              }
+            }
+            testID="distance-info"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/route.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 2,
+                  "tintColor": "#1F2E4E",
+                  "width": 24,
+                }
+              }
+              testID="flightInfoImage-component"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#767676",
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              3123 mi
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      testID="image-carousel"
+    >
+      <RCTScrollView
+        CellRendererComponent={[Function]}
+        activeSlideAlignment="center"
+        activeSlideOffset={20}
+        apparitionDelay={0}
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDelay={1000}
+        autoplayInterval={3000}
+        callbackOffsetMargin={5}
+        containerCustomStyle={Object {}}
+        contentContainerCustomStyle={Object {}}
+        contentContainerStyle={
+          Array [
+            Object {
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            },
+            Object {},
+          ]
+        }
+        data={Array []}
+        decelerationRate="fast"
+        directionalLockEnabled={true}
+        disableScrollViewPanResponder={false}
+        enableSnap={true}
+        firstItem={0}
+        forwardedRef={[Function]}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        getItemLayout={[Function]}
+        hasParallaxImages={false}
+        horizontal={true}
+        inactiveSlideOpacity={0.7}
+        inactiveSlideScale={0.9}
+        inactiveSlideShift={0}
+        initialNumToRender={6}
+        initialScrollIndex={0}
+        invertStickyHeaders={false}
+        inverted={false}
+        itemWidth={750}
+        keyExtractor={[Function]}
+        layout="default"
+        loop={false}
+        loopClonesPerSide={3}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        onScrollIndexChanged={[Function]}
+        onSnapToItem={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        overScrollMode="never"
+        pinchGestureEnabled={false}
+        pointerEvents="auto"
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEnabled={true}
+        scrollEventThrottle={1}
+        scrollsToTop={false}
+        shouldOptimizeUpdates={true}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        slideStyle={Object {}}
+        sliderWidth={750}
+        snapToOffsets={Array []}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "flexDirection": "row",
+            "width": 750,
+          }
+        }
+        useExperimentalSnap={false}
+        useScrollView={false}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={3}
+      >
+        <View />
+      </RCTScrollView>
+      <View
+        testID="pagination-testID"
+      />
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 20,
+          },
+          null,
+        ]
+      }
+      testID="horizontalPadding-component"
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-evenly",
+            "marginTop": 24,
+            "paddingBottom": 20,
+          }
+        }
+        testID="post-action-bar"
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+            testID="action-bar-like-count"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/thumbsUp.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 16.67,
+                  "tintColor": "#5B5B5B",
+                  "width": 16.67,
+                }
+              }
+              testID="like-count-image"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#5B5B5B",
+                  "fontFamily": "NotoSansJP-Bold",
+                  "fontSize": 13,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "marginLeft": 9.67,
+                }
+              }
+              testID="like-count-text"
+            >
+              1 like
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+            testID="post-comment-count"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/comment.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 14.58,
+                  "tintColor": "#5B5B5B",
+                  "width": 16.67,
+                }
+              }
+              testID="comment-count-image"
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#5B5B5B",
+                  "fontFamily": "NotoSansJP-Bold",
+                  "fontSize": 13,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                  "marginLeft": 9.67,
+                }
+              }
+              testID="comment-count-text"
+            >
+              0 comments
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <BVLinearGradient
+      colors={
+        Array [
+          4294111986,
+          4294967295,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 1,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    testID="preview-comments-component"
+  />
+</View>
+`;

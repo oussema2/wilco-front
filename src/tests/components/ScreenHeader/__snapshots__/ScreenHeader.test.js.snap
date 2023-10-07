@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenHeader with rightButton renders the right button correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+    }
+  }
+  testID="screenHeader-view"
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 32,
+        "fontWeight": undefined,
+        "letterSpacing": -1,
+        "lineHeight": 40,
+      }
+    }
+    testID="header-text"
+  >
+    
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="rightButton-TextButton"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#D60A50",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Right Button Title
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ScreenHeader with the default props renders the ScreenHeader component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+    }
+  }
+  testID="screenHeader-view"
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 32,
+        "fontWeight": undefined,
+        "letterSpacing": -1,
+        "lineHeight": 40,
+      }
+    }
+    testID="header-text"
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`ScreenHeader with title renders the title correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+    }
+  }
+  testID="screenHeader-view"
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 32,
+        "fontWeight": undefined,
+        "letterSpacing": -1,
+        "lineHeight": 40,
+      }
+    }
+    testID="header-text"
+  >
+    title
+  </Text>
+</View>
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MentionInput /> with a capitalizeFirstLetter renders the MentionInput component correctly 1`] = `
+<View>
+  <TextInput
+    autoCapitalize="sentences"
+    minimumLines={5}
+    multiline={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    onSelectionChange={[Function]}
+    placeholder=""
+    scrollEnabled={false}
+    style={
+      Object {
+        "backgroundColor": "#F2F2F2",
+        "borderRadius": 8,
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "maxHeight": undefined,
+        "minHeight": 48,
+        "paddingBottom": 16,
+        "paddingHorizontal": 12,
+        "paddingTop": 16,
+        "textAlignVertical": "top",
+      }
+    }
+    testID="testing-MentionInput-Component"
+  >
+    <Text>
+      <Text>
+        
+      </Text>
+    </Text>
+  </TextInput>
+  <RCTScrollView
+    keyboardShouldPersistTaps="always"
+    style={0}
+    testID="pilotSuggestions-testID"
+  >
+    <View />
+  </RCTScrollView>
+  <RCTScrollView
+    keyboardShouldPersistTaps="always"
+    style={0}
+    testID="hashtagSuggestions-testID"
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<MentionInput /> with the default props renders the MentionInput component correctly 1`] = `
+<View>
+  <TextInput
+    autoCapitalize="none"
+    minimumLines={5}
+    multiline={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    onSelectionChange={[Function]}
+    placeholder=""
+    scrollEnabled={false}
+    style={
+      Object {
+        "backgroundColor": "#F2F2F2",
+        "borderRadius": 8,
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "maxHeight": undefined,
+        "minHeight": 48,
+        "paddingBottom": 16,
+        "paddingHorizontal": 12,
+        "paddingTop": 16,
+        "textAlignVertical": "top",
+      }
+    }
+    testID="testing-MentionInput-Component"
+  >
+    <Text>
+      <Text>
+        
+      </Text>
+    </Text>
+  </TextInput>
+  <RCTScrollView
+    keyboardShouldPersistTaps="always"
+    style={0}
+    testID="pilotSuggestions-testID"
+  >
+    <View />
+  </RCTScrollView>
+  <RCTScrollView
+    keyboardShouldPersistTaps="always"
+    style={0}
+    testID="hashtagSuggestions-testID"
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

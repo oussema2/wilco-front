@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d naujas pranešimas</item>
+    <item quantity="few">%d nauji pranešimai</item>
+    <item quantity="many">%d naujo pranešimo</item>
+    <item quantity="other">%d naujų pranešimų</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Naršyti aukštyn"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Daugiau parinkčių"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Atlikta"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Žr. viską"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pasirinkite programą"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"IŠJUNGTI"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ĮJUNGTI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"„Alt“ +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"„Ctrl“ +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"„delete“"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"„enter“"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"„Function“ +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"„Meta“ +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"„Shift“ +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"„space“"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"„Sym“ +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"„Menu“ +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Ieškoti…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Išvalyti užklausą"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Paieškos užklausa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Ieškoti"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Pateikti užklausą"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Paieška balsu"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bendrinti su"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant programą „<ns1:g id="APPLICATION_NAME">%s</ns1:g>“"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
+    <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
+    <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
+    <string name="clear_text_end_icon_content_description">Išvalyti tekstą</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Įgalinti</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">„%1$s“ neveiks, jei neįgalinsite „Google Play“ paslaugų.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Įgalinkite „Google Play“ paslaugas</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Įdiegti</string>
+    <string name="common_google_play_services_install_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių nėra įrenginyje.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Gaukite „Google Play“ paslaugas</string>
+    <string name="common_google_play_services_notification_channel_name">„Google Play“ paslaugų pasiekiamumas</string>
+    <string name="common_google_play_services_notification_ticker">„Google Play“ paslaugų klaida</string>
+    <string name="common_google_play_services_unknown_issue">Naudojant programą „%1$s“ kilo problemų dėl „Google Play“ paslaugų. Bandykite dar kartą.</string>
+    <string name="common_google_play_services_unsupported_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių jūsų įrenginys nepalaiko.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Atnaujinti</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">„%1$s“ nebus paleidžiama, jei neatnaujinsite „Google Play“ paslaugų.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Atnaujinkite „Google Play“ paslaugas</string>
+    <string name="common_google_play_services_updating_text">„%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurios šiuo metu atnaujinamos.</string>
+    <string name="common_google_play_services_wear_update_text">Reikia naujos versijos „Google Play“ paslaugų. Jos netrukus bus atnaujintos.</string>
+    <string name="common_open_on_phone">Atidaryti telefone</string>
+    <string name="common_signin_button_text">Prisijungti</string>
+    <string name="common_signin_button_text_long">Prisijungti naudojant „Google“</string>
+    <string name="error_icon_content_description">Klaida</string>
+    <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
+    <string name="fcm_fallback_notification_channel_label">Įvairūs</string>
+    <string name="icon_content_description">Dialogo lango piktograma</string>
+    <string name="intercom_access_background_location_message">Eikite į savo įrenginio nustatymus, kad programa galėtų naudoti jūsų vietą fone</string>
+    <string name="intercom_access_background_location_title">Visada leisti prieigą prie jūsų buvimo vietos</string>
+    <string name="intercom_access_photos">Atsidarykite savo nuotraukas</string>
+    <string name="intercom_active_15m_ago">Aktyvus (-i) pastarąsias {minutes} min.</string>
+    <string name="intercom_active_day_ago">Aktyvus (-i) prieš {days} d.</string>
+    <string name="intercom_active_hour_ago">Aktyvus (-i) prieš {hours} val.</string>
+    <string name="intercom_active_minute_ago">Aktyvus (-i) prieš {minutes} min.</string>
+    <string name="intercom_active_state">Aktyvus</string>
+    <string name="intercom_active_week_ago">Aktyvus (-i) anksčiau nei prieš savaitę</string>
+    <string name="intercom_allow_access">Suteikti prieigą</string>
+    <string name="intercom_allow_storage_access">Norėdami matyti nuotraukas, suteikite prieigą prie atminties</string>
+    <string name="intercom_also_in_this_conversation">Taip pat šiame pokalbyje</string>
+    <string name="intercom_android_activated_message">Jūsų „Android“ programa dabar integruota „Intercom“ platformoje</string>
+    <string name="intercom_app_settings">Programėlių nustatymai</string>
+    <string name="intercom_article_load_error">Nepavyko įkelti straipsnio</string>
+    <string name="intercom_article_question">Ar gavote atsakymą į savo klausimą?</string>
+    <string name="intercom_article_response">Reagavote su</string>
+    <string name="intercom_article_search_hint_text">Ieškoti straipsnių...</string>
+    <string name="intercom_ask_a_question">Užduoti klausimą</string>
+    <string name="intercom_asked_about">Dėl</string>
+    <string name="intercom_attribute_collector_negative">Ne</string>
+    <string name="intercom_attribute_collector_positive">Taip</string>
+    <string name="intercom_away_state">Neaktyvus</string>
+    <string name="intercom_bot">Autoatsakiklis</string>
+    <string name="intercom_bot_expectation_text">Mūsų autoatsakiklis gali atsakyti įdaugelį dažniausiai užduodamų klausimų</string>
+    <string name="intercom_browse_all_help_topics">Naršykite visas pagalbos temas</string>
+    <string name="intercom_browse_collections">Naršyti kolekcijas</string>
+    <string name="intercom_cancel">Atšaukti</string>
+    <string name="intercom_choose_one">Pasirinkite vieną…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Trinti</string>
+    <string name="intercom_close">Uždaryti</string>
+    <string name="intercom_congratulations">Sveikiname</string>
+    <string name="intercom_connected">Esate prisijungę</string>
+    <string name="intercom_continue_the_conversation">Tęsti pokalbį</string>
+    <string name="intercom_conversation_card_office_hours_header">Kada būsime pasiekiami</string>
+    <string name="intercom_conversation_card_reply_time_header">Mūsų įprastas atsakymo laikas</string>
+    <string name="intercom_conversation_has_ended">Jūsų pokalbis baigtas</string>
+    <string name="intercom_conversations">Pokalbiai</string>
+    <string name="intercom_conversations_with_app">Pokalbiai su: „{name}“</string>
+    <string name="intercom_copied_to_clipboard">Nukopijuota į mainų sritį</string>
+    <string name="intercom_couldnt_complete_action">Nepavyko užbaigti šio veiksmo</string>
+    <string name="intercom_couldnt_load_apps">Nepavyko įkelti programėlių.</string>
+    <string name="intercom_couldnt_load_content">Nepavyko įkelti turinio</string>
+    <string name="intercom_couldnt_load_messenger">Nepavyko paleisti „Messenger“.</string>
+    <string name="intercom_delivered">Pristatytas</string>
+    <string name="intercom_disappointed_face_emoji">Nusivylęs veidas</string>
+    <string name="intercom_dismiss">Atmesti</string>
+    <string name="intercom_empty_conversations">Dar nebuvo pokalbių su {name}</string>
+    <string name="intercom_error_loading_conversation">Nepavyko įkelti pokalbio</string>
+    <string name="intercom_expected_response_delay_10800">mažiau nei 3 val.</string>
+    <string name="intercom_expected_response_delay_1200">mažiau nei 20 min.</string>
+    <string name="intercom_expected_response_delay_14400">mažiau nei 4 val.</string>
+    <string name="intercom_expected_response_delay_172800">2 dienos</string>
+    <string name="intercom_expected_response_delay_1800">mažiau nei 30 min.</string>
+    <string name="intercom_expected_response_delay_18000">mažiau nei 5 val.</string>
+    <string name="intercom_expected_response_delay_21600">mažiau nei 6 val.</string>
+    <string name="intercom_expected_response_delay_300">mažiau nei 5 min.</string>
+    <string name="intercom_expected_response_delay_3600">mažiau nei 1 val.</string>
+    <string name="intercom_expected_response_delay_600">mažiau nei 10 min.</string>
+    <string name="intercom_expected_response_delay_604800">mažiau nei 1 sav.</string>
+    <string name="intercom_expected_response_delay_7200">mažiau nei 2 sav.</string>
+    <string name="intercom_expected_response_delay_86400">1 d.</string>
+    <string name="intercom_facebook_like">Pamėkite mus „Facebook“</string>
+    <string name="intercom_failed_delivery">Nepavyko pristatyti žinutės</string>
+    <string name="intercom_failed_to_load_conversation">Nepavyko įkelti jūsų pokalbių</string>
+    <string name="intercom_failed_to_send">Nepavyko išsiųsti</string>
+    <string name="intercom_file_access_failed">Nepavyksta pasiekti to failo</string>
+    <string name="intercom_file_too_big">Didesnių nei 40 MB failų siųsti negalima</string>
+    <string name="intercom_get_help">Pagalba</string>
+    <string name="intercom_gif_attribution">per {providername}</string>
+    <string name="intercom_gifs_load_error">GIF failų įkelti nepavyko</string>
+    <string name="intercom_give_it_another_try">Pamėginkite dar kartą</string>
+    <string name="intercom_go_to_device_settings">Norėdami suteikti prieigą, eikite į savo įrenginio programėlių nustatymų leidimų meniu</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Besišypsantis veidas su didelėmis akimis</string>
+    <string name="intercom_help_center">Pagalbos centras</string>
+    <string name="intercom_how_can_we_help">Kuo galime padėti?</string>
+    <string name="intercom_image_attached">(pridėtas vaizdas)</string>
+    <string name="intercom_inbox_error_state_title">Kažkas ne taip</string>
+    <string name="intercom_loading">Įkraunama</string>
+    <string name="intercom_message_failed_try_again">Nepavyko išsiųsti. Norėdami bandyti iš naujo, palieskite</string>
+    <string name="intercom_message_seen">Matyta</string>
+    <string name="intercom_message_state_sending">Siunčiama…</string>
+    <string name="intercom_message_unseen">Dar nematyta</string>
+    <string name="intercom_name_and_1_other">{name} ir dar 1</string>
+    <string name="intercom_name_and_x_others">{name} ir dar {count}</string>
+    <string name="intercom_navigation_back">Atgal</string>
+    <string name="intercom_neutral_face_emoji">Neutralus veidas</string>
+    <string name="intercom_new_conversation">Naujas pokalbis</string>
+    <string name="intercom_new_message">Nauja žinutė</string>
+    <string name="intercom_new_messages">Gavote naujų žinučių: {n}</string>
+    <string name="intercom_new_notifications">Nauji pranešimai</string>
+    <string name="intercom_no_articles_to_display">Nėra rodytinų straipsnių</string>
+    <string name="intercom_no_conversations">Pokalbių nėra</string>
+    <string name="intercom_no_gifs_found">GIF failų nerasta</string>
+    <string name="intercom_no_gifs_matching_query">Nepavyko rasti GIF failų, atitinkančių jūsų užklausą</string>
+    <string name="intercom_no_messages_from_the_team">Žinučių iš komandos nėra</string>
+    <string name="intercom_no_network_connection">Nėra tinklo ryšio</string>
+    <string name="intercom_no_photos">Nuotraukų nėra</string>
+    <string name="intercom_no_photos_on_device">Šiame įrenginyje nuotraukų nėra</string>
+    <string name="intercom_no_results_for_searchterm">Nerasta {searchTerm} rezultatų</string>
+    <string name="intercom_not_now">Ne dabar</string>
+    <string name="intercom_nothing_to_see_here_yet">Turinys ruošiamas</string>
+    <string name="intercom_notification_channel_actions_description">Yra nuorodų, kuriomis galima atlikti veiksmus šioje programėlėje</string>
+    <string name="intercom_notification_channel_actions_title">Veiksmai</string>
+    <string name="intercom_notification_channel_chat_replies_description">Atsakymų pranešimai iš pokalbių šioje programėlėje</string>
+    <string name="intercom_notification_channel_chat_replies_title">Pokalbių atsakymai</string>
+    <string name="intercom_notification_channel_new_chats_description">Naujų pokalbių žinutės, išsiųstos iš šios programėlės</string>
+    <string name="intercom_notification_channel_new_chats_title">Nauji pokalbiai</string>
+    <string name="intercom_number_is_incorrect">Šis numeris atrodo neteisingas</string>
+    <string name="intercom_one_new_message">Gavote naują žinutę</string>
+    <string name="intercom_page_not_found">Šio puslapio čia nebėra</string>
+    <string name="intercom_permission_denied">Šis leidimas nesuteiktas</string>
+    <string name="intercom_photo_access_denied">Neleidote pasiekti savo nuotraukų</string>
+    <string name="intercom_plus_x_more">Dar +{n}</string>
+    <string name="intercom_profile_location">{time}, {location}</string>
+    <string name="intercom_rate_your_conversation">Įvertinti pokalbį</string>
+    <string name="intercom_reload">Įkelti iš naujo</string>
+    <string name="intercom_reply">Atsakyti</string>
+    <string name="intercom_reply_from_admin">Atsakymas nuo {name}</string>
+    <string name="intercom_reply_to_conversation">Rašyti atsakymą</string>
+    <string name="intercom_retry">Kartoti</string>
+    <string name="intercom_search_browse_empty_state_text">Apgailestaujame, mums nepavyko rasti jokių rezultatų. Pabandykite perrašyti savo paieškos tekstą.</string>
+    <string name="intercom_search_for_help">Ieškoti pagalbos</string>
+    <string name="intercom_search_gif">Ieškoti GIF failų…</string>
+    <string name="intercom_search_help_articles">Ieškokite pagalbos straipsnių</string>
+    <string name="intercom_see_all">Žiūrėti visus</string>
+    <string name="intercom_see_all_conversations">Peržiūrėkite visus savo pokalbius</string>
+    <string name="intercom_see_past_conversations">Žiūrėti ankstesnius pokalbius</string>
+    <string name="intercom_see_previous_conversations">Peržiūrėkite savo ankstesnius pokalbius</string>
+    <string name="intercom_send">Siųsti</string>
+    <string name="intercom_send_us_a_message">Atsiųskite mums pranešimą</string>
+    <string name="intercom_some_things_failed_to_load">Kai kurių dalykų įkelti nepavyko. Bandykite dar kartą.</string>
+    <string name="intercom_something_went_wrong_try_again">Kažkas nepavyko. Bandykite dar kartą.</string>
+    <string name="intercom_start_a_conversation">Pradėti pokalbį</string>
+    <string name="intercom_start_another_conversation">Pradėti kitą pokalbį</string>
+    <string name="intercom_start_conversation">Pradėti pokalbį</string>
+    <string name="intercom_storage_access_request">Jei norite pamatyti savo nuotraukas, jums reikia suteikti prieigą prie atminties</string>
+    <string name="intercom_string_is_incorrect">Tai neatrodo teisingai</string>
+    <string name="intercom_submit">Patvirtinti</string>
+    <string name="intercom_tap_to_send_image">Bakstelėkite, kad išsiųstumėte vaizdą</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} įprastai atsako per dieną</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} paprastai atsako per vieną darbo dieną</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} įprastai atsako per dvi darbo dienas</string>
+    <string name="intercom_teammate_from_company">„{name}“ iš „{company}“</string>
+    <string name="intercom_tell_us_more">Papasakokite daugiau…</string>
+    <string name="intercom_tell_us_what_you_need">Papasakokite, kuo galime padėti, ir mūsų „Bot“ kaip galėdamas geriau atsakys</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Ačiū! Komanda atsakys per vieną darbo dieną</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Ačiū! Komanda atsakys per dvi darbo dienas</string>
+    <string name="intercom_thanks_for_letting_us_know">Ačiū, kad pranešėte mums</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Ačiū! Komanda atsakys kiek įmanoma greičiau</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Šalies kodas atrodo neteisingas</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Šis elektroninio pašto adresas atrodo neteisingas</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Šis numeris atrodo neteisingas</string>
+    <string name="intercom_that_number_has_too_many_digits">Šiame numeryje per daug skaičių</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Šiam numeriui trūksta kelių skaičių</string>
+    <string name="intercom_that_number_needs_a_prefix">Šiam numeriui trūksta nacionalinio priešdėlio (+ arba 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Prireikus komanda gali padėti</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Komanda įprastai atsako per keletą valandų.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Komanda paprastai atsako per vieną darbo dieną.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Komanda įprastai atsako per dvi darbo dienas</string>
+    <string name="intercom_time_day_ago">Prieš {delta} d.</string>
+    <string name="intercom_time_future_1h">po 1 val.</string>
+    <string name="intercom_time_future_2h">po 2 val.</string>
+    <string name="intercom_time_future_30m">po 30 min.</string>
+    <string name="intercom_time_future_3h">po 3 val.</string>
+    <string name="intercom_time_future_day_0">pirmadienį</string>
+    <string name="intercom_time_future_day_1">antradienį</string>
+    <string name="intercom_time_future_day_2">trečiadienį</string>
+    <string name="intercom_time_future_day_3">ketvirtadienį</string>
+    <string name="intercom_time_future_day_4">penktadienį</string>
+    <string name="intercom_time_future_day_5">šeštadienį</string>
+    <string name="intercom_time_future_day_6">sekmadienį</string>
+    <string name="intercom_time_future_later_today">vėliau šiandien</string>
+    <string name="intercom_time_future_next_week">kitą savaitę</string>
+    <string name="intercom_time_future_tomorrow">rytoj</string>
+    <string name="intercom_time_hour_ago">Prieš {delta} val.</string>
+    <string name="intercom_time_just_now">Ką tik</string>
+    <string name="intercom_time_minute_ago">Prieš {delta} min.</string>
+    <string name="intercom_time_week_ago">Prieš {delta} sav.</string>
+    <string name="intercom_time_yesterday">vakar</string>
+    <string name="intercom_try_again">Bandyti dar kartą</string>
+    <string name="intercom_try_again_minute">Pamėginkite vėl po minutės.</string>
+    <string name="intercom_try_use_different_keywords">Naudokite kitus raktinius žodžius arba įveskite visą klausimą</string>
+    <string name="intercom_twitter_follow">Sekite mus „Twitter“</string>
+    <string name="intercom_two_business_days">dvi darbo dienos</string>
+    <string name="intercom_type_a_number">Įrašykite skaičių…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Paprastai atsako per vieną darbo dieną</string>
+    <string name="intercom_typically_replies_in_two_business_days">Įprastai atsako per dvi darbo dienas</string>
+    <string name="intercom_upfront_collection_form_close_out">Galite bet kada čia grįžti norėdami pamatyti atsakymų ir atsiųsti atnaujinimų.</string>
+    <string name="intercom_upfront_collection_form_introduction">Pasidalinkite kontekstu, kad padėtumėte komandai geriau ir greičiau atsakyti.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Ačiū už atsiųstą kontekstą. Kad negaištumėte laiko vėliau, pridėkite daugiau informacijos.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Išsiųskite komandai šiek tiek konteksto</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Ji atsižvelgs į šį kontekstą</string>
+    <string name="intercom_upfront_collection_form_title">Gaukite pagalbos greičiau</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Išsiųsta komandai!</string>
+    <string name="intercom_we_run_on_intercom">Mes veikiame „Intercom“ platformoje</string>
+    <string name="intercom_you">Jūs</string>
+    <string name="intercom_you_rated_the_conversation">Įvertinote pokalbį</string>
+    <string name="intercom_your_conversations">Jūsų pokalbiai</string>
+    <string name="item_view_role_description">Skirtukas</string>
+    <string name="material_clock_toggle_content_description">Pasirinkite „iki pietų“ arba „po pietų“</string>
+    <string name="material_hour_selection">Pasirinkite valandą</string>
+    <string name="material_hour_suffix">%1$s val.</string>
+    <string name="material_minute_selection">Pasirinkite minutes</string>
+    <string name="material_minute_suffix">%1$s min.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Laiko įvestį pateikti perjungus į laikrodžio režimą.</string>
+    <string name="material_timepicker_hour">Valanda</string>
+    <string name="material_timepicker_minute">Minutė</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pasirinkite laiką</string>
+    <string name="material_timepicker_text_input_mode_description">Laiko įvestį pateikti perjungus į teksto įvesties režimą.</string>
+    <string name="mtrl_badge_numberless_content_description">Naujas pranešimas</string>
+    <string name="mtrl_chip_close_icon_content_description">Pašalinti %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Naujų pranešimų: daugiau nei %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
+    <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
+    <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
+    <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
+    <string name="mtrl_picker_day_of_week_column_header">Dienų stulpelis: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Netinkamas formatas.</string>
+    <string name="mtrl_picker_invalid_format_example">Pavyzdys: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Naudoti: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Netinkamas diapazonas.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Eiti į %1$s metus</string>
+    <string name="mtrl_picker_out_of_range">Nepatenka į diapazoną: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Pradžios data–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–pabaigos data</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Pasirinkite diapazoną</string>
+    <string name="mtrl_picker_range_header_unselected">Pradžios data–pabaigos data</string>
+    <string name="mtrl_picker_save">Išsaugoti</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Pabaigos data</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Pradžios data</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Perjungti į kalendoriaus įvesties režimą</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Palieskite, kad perjungtumėte į dienos pasirinkimą</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Perjungti į teksto įvesties režimą</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Palieskite, kad perjungtumėte į metų pasirinkimą</string>
+    <string name="password_toggle_content_description">Rodyti slaptažodį</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Ieškoti"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Tęsti"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Peržiūros režimas atnaujintas."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Peržiūra"</string>
+</resources>

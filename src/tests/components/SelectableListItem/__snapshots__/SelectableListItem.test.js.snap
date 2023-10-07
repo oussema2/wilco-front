@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectableListItem /> when the item is selected renders the SelectableListItem as selected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#E6F6F9",
+      "borderColor": "#12A3BE",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "marginBottom": 5,
+      "marginHorizontal": 8,
+    }
+  }
+  testID="testing-SelectableListItem-Component"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginHorizontal": 8,
+        "marginLeft": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<SelectableListItem /> with the default props renders the SelectableListItem component correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "transparent",
+      "borderWidth": 1,
+      "marginBottom": 5,
+      "marginHorizontal": 8,
+    }
+  }
+  testID="testing-SelectableListItem-Component"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginHorizontal": 8,
+        "marginLeft": 0,
+      }
+    }
+  />
+</View>
+`;

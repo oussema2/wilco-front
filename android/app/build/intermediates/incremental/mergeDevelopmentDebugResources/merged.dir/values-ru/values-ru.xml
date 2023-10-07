@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Включить</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Обновить</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="fcm_fallback_notification_channel_label">Другое</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="intercom_access_background_location_message">Перейдите в настройки устройства, чтобы разрешить приложению использовать данные о вашем местоположении в фоновом режиме</string>
+    <string name="intercom_access_background_location_title">Разрешите постоянный доступ к местоположению</string>
+    <string name="intercom_access_photos">Доступ к вашим фотографиям</string>
+    <string name="intercom_active_15m_ago">В сети последние {minutes} мин</string>
+    <string name="intercom_active_day_ago">Был в сети {days} дн. назад</string>
+    <string name="intercom_active_hour_ago">Был в сети {hours} ч назад</string>
+    <string name="intercom_active_minute_ago">Был в сети {minutes} мин назад</string>
+    <string name="intercom_active_state">Активен</string>
+    <string name="intercom_active_week_ago">Был в сети более 1 недели назад</string>
+    <string name="intercom_allow_access">Разрешить доступ</string>
+    <string name="intercom_allow_storage_access">Пожалуйста, разрешите доступ к хранилищу, чтобы видеть свои фотографии</string>
+    <string name="intercom_also_in_this_conversation">Также в этом разговоре</string>
+    <string name="intercom_android_activated_message">Ваше приложение Android интегрировано с платформой Intercom</string>
+    <string name="intercom_app_settings">Параметры приложения</string>
+    <string name="intercom_article_load_error">Не удалось загрузить статью</string>
+    <string name="intercom_article_question">Вы получили ответ на свой вопрос?</string>
+    <string name="intercom_article_response">Вы отреагировали</string>
+    <string name="intercom_article_search_hint_text">Поиск по статьям…</string>
+    <string name="intercom_ask_a_question">Задать вопрос</string>
+    <string name="intercom_asked_about">Спросили о</string>
+    <string name="intercom_attribute_collector_negative">Нет</string>
+    <string name="intercom_attribute_collector_positive">Да</string>
+    <string name="intercom_away_state">Нет на месте</string>
+    <string name="intercom_bot">Бот</string>
+    <string name="intercom_bot_expectation_text">Наш бот может ответить на многие популярные вопросы</string>
+    <string name="intercom_browse_all_help_topics">Все справочные темы</string>
+    <string name="intercom_browse_collections">Просмотр коллекций</string>
+    <string name="intercom_cancel">Отменить</string>
+    <string name="intercom_choose_one">Выберете один…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Очистить</string>
+    <string name="intercom_close">Закрыть</string>
+    <string name="intercom_congratulations">Поздравляем!</string>
+    <string name="intercom_connected">Вы подключились</string>
+    <string name="intercom_continue_the_conversation">Продолжить беседу</string>
+    <string name="intercom_conversation_card_office_hours_header">Когда мы вернемся на связь</string>
+    <string name="intercom_conversation_card_reply_time_header">Среднее время ответа</string>
+    <string name="intercom_conversation_has_ended">Ваш разговор завершен</string>
+    <string name="intercom_conversations">Разговоры</string>
+    <string name="intercom_conversations_with_app">Разговоры с {name}</string>
+    <string name="intercom_copied_to_clipboard">Скопировано в буфер</string>
+    <string name="intercom_couldnt_complete_action">Не удалось выполнить это действие</string>
+    <string name="intercom_couldnt_load_apps">Не удалось загрузить приложения.</string>
+    <string name="intercom_couldnt_load_content">Не удалось загрузить содержимое</string>
+    <string name="intercom_couldnt_load_messenger">Не удалось загрузить мессенджер.</string>
+    <string name="intercom_delivered">Доставлено</string>
+    <string name="intercom_disappointed_face_emoji">Грустный смайлик</string>
+    <string name="intercom_dismiss">Отклонить</string>
+    <string name="intercom_empty_conversations">Вы еще не создали новый разговор {name}</string>
+    <string name="intercom_error_loading_conversation">Не удалось загрузить разговор</string>
+    <string name="intercom_expected_response_delay_10800">менее 3 часов</string>
+    <string name="intercom_expected_response_delay_1200">менее 20 минут</string>
+    <string name="intercom_expected_response_delay_14400">менее 4 часов</string>
+    <string name="intercom_expected_response_delay_172800">2 дня</string>
+    <string name="intercom_expected_response_delay_1800">менее 30 минут</string>
+    <string name="intercom_expected_response_delay_18000">менее 5 часов</string>
+    <string name="intercom_expected_response_delay_21600">менее 6 часов</string>
+    <string name="intercom_expected_response_delay_300">менее 5 минут</string>
+    <string name="intercom_expected_response_delay_3600">менее 1 часа</string>
+    <string name="intercom_expected_response_delay_600">менее 10 минут</string>
+    <string name="intercom_expected_response_delay_604800">менее 1 недели</string>
+    <string name="intercom_expected_response_delay_7200">менее 2 часов</string>
+    <string name="intercom_expected_response_delay_86400">1 день</string>
+    <string name="intercom_facebook_like">Нажмите Нравится на Facebook</string>
+    <string name="intercom_failed_delivery">Не удалось доставить сообщение</string>
+    <string name="intercom_failed_to_load_conversation">Не удалось загрузить разговоры</string>
+    <string name="intercom_failed_to_send">Не удалось отправить</string>
+    <string name="intercom_file_access_failed">Не удается получить доступ к файлу</string>
+    <string name="intercom_file_too_big">Файлы размером более 40 МБ не могут быть оправлены</string>
+    <string name="intercom_get_help">Поиск по справке</string>
+    <string name="intercom_gif_attribution">с помощью {providername}</string>
+    <string name="intercom_gifs_load_error">Не удалось загрузить GIF-файлы</string>
+    <string name="intercom_give_it_another_try">Попробуйте ещё раз</string>
+    <string name="intercom_go_to_device_settings">Чтобы разрешить доступ, перейдите в меню разрешений в параметрах приложения на своем устройстве</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Веселый смайлик с большими глазами</string>
+    <string name="intercom_help_center">Справочный центр</string>
+    <string name="intercom_how_can_we_help">Чем мы можем помочь?</string>
+    <string name="intercom_image_attached">(прикреплено изображение)</string>
+    <string name="intercom_inbox_error_state_title">Произошла ошибка</string>
+    <string name="intercom_loading">Загрузка</string>
+    <string name="intercom_message_failed_try_again">Не удалось отправить. Нажмите, чтобы повторить попытку.</string>
+    <string name="intercom_message_seen">Просмотрено</string>
+    <string name="intercom_message_state_sending">Идет отправка…</string>
+    <string name="intercom_message_unseen">Не просмотрено</string>
+    <string name="intercom_name_and_1_other">{name} и ещё 1</string>
+    <string name="intercom_name_and_x_others">{name} и {count} других</string>
+    <string name="intercom_navigation_back">Назад</string>
+    <string name="intercom_neutral_face_emoji">Нейтральный смайлик</string>
+    <string name="intercom_new_conversation">Новый разговор</string>
+    <string name="intercom_new_message">Новое сообщение</string>
+    <string name="intercom_new_messages">У Вас есть новые сообщения: {n}</string>
+    <string name="intercom_new_notifications">Новые уведомления</string>
+    <string name="intercom_no_articles_to_display">Нет статей</string>
+    <string name="intercom_no_conversations">Нет разговоров</string>
+    <string name="intercom_no_gifs_found">GIF-файлы не найдены</string>
+    <string name="intercom_no_gifs_matching_query">Мы не смогли найти ни одного GIF-файла, отвечающего Вашему критерию</string>
+    <string name="intercom_no_messages_from_the_team">Нет сообщений от команды</string>
+    <string name="intercom_no_network_connection">Сетевое подключение отсутствует</string>
+    <string name="intercom_no_photos">Нет фотографий</string>
+    <string name="intercom_no_photos_on_device">На этом устройстве нет фотографий</string>
+    <string name="intercom_no_results_for_searchterm">Нет результатов по запросу «{searchTerm}»</string>
+    <string name="intercom_not_now">Не сейчас</string>
+    <string name="intercom_nothing_to_see_here_yet">Сообщений пока нет</string>
+    <string name="intercom_notification_channel_actions_description">Содержит ссылки на действия в этом приложении</string>
+    <string name="intercom_notification_channel_actions_title">Действия</string>
+    <string name="intercom_notification_channel_chat_replies_description">Уведомления об ответах в разговорах этого приложения</string>
+    <string name="intercom_notification_channel_chat_replies_title">Ответы в разговорах</string>
+    <string name="intercom_notification_channel_new_chats_description">Новые сообщения отправлены из этого приложения</string>
+    <string name="intercom_notification_channel_new_chats_title">Новые разговоры</string>
+    <string name="intercom_number_is_incorrect">Что-то не так с этим номером</string>
+    <string name="intercom_one_new_message">У Вас новое сообщение</string>
+    <string name="intercom_page_not_found">Этой страницы тут больше нет</string>
+    <string name="intercom_permission_denied">Разрешение не выдано</string>
+    <string name="intercom_photo_access_denied">Вы запретили доступ к своим фотографиям</string>
+    <string name="intercom_plus_x_more">+ еще {n}</string>
+    <string name="intercom_profile_location">{time} в {location}</string>
+    <string name="intercom_rate_your_conversation">Как прошел разговор с вами?</string>
+    <string name="intercom_reload">Перезагрузить</string>
+    <string name="intercom_reply">Ответить</string>
+    <string name="intercom_reply_from_admin">Ответ от {name}</string>
+    <string name="intercom_reply_to_conversation">Написать ответ</string>
+    <string name="intercom_retry">Повторите попытку</string>
+    <string name="intercom_search_browse_empty_state_text">К сожалению, мы ничего не нашли по этому запросу. Попробуйте сформулировать его по-другому.</string>
+    <string name="intercom_search_for_help">Поиск по справочным статьям</string>
+    <string name="intercom_search_gif">Поиск GIF-файлов…</string>
+    <string name="intercom_search_help_articles">Поиск по справочным статьям</string>
+    <string name="intercom_see_all">Просмотреть все</string>
+    <string name="intercom_see_all_conversations">Посмотреть все беседы</string>
+    <string name="intercom_see_past_conversations">Просмотреть прошлые разговоры</string>
+    <string name="intercom_see_previous_conversations">Посмотреть прошлые разговоры</string>
+    <string name="intercom_send">Отправить</string>
+    <string name="intercom_send_us_a_message">Отправить сообщение</string>
+    <string name="intercom_some_things_failed_to_load">Некоторые элементы не загрузились. Попробуйте еще раз.</string>
+    <string name="intercom_something_went_wrong_try_again">Что-то пошло не так. Попробуйте еще раз.</string>
+    <string name="intercom_start_a_conversation">Напишите нам</string>
+    <string name="intercom_start_another_conversation">Начать другую беседу</string>
+    <string name="intercom_start_conversation">Начать разговор</string>
+    <string name="intercom_storage_access_request">Разрешите доступ к хранилищу, чтобы увидеть свои фотографии</string>
+    <string name="intercom_string_is_incorrect">Что-то не так с этим</string>
+    <string name="intercom_submit">Отправить</string>
+    <string name="intercom_tap_to_send_image">Коснитесь, чтобы отправить изображение</string>
+    <string name="intercom_team_name_custom_response_delay_2">Как правило, {app_name} отвечает в течение дня</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} обычно отвечает в течение одного рабочего дня</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} обычно отвечает в течение двух рабочих дней</string>
+    <string name="intercom_teammate_from_company">{name} из {company}</string>
+    <string name="intercom_tell_us_more">Расскажите подробнее</string>
+    <string name="intercom_tell_us_what_you_need">Расскажите, чем мы можем помочь, и наш бот постарается найти ответ</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Спасибо! Наш специалист ответит в течение одного рабочего дня.</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Спасибо! Наш специалист ответит в течение двух рабочих дней</string>
+    <string name="intercom_thanks_for_letting_us_know">Спасибо, что поделились с нами</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Спасибо! Команда ответит, как только сможет</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Что-то не так с этим кодом страны</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Что-то не так с этим электронным адресом</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Что-то не так с этим номером</string>
+    <string name="intercom_that_number_has_too_many_digits">В этом номере слишком много цифр</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">В этом номере не хватает нескольких цифр</string>
+    <string name="intercom_that_number_needs_a_prefix">Необходим префикс (+ или 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">При необходимости вам помогут наши специалисты</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Как правило, команда отвечает в течение нескольких часов.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Как правило, наши специалисты отвечают в течение одного рабочего дня.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Как правило, наши специалисты отвечают в течение двух рабочих дней</string>
+    <string name="intercom_time_day_ago">{delta} дн. назад</string>
+    <string name="intercom_time_future_1h">через 1 час</string>
+    <string name="intercom_time_future_2h">через 2 часа</string>
+    <string name="intercom_time_future_30m">через 30 минут</string>
+    <string name="intercom_time_future_3h">через 3 часа</string>
+    <string name="intercom_time_future_day_0">понедельник</string>
+    <string name="intercom_time_future_day_1">вторник</string>
+    <string name="intercom_time_future_day_2">среда</string>
+    <string name="intercom_time_future_day_3">четверг</string>
+    <string name="intercom_time_future_day_4">пятница</string>
+    <string name="intercom_time_future_day_5">суббота</string>
+    <string name="intercom_time_future_day_6">воскресенье</string>
+    <string name="intercom_time_future_later_today">позднее сегодня</string>
+    <string name="intercom_time_future_next_week">на следующей неделе</string>
+    <string name="intercom_time_future_tomorrow">завтра</string>
+    <string name="intercom_time_hour_ago">{delta} ч назад</string>
+    <string name="intercom_time_just_now">Только что</string>
+    <string name="intercom_time_minute_ago">{delta} мин назад</string>
+    <string name="intercom_time_week_ago">{delta} нед. назад</string>
+    <string name="intercom_time_yesterday">вчера</string>
+    <string name="intercom_try_again">Повторить попытку</string>
+    <string name="intercom_try_again_minute">Попробуйте ещё раз через минуту.</string>
+    <string name="intercom_try_use_different_keywords">Попробуйте изменить ключевые слова или введите вопрос полностью</string>
+    <string name="intercom_twitter_follow">Следите за нашими новостями в Twitter</string>
+    <string name="intercom_two_business_days">два рабочих дня</string>
+    <string name="intercom_type_a_number">Введите номер…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Обычно отвечает в течение одного рабочего дня</string>
+    <string name="intercom_typically_replies_in_two_business_days">Обычно отвечает в течение двух рабочих дней</string>
+    <string name="intercom_upfront_collection_form_close_out">Вы всегда можете вернуться сюда, чтобы прочесть ответ или отправить дополнительные сведения.</string>
+    <string name="intercom_upfront_collection_form_introduction">Расскажите о проблеме подробнее, чтобы наши специалисты могли быстрее и качественнее вам помочь.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Спасибо за информацию! Чтобы сэкономить время в будущем, вы также можете предоставить нам другие подробности.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Отправьте нам дополнительную информацию</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Наши специалисты обязательно примут ее во внимание</string>
+    <string name="intercom_upfront_collection_form_title">Помощь в ускоренном порядке</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Информация отправлена!</string>
+    <string name="intercom_we_run_on_intercom">Мы используем Intercom</string>
+    <string name="intercom_you">Вы</string>
+    <string name="intercom_you_rated_the_conversation">Вы поставили оценку</string>
+    <string name="intercom_your_conversations">Ваши разговоры</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Продолжить"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Режим просмотра обновлен."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Просмотр"</string>
+</resources>

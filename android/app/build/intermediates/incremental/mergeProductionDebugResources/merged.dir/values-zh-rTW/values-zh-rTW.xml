@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 則新通知</item>
+    <item quantity="other">%d 則新通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"關閉"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"開啟"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">啟用</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，才能執行「%1$s」。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">安裝</string>
+    <string name="common_google_play_services_install_text">您的裝置並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服務可用性</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」無法存取 Google Play 服務，請再試一次。</string>
+    <string name="common_google_play_services_unsupported_text">您的裝置不支援 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_google_play_services_updating_text">執行「%1$s」所需的 Google Play 服務正在更新。</string>
+    <string name="common_google_play_services_wear_update_text">必須使用新版 Google Play 服務。該服務稍後就會自動更新。</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="fcm_fallback_notification_channel_label">其他</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="intercom_access_background_location_message">前往裝置設定以允許該應用程式在背景使用您的位置訊息</string>
+    <string name="intercom_access_background_location_title">永遠允許存取您的位置</string>
+    <string name="intercom_access_photos">存取您的相片</string>
+    <string name="intercom_active_15m_ago">過去 {minutes} 分鐘內在線上</string>
+    <string name="intercom_active_day_ago">{days} 天以前在線</string>
+    <string name="intercom_active_hour_ago">{hours} 小時以前在線</string>
+    <string name="intercom_active_minute_ago">{minutes} 分鐘以前在線</string>
+    <string name="intercom_active_state">在線上</string>
+    <string name="intercom_active_week_ago">超過一週以前在線</string>
+    <string name="intercom_allow_access">允許存取</string>
+    <string name="intercom_allow_storage_access">請允許存取儲存空間以檢視您的相片</string>
+    <string name="intercom_also_in_this_conversation">亦在此對話中</string>
+    <string name="intercom_android_activated_message">您的 Android 應用程式目前已與 Intercom 平台整合</string>
+    <string name="intercom_app_settings">應用程式設定</string>
+    <string name="intercom_article_load_error">無法載入文章</string>
+    <string name="intercom_article_question">是否回答了您的問題？</string>
+    <string name="intercom_article_response">您使用此回應：</string>
+    <string name="intercom_article_search_hint_text">搜尋文章...</string>
+    <string name="intercom_ask_a_question">詢問問題</string>
+    <string name="intercom_asked_about">詢問關於</string>
+    <string name="intercom_attribute_collector_negative">否</string>
+    <string name="intercom_attribute_collector_positive">是</string>
+    <string name="intercom_away_state">離開</string>
+    <string name="intercom_bot">機器人</string>
+    <string name="intercom_bot_expectation_text">我們的 Bot 可以回答許多常見問題</string>
+    <string name="intercom_browse_all_help_topics">瀏覽所有幫助主題</string>
+    <string name="intercom_browse_collections">瀏覽收藏</string>
+    <string name="intercom_cancel">取消</string>
+    <string name="intercom_choose_one">選擇一項…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">清除</string>
+    <string name="intercom_close">關閉</string>
+    <string name="intercom_congratulations">恭喜您</string>
+    <string name="intercom_connected">您已連線</string>
+    <string name="intercom_continue_the_conversation">繼續這一場對話</string>
+    <string name="intercom_conversation_card_office_hours_header">恢復上線時</string>
+    <string name="intercom_conversation_card_reply_time_header">我們通常的回覆時間</string>
+    <string name="intercom_conversation_has_ended">你的對話已結束</string>
+    <string name="intercom_conversations">對話</string>
+    <string name="intercom_conversations_with_app">與 {name} 的對話</string>
+    <string name="intercom_copied_to_clipboard">已複製至剪貼簿</string>
+    <string name="intercom_couldnt_complete_action">無法完成此動作</string>
+    <string name="intercom_couldnt_load_apps">無法載入應用程式。</string>
+    <string name="intercom_couldnt_load_content">無法載入內容</string>
+    <string name="intercom_couldnt_load_messenger">無法載入 Messenger。</string>
+    <string name="intercom_delivered">已傳送</string>
+    <string name="intercom_disappointed_face_emoji">失望臉</string>
+    <string name="intercom_dismiss">離開</string>
+    <string name="intercom_empty_conversations">尚無與 {name} 的對話</string>
+    <string name="intercom_error_loading_conversation">無法載入對話</string>
+    <string name="intercom_expected_response_delay_10800">不到 3 小時</string>
+    <string name="intercom_expected_response_delay_1200">不到 20 分鐘</string>
+    <string name="intercom_expected_response_delay_14400">不到 4 小時</string>
+    <string name="intercom_expected_response_delay_172800">2 天</string>
+    <string name="intercom_expected_response_delay_1800">不到 30 分鐘</string>
+    <string name="intercom_expected_response_delay_18000">不到 5 小時</string>
+    <string name="intercom_expected_response_delay_21600">不到 6 小時</string>
+    <string name="intercom_expected_response_delay_300">不到 5 分鐘</string>
+    <string name="intercom_expected_response_delay_3600">不到 1 小時</string>
+    <string name="intercom_expected_response_delay_600">不到 10 分鐘</string>
+    <string name="intercom_expected_response_delay_604800">不到 1 星期</string>
+    <string name="intercom_expected_response_delay_7200">不到 2 小時</string>
+    <string name="intercom_expected_response_delay_86400">1 天</string>
+    <string name="intercom_facebook_like">在 Facebook 上按讚</string>
+    <string name="intercom_failed_delivery">無法傳送訊息</string>
+    <string name="intercom_failed_to_load_conversation">無法載入您的對話</string>
+    <string name="intercom_failed_to_send">無法傳送</string>
+    <string name="intercom_file_access_failed">無法存取該檔案</string>
+    <string name="intercom_file_too_big">無法傳送大小超過 40MB 的檔案</string>
+    <string name="intercom_get_help">取得協助</string>
+    <string name="intercom_gif_attribution">透過 {providername}</string>
+    <string name="intercom_gifs_load_error">無法載入 GIF</string>
+    <string name="intercom_give_it_another_try">再試一次</string>
+    <string name="intercom_go_to_device_settings">若要允許存取，請前往您裝置應用程式設定的權限功能表</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">大眼睛笑臉</string>
+    <string name="intercom_help_center">說明中心</string>
+    <string name="intercom_how_can_we_help">我們能提供什麼幫助？</string>
+    <string name="intercom_image_attached">(附圖)</string>
+    <string name="intercom_inbox_error_state_title">發生問題</string>
+    <string name="intercom_loading">正在載入</string>
+    <string name="intercom_message_failed_try_again">無法傳送，請點選以重試</string>
+    <string name="intercom_message_seen">已讀取</string>
+    <string name="intercom_message_state_sending">傳送中…</string>
+    <string name="intercom_message_unseen">尚未讀取</string>
+    <string name="intercom_name_and_1_other">{name} 和另外 1 人</string>
+    <string name="intercom_name_and_x_others">{name} 和另外 {count} 人</string>
+    <string name="intercom_navigation_back">返回</string>
+    <string name="intercom_neutral_face_emoji">中性臉</string>
+    <string name="intercom_new_conversation">新對話</string>
+    <string name="intercom_new_message">新訊息</string>
+    <string name="intercom_new_messages">您有 {n} 則新訊息</string>
+    <string name="intercom_new_notifications">新通知</string>
+    <string name="intercom_no_articles_to_display">沒有能夠顯示的文章</string>
+    <string name="intercom_no_conversations">沒有對話</string>
+    <string name="intercom_no_gifs_found">未找到GIF</string>
+    <string name="intercom_no_gifs_matching_query">我們找不到任何 GIF 符合您的查詢</string>
+    <string name="intercom_no_messages_from_the_team">沒有小組的訊息</string>
+    <string name="intercom_no_network_connection">沒有網路連線</string>
+    <string name="intercom_no_photos">沒有相片</string>
+    <string name="intercom_no_photos_on_device">此裝置上沒有相片</string>
+    <string name="intercom_no_results_for_searchterm">「{searchTerm}」沒有結果</string>
+    <string name="intercom_not_now">現在不要</string>
+    <string name="intercom_nothing_to_see_here_yet">此處一無所見</string>
+    <string name="intercom_notification_channel_actions_description">包含在此應用程式中執行動作的連結</string>
+    <string name="intercom_notification_channel_actions_title">動作</string>
+    <string name="intercom_notification_channel_chat_replies_description">來自此應用程式中的交談回覆通知</string>
+    <string name="intercom_notification_channel_chat_replies_title">交談回覆</string>
+    <string name="intercom_notification_channel_new_chats_description">從此應用程式傳送的新交談訊息</string>
+    <string name="intercom_notification_channel_new_chats_title">新交談</string>
+    <string name="intercom_number_is_incorrect">此號碼似乎不正確</string>
+    <string name="intercom_one_new_message">您有一則新訊息</string>
+    <string name="intercom_page_not_found">該頁面已不在此處</string>
+    <string name="intercom_permission_denied">此權限遭拒</string>
+    <string name="intercom_photo_access_denied">您已拒絕存取您的相片</string>
+    <string name="intercom_plus_x_more">+{n} 則</string>
+    <string name="intercom_profile_location">{time} 於 {location}</string>
+    <string name="intercom_rate_your_conversation">為您的對話評分</string>
+    <string name="intercom_reload">重新載入</string>
+    <string name="intercom_reply">回覆</string>
+    <string name="intercom_reply_from_admin">回覆來自 {name}</string>
+    <string name="intercom_reply_to_conversation">撰寫回覆</string>
+    <string name="intercom_retry">重試</string>
+    <string name="intercom_search_browse_empty_state_text">抱歉，找不到字詞的任何結果。請修改您的搜尋關鍵字。</string>
+    <string name="intercom_search_for_help">搜尋說明</string>
+    <string name="intercom_search_gif">搜尋 GIF…</string>
+    <string name="intercom_search_help_articles">搜尋幫助文章</string>
+    <string name="intercom_see_all">檢視全部</string>
+    <string name="intercom_see_all_conversations">查看您的所有對話</string>
+    <string name="intercom_see_past_conversations">檢視過去的對話</string>
+    <string name="intercom_see_previous_conversations">查看您之前的對話</string>
+    <string name="intercom_send">傳送</string>
+    <string name="intercom_send_us_a_message">傳訊息給我們</string>
+    <string name="intercom_some_things_failed_to_load">應用程式載入失敗。再試一次。</string>
+    <string name="intercom_something_went_wrong_try_again">發生錯誤。請再試一次。</string>
+    <string name="intercom_start_a_conversation">開始對話</string>
+    <string name="intercom_start_another_conversation">開始另一場對話</string>
+    <string name="intercom_start_conversation">開始對話</string>
+    <string name="intercom_storage_access_request">若要檢視您的相片，您必須允許存取儲存空間</string>
+    <string name="intercom_string_is_incorrect">似乎不正確</string>
+    <string name="intercom_submit">提交</string>
+    <string name="intercom_tap_to_send_image">點選以傳送影像</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} 通常會在一天內回覆</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} 通常會在一個工作天內回覆</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} 通常會在兩個工作天內回覆</string>
+    <string name="intercom_teammate_from_company">{name} 來自 {company}</string>
+    <string name="intercom_tell_us_more">請告訴我們更多…</string>
+    <string name="intercom_tell_us_what_you_need">告訴我們您需要什麼幫助，我們的 bot 將盡力為您解答</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">謝謝！團隊會在一個工作天內回覆</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">謝謝！團隊會在兩個工作天內回覆</string>
+    <string name="intercom_thanks_for_letting_us_know">感謝您的回饋</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">感謝！團隊將盡快回覆</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">此國碼似乎不正確</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">此電子郵件地址似乎不正確</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">此號碼似乎不正確</string>
+    <string name="intercom_that_number_has_too_many_digits">此號碼輸入位數太多</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">此號碼輸入位數太少</string>
+    <string name="intercom_that_number_needs_a_prefix">此號碼需要輸入冠碼 (+ 或 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">如有需要，團隊專員也可為您提供協助</string>
+    <string name="intercom_the_team_typically_replies_in_hours">團隊通常會在幾小時內回覆。</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">團隊通常會在一個工作天內回覆。</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">團隊通常會在兩個工作天內回覆</string>
+    <string name="intercom_time_day_ago">{delta} 天前</string>
+    <string name="intercom_time_future_1h">1 小時</string>
+    <string name="intercom_time_future_2h">2 小時</string>
+    <string name="intercom_time_future_30m">30 分鐘</string>
+    <string name="intercom_time_future_3h">3 小時</string>
+    <string name="intercom_time_future_day_0">星期一</string>
+    <string name="intercom_time_future_day_1">星期二</string>
+    <string name="intercom_time_future_day_2">星期三</string>
+    <string name="intercom_time_future_day_3">星期四</string>
+    <string name="intercom_time_future_day_4">星期五</string>
+    <string name="intercom_time_future_day_5">星期六</string>
+    <string name="intercom_time_future_day_6">星期日</string>
+    <string name="intercom_time_future_later_today">今天稍晚</string>
+    <string name="intercom_time_future_next_week">下星期</string>
+    <string name="intercom_time_future_tomorrow">明天</string>
+    <string name="intercom_time_hour_ago">{delta} 小時前</string>
+    <string name="intercom_time_just_now">剛剛</string>
+    <string name="intercom_time_minute_ago">{delta} 分鐘前</string>
+    <string name="intercom_time_week_ago">{delta} 週前</string>
+    <string name="intercom_time_yesterday">昨天</string>
+    <string name="intercom_try_again">再試一次</string>
+    <string name="intercom_try_again_minute">請稍後再試一次。</string>
+    <string name="intercom_try_use_different_keywords">請嘗試使用不同的關鍵字，或輸入完整的問題</string>
+    <string name="intercom_twitter_follow">在 Twitter 上關注我們</string>
+    <string name="intercom_two_business_days">兩個工作天</string>
+    <string name="intercom_type_a_number">輸入號碼…</string>
+    <string name="intercom_typically_replies_in_one_business_day">通常會在一個工作天內回覆</string>
+    <string name="intercom_typically_replies_in_two_business_days">通常會在兩個工作天內回覆</string>
+    <string name="intercom_upfront_collection_form_close_out">您隨時可以返回查看回應並傳送更新資訊。</string>
+    <string name="intercom_upfront_collection_form_introduction">分享一些背景資訊，幫助團隊更快更好地回應。</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">感謝您傳送相關背景資訊。為節省稍後的處理時間，歡迎您現在加入更多細節。</string>
+    <string name="intercom_upfront_collection_form_subtitle">傳送一些背景資訊給團隊</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">他們會記住這些背景資訊</string>
+    <string name="intercom_upfront_collection_form_title">更快得到協助</string>
+    <string name="intercom_upfront_collection_form_title_submitted">已發送給團隊！</string>
+    <string name="intercom_we_run_on_intercom">我們在 Intercom 上運行</string>
+    <string name="intercom_you">您</string>
+    <string name="intercom_you_rated_the_conversation">您已為對話評分</string>
+    <string name="intercom_your_conversations">您的對話</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="picture_all_audio">所有音頻</string>
+    <string name="picture_audio">獲取系統錄音權限被拒絕</string>
+    <string name="picture_audio_empty">妳可以使用系統錄音錄制音頻</string>
+    <string name="picture_audio_error">音頻已損壞</string>
+    <string name="picture_camera">獲取系統相機權限被拒絕</string>
+    <string name="picture_camera_roll">相機膠卷</string>
+    <string name="picture_camera_roll_num">%1$s (%2$d)</string>
+    <string name="picture_cancel">取消</string>
+    <string name="picture_choose_limit_seconds">只能選擇 %1$ds 至 %2$ds內的視頻</string>
+    <string name="picture_choose_max_seconds">最大只能選擇 %1$ds 以內的視頻</string>
+    <string name="picture_choose_min_seconds">不能選擇低於 %1$ds 內的視頻</string>
+    <string name="picture_completed">已完成</string>
+    <string name="picture_confirm">確定</string>
+    <string name="picture_data_exception">獲取相冊數據異常...</string>
+    <string name="picture_data_null">這裏空空如也…</string>
+    <string name="picture_default_original_image">原圖</string>
+    <string name="picture_done">完 成</string>
+    <string name="picture_done_front_num">%1$d/%2$d 完成</string>
+    <string name="picture_editor">編輯</string>
+    <string name="picture_empty">妳可以使用相機拍攝照片或視頻</string>
+    <string name="picture_empty_audio_title">無音頻文件\n</string>
+    <string name="picture_empty_title">無視頻或照片\n</string>
+    <string name="picture_error">圖片已損壞</string>
+    <string name="picture_gif_tag">動圖</string>
+    <string name="picture_go_setting">去設置</string>
+    <string name="picture_jurisdiction">讀取內存卡權限被拒絕</string>
+    <string name="picture_know">我知道了</string>
+    <string name="picture_long_chart">長圖</string>
+    <string name="picture_message_audio_max_num">妳最多只能選擇%1$s個音頻</string>
+    <string name="picture_message_max_num">妳最多只能選擇%1$s張照片</string>
+    <string name="picture_message_video_max_num">妳最多只能選擇%1$s個視頻</string>
+    <string name="picture_min_img_num">圖片最低選擇不能少於%1$s張</string>
+    <string name="picture_min_video_num">視頻最低選擇不能少於%1$s個</string>
+    <string name="picture_not_crop_data">無可用裁剪數據</string>
+    <string name="picture_original_image">原圖 (%1$s)</string>
+    <string name="picture_pause_audio">暫停</string>
+    <string name="picture_photo_camera">单击拍照，長按攝像</string>
+    <string name="picture_photo_pictures">點擊拍照</string>
+    <string name="picture_photo_recording">長按攝像</string>
+    <string name="picture_photograph">拍照</string>
+    <string name="picture_play_audio">播放</string>
+    <string name="picture_please">請稍候…</string>
+    <string name="picture_please_select">請選擇</string>
+    <string name="picture_preview">預覽</string>
+    <string name="picture_preview_image_num">%1$d/%2$d</string>
+    <string name="picture_preview_num">預覽(%1$d)</string>
+    <string name="picture_prompt">提示</string>
+    <string name="picture_prompt_content">是否保存圖片至手機？</string>
+    <string name="picture_quit_audio">退出</string>
+    <string name="picture_record_video">錄視頻</string>
+    <string name="picture_recording_time_is_short">錄制時間過短</string>
+    <string name="picture_rule">不能同時選擇圖片或視頻</string>
+    <string name="picture_save_error">圖片保存失敗</string>
+    <string name="picture_save_success">圖片保存成功至</string>
+    <string name="picture_select">選擇</string>
+    <string name="picture_send">完成</string>
+    <string name="picture_send_num">完成(%1$d/%2$d)</string>
+    <string name="picture_stop_audio">停止</string>
+    <string name="picture_take_picture">拍攝</string>
+    <string name="picture_tape">錄音</string>
+    <string name="picture_video_error">視頻已損壞</string>
+    <string name="picture_video_toast">視頻不可預覽</string>
+    <string name="picture_warning">暫無媒體文件！</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"繼續"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"已更新預覽模式。"</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"預覽"</string>
+    <string name="ucrop_gif_tag">動圖</string>
+    <string name="ucrop_label_edit_photo">裁切</string>
+    <string name="ucrop_label_original">原始比例</string>
+    <string name="ucrop_menu_crop">裁切</string>
+</resources>

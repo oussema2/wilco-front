@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "404438257634",
+    "project_id": "wilco---production",
+    "storage_bucket": "wilco---production.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404438257634:android:6e174d2061eac84afb73bb",
+        "android_client_info": {
+          "package_name": "aero.rogerwilco.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404438257634-4kssmsb3m8jecmqn11406v652bfl7q64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN_dLUKowDV6i8MWg3hZilpmjP6VE0DNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404438257634-4kssmsb3m8jecmqn11406v652bfl7q64.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "404438257634-ptfgv5389kogtauek5ubj5sr4364cr5l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "aero.rogerwilco.app",
+                "app_store_id": "1624534593"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MeatballsMenu /> with the default props renders the MeatballsMenu component correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 18,
+          "width": 18,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/meatballsMenu.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="testing-MeatballsMenu-Component"
+      tintColor="#5B5B5B"
+    />
+  </View>
+</View>
+`;

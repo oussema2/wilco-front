@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< ScreenGradient/> with the default props renders the ScreenGradient component correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "borderRadius": 5,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+  testID="linearGradient"
+>
+  <Text>
+    children
+  </Text>
+</BVLinearGradient>
+`;

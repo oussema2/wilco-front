@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const config_plugins_1 = require("@expo/config-plugins");
+const android_1 = require("./android");
+/**
+ * A config plugin for configuring `@react-native-firebase/crashlytics`
+ */
+const withRnFirebaseCrashlytics = config => {
+    return (0, config_plugins_1.withPlugins)(config, [android_1.withBuildscriptDependency, android_1.withApplyCrashlyticsPlugin]);
+};
+const pak = require('@react-native-firebase/crashlytics/package.json');
+exports.default = (0, config_plugins_1.createRunOncePlugin)(withRnFirebaseCrashlytics, pak.name, pak.version);

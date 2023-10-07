@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nouvelle notification</item>
+    <item quantity="other">%d nouvelles notifications</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
+    <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activer</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilité des services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">L\'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Mettre à jour</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string name="fcm_fallback_notification_channel_label">Divers</string>
+    <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="intercom_access_background_location_message">Ouvrez les paramètres de votre appareil pour autoriser l\'application à utiliser votre emplacement en arrière-plan</string>
+    <string name="intercom_access_background_location_title">Autorisez l\'accès continu à votre emplacement</string>
+    <string name="intercom_access_photos">Accéder à vos photos</string>
+    <string name="intercom_active_15m_ago">Actif au cours des {minutes} dernières minutes</string>
+    <string name="intercom_active_day_ago">Actif il y a {days}j</string>
+    <string name="intercom_active_hour_ago">Actif il y a {hours}h</string>
+    <string name="intercom_active_minute_ago">Actif il y a {minutes} min</string>
+    <string name="intercom_active_state">Actif</string>
+    <string name="intercom_active_week_ago">Actif il y a plus d\'une semaine</string>
+    <string name="intercom_allow_access">Autoriser l\'accès</string>
+    <string name="intercom_allow_storage_access">Veuillez autoriser l\'accès au stockage pour voir vos photos.</string>
+    <string name="intercom_also_in_this_conversation">Également dans cette conversation</string>
+    <string name="intercom_android_activated_message">Votre appli Android est maintenant intégrée à la plate-forme Intercom</string>
+    <string name="intercom_app_settings">Réglages de l\'application</string>
+    <string name="intercom_article_load_error">Impossible de charger l\'article</string>
+    <string name="intercom_article_question">Avons-nous répondu à votre question ?</string>
+    <string name="intercom_article_response">Vous avez réagi avec</string>
+    <string name="intercom_article_search_hint_text">Recherche parmi les articles...</string>
+    <string name="intercom_ask_a_question">Poser une question</string>
+    <string name="intercom_asked_about">À propos de</string>
+    <string name="intercom_attribute_collector_negative">Non</string>
+    <string name="intercom_attribute_collector_positive">Oui</string>
+    <string name="intercom_away_state">Absent</string>
+    <string name="intercom_bot">Robot</string>
+    <string name="intercom_bot_expectation_text">Notre bot peut répondre à beaucoup de questions fréquentes</string>
+    <string name="intercom_browse_all_help_topics">Consulter tous les thèmes</string>
+    <string name="intercom_browse_collections">Consulter toutes les collections</string>
+    <string name="intercom_cancel">Annuler</string>
+    <string name="intercom_choose_one">Sélectionner un…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Effacer</string>
+    <string name="intercom_close">Fermer</string>
+    <string name="intercom_congratulations">Félicitations</string>
+    <string name="intercom_connected">Vous êtes connecté</string>
+    <string name="intercom_continue_the_conversation">Poursuivre la conversation</string>
+    <string name="intercom_conversation_card_office_hours_header">Nous serons de retour en ligne</string>
+    <string name="intercom_conversation_card_reply_time_header">Notre délai de réponse habituel</string>
+    <string name="intercom_conversation_has_ended">Votre conversation est terminée</string>
+    <string name="intercom_conversations">Conversations</string>
+    <string name="intercom_conversations_with_app">Conversations avec {name}</string>
+    <string name="intercom_copied_to_clipboard">Copié dans le Presse-papiers</string>
+    <string name="intercom_couldnt_complete_action">Impossible d’effectuer cette action</string>
+    <string name="intercom_couldnt_load_apps">Impossible de charger les applications.</string>
+    <string name="intercom_couldnt_load_content">Impossible de charger le contenu</string>
+    <string name="intercom_couldnt_load_messenger">Impossible de charger le Messenger.</string>
+    <string name="intercom_delivered">Envoyé</string>
+    <string name="intercom_disappointed_face_emoji">Visage de déception</string>
+    <string name="intercom_dismiss">Ignorer</string>
+    <string name="intercom_empty_conversations">Aucune conversation avec {name} encore effectuée</string>
+    <string name="intercom_error_loading_conversation">Impossible de charger la conversation</string>
+    <string name="intercom_expected_response_delay_10800">moins de 3 heures</string>
+    <string name="intercom_expected_response_delay_1200">moins de 20 minutes</string>
+    <string name="intercom_expected_response_delay_14400">moins de 4 heures</string>
+    <string name="intercom_expected_response_delay_172800">2 jours</string>
+    <string name="intercom_expected_response_delay_1800">moins de 30 minutes</string>
+    <string name="intercom_expected_response_delay_18000">moins de 5 heures</string>
+    <string name="intercom_expected_response_delay_21600">moins de 6 heures</string>
+    <string name="intercom_expected_response_delay_300">moins de 5 minutes</string>
+    <string name="intercom_expected_response_delay_3600">moins de 1 heure</string>
+    <string name="intercom_expected_response_delay_600">moins de 10 minutes</string>
+    <string name="intercom_expected_response_delay_604800">moins de 1 semaine</string>
+    <string name="intercom_expected_response_delay_7200">moins de 2 heures</string>
+    <string name="intercom_expected_response_delay_86400">1 jour</string>
+    <string name="intercom_facebook_like">Suivez-nous sur Facebook !</string>
+    <string name="intercom_failed_delivery">Impossible d\'envoyer le message</string>
+    <string name="intercom_failed_to_load_conversation">Impossible de charger vos conversations</string>
+    <string name="intercom_failed_to_send">Envoi impossible</string>
+    <string name="intercom_file_access_failed">Impossible d’accéder à ce fichier</string>
+    <string name="intercom_file_too_big">Impossible d’envoyer des fichiers de plus de 40 Mo</string>
+    <string name="intercom_get_help">Obtenir de l\'aide</string>
+    <string name="intercom_gif_attribution">via {providername}</string>
+    <string name="intercom_gifs_load_error">Impossible de charger les GIF</string>
+    <string name="intercom_give_it_another_try">Essayer encore</string>
+    <string name="intercom_go_to_device_settings">Pour autoriser l\'accès, allez dans le menu des autorisations des réglages de l\'application de votre appareil.</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Visage aux grands yeux qui sourit</string>
+    <string name="intercom_help_center">Centre d\'assistance</string>
+    <string name="intercom_how_can_we_help">Comment pouvons-nous vous aider ?</string>
+    <string name="intercom_image_attached">(image jointe)</string>
+    <string name="intercom_inbox_error_state_title">Un problème est survenu</string>
+    <string name="intercom_loading">Chargement</string>
+    <string name="intercom_message_failed_try_again">Envoi impossible ; appuyez pour réessayer</string>
+    <string name="intercom_message_seen">Vu</string>
+    <string name="intercom_message_state_sending">Envoi en cours…</string>
+    <string name="intercom_message_unseen">Pas encore vu</string>
+    <string name="intercom_name_and_1_other">{name} et 1 autre personne</string>
+    <string name="intercom_name_and_x_others">{name} et {count} autres personnes</string>
+    <string name="intercom_navigation_back">Précédent</string>
+    <string name="intercom_neutral_face_emoji">Visage neutre</string>
+    <string name="intercom_new_conversation">Nouvelle conversation</string>
+    <string name="intercom_new_message">Nouveau message</string>
+    <string name="intercom_new_messages">Vous avez {n} nouveaux messages</string>
+    <string name="intercom_new_notifications">Nouvelles notifications</string>
+    <string name="intercom_no_articles_to_display">Aucun article à afficher</string>
+    <string name="intercom_no_conversations">Aucune conversation</string>
+    <string name="intercom_no_gifs_found">Aucun GIF trouvé</string>
+    <string name="intercom_no_gifs_matching_query">Nous n\'avons trouvé aucun GIF correspondant à votre demande.</string>
+    <string name="intercom_no_messages_from_the_team">Aucun message de l’équipe</string>
+    <string name="intercom_no_network_connection">Pas de connexion réseau</string>
+    <string name="intercom_no_photos">Pas de photo</string>
+    <string name="intercom_no_photos_on_device">Il n\'y a pas de photo sur cet appareil</string>
+    <string name="intercom_no_results_for_searchterm">Aucun résultat pour {searchTerm}</string>
+    <string name="intercom_not_now">Pas maintenant</string>
+    <string name="intercom_nothing_to_see_here_yet">Rien à voir par ici pour le moment</string>
+    <string name="intercom_notification_channel_actions_description">Contient des liens pour effectuer des actions dans cette application</string>
+    <string name="intercom_notification_channel_actions_title">Actions</string>
+    <string name="intercom_notification_channel_chat_replies_description">Notifications de réponse de chats dans cette application</string>
+    <string name="intercom_notification_channel_chat_replies_title">Réponses du chat</string>
+    <string name="intercom_notification_channel_new_chats_description">Nouveaux messages de chat envoyés depuis cette application</string>
+    <string name="intercom_notification_channel_new_chats_title">Nouveaux chats</string>
+    <string name="intercom_number_is_incorrect">Ce numéro semble incorrect.</string>
+    <string name="intercom_one_new_message">Vous avez un nouveau message</string>
+    <string name="intercom_page_not_found">Cette page n’existe plus</string>
+    <string name="intercom_permission_denied">Cette autorisation a été refusée</string>
+    <string name="intercom_photo_access_denied">Vous avez refusé l\'accès à vos photos.</string>
+    <string name="intercom_plus_x_more">+{n}</string>
+    <string name="intercom_profile_location">{time} à {location}</string>
+    <string name="intercom_rate_your_conversation">Notez votre conversation</string>
+    <string name="intercom_reload">Recharger</string>
+    <string name="intercom_reply">Répondre</string>
+    <string name="intercom_reply_from_admin">Réponse de {name}</string>
+    <string name="intercom_reply_to_conversation">Répondre</string>
+    <string name="intercom_retry">Réessayer</string>
+    <string name="intercom_search_browse_empty_state_text">Désolé, cette recherche ne donne rien. Veuillez reformuler votre requête.</string>
+    <string name="intercom_search_for_help">Rechercher de l\'aide</string>
+    <string name="intercom_search_gif">Rechercher les GIF…</string>
+    <string name="intercom_search_help_articles">Rechercher des articles d\'aide</string>
+    <string name="intercom_see_all">Tout voir</string>
+    <string name="intercom_see_all_conversations">Voir toutes vos conversations</string>
+    <string name="intercom_see_past_conversations">Voir les conversations passées</string>
+    <string name="intercom_see_previous_conversations">Voir vos conversations précédentes</string>
+    <string name="intercom_send">Envoyer</string>
+    <string name="intercom_send_us_a_message">Envoyez-nous un message</string>
+    <string name="intercom_some_things_failed_to_load">Certains éléments n\'ont pas pu être chargés. Veuillez réessayer.</string>
+    <string name="intercom_something_went_wrong_try_again">Un problème est survenu. Réessayez.</string>
+    <string name="intercom_start_a_conversation">Démarrer une conversation</string>
+    <string name="intercom_start_another_conversation">Démarrer une conversation</string>
+    <string name="intercom_start_conversation">Démarrer une conversation</string>
+    <string name="intercom_storage_access_request">Vous devez autoriser l\'accès au stockage pour voir vos photos.</string>
+    <string name="intercom_string_is_incorrect">Il semble qu\'il y ait une erreur.</string>
+    <string name="intercom_submit">Soumettre</string>
+    <string name="intercom_tap_to_send_image">Appuyer pour envoyer une image</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} répond généralement dans un délai de 24 heures.</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} répond généralement en un jour ouvré</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} répond généralement en deux jours ouvrés</string>
+    <string name="intercom_teammate_from_company">{name} de {company}</string>
+    <string name="intercom_tell_us_more">Dites-nous en plus…</string>
+    <string name="intercom_tell_us_what_you_need">Dites-nous ce qui vous amène : notre bot mettra tout en œuvre pour vous aider</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Merci ! L\'équipe répondra sous un jour ouvré</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Merci ! L\'équipe répondra sous deux jours ouvrés</string>
+    <string name="intercom_thanks_for_letting_us_know">Merci de nous avoir informés</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Merci ! L\'équipe répondra dès que possible.</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Ce code de pays semble incorrect.</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Cette adresse e-mail semble incorrecte.</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Ce numéro semble incorrect.</string>
+    <string name="intercom_that_number_has_too_many_digits">Ce numéro contient trop de chiffres.</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Ce numéro ne contient pas assez de chiffres.</string>
+    <string name="intercom_that_number_needs_a_prefix">Ce numéro doit contenir un indicatif (+ ou 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Notre équipe peut vous aider au besoin</string>
+    <string name="intercom_the_team_typically_replies_in_hours">L’équipe répond généralement dans un délai de quelques heures.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">L\'équipe répond généralement en un jour ouvré</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">L\'équipe répond généralement en deux jours ouvrés</string>
+    <string name="intercom_time_day_ago">Il y a {delta}j</string>
+    <string name="intercom_time_future_1h">dans 1 heure</string>
+    <string name="intercom_time_future_2h">dans 2 heures</string>
+    <string name="intercom_time_future_30m">dans 30 minutes</string>
+    <string name="intercom_time_future_3h">dans 3 heures</string>
+    <string name="intercom_time_future_day_0">Lundi</string>
+    <string name="intercom_time_future_day_1">Mardi</string>
+    <string name="intercom_time_future_day_2">Mercredi</string>
+    <string name="intercom_time_future_day_3">Jeudi</string>
+    <string name="intercom_time_future_day_4">Vendredi</string>
+    <string name="intercom_time_future_day_5">Samedi</string>
+    <string name="intercom_time_future_day_6">Dimanche</string>
+    <string name="intercom_time_future_later_today">Dans la journée</string>
+    <string name="intercom_time_future_next_week">La semaine prochaine</string>
+    <string name="intercom_time_future_tomorrow">Demain</string>
+    <string name="intercom_time_hour_ago">Il y a {delta}h</string>
+    <string name="intercom_time_just_now">À l’instant</string>
+    <string name="intercom_time_minute_ago">Il y a {delta} min</string>
+    <string name="intercom_time_week_ago">Il y a {delta} sem</string>
+    <string name="intercom_time_yesterday">hier</string>
+    <string name="intercom_try_again">Réessayer</string>
+    <string name="intercom_try_again_minute">Réessayez dans une minute.</string>
+    <string name="intercom_try_use_different_keywords">Veuillez utiliser d\'autres mots-clés ou saisir votre question complète</string>
+    <string name="intercom_twitter_follow">Suivez-nous sur Twitter !</string>
+    <string name="intercom_two_business_days">Deux jours ouvrés</string>
+    <string name="intercom_type_a_number">Entrer un nombre…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Répond généralement en un jour ouvré</string>
+    <string name="intercom_typically_replies_in_two_business_days">Répond généralement en deux jours ouvrés</string>
+    <string name="intercom_upfront_collection_form_close_out">Revenez ici à tout moment pour consulter les réponses et faire part des progrès.</string>
+    <string name="intercom_upfront_collection_form_introduction">Donnez du contexte à l\'équipe pour une réponse plus juste et plus rapide.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Merci pour ce complément. Pour gagner du temps, n\'hésitez pas à ajouter un maximum de détails.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Envoyez du contexte à l\'équipe</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Ils en tiendront compte</string>
+    <string name="intercom_upfront_collection_form_title">Recevez de l\'aide plus rapidement</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Bien reçu par l\'équipe !</string>
+    <string name="intercom_we_run_on_intercom">Avec Intercom</string>
+    <string name="intercom_you">Vous</string>
+    <string name="intercom_you_rated_the_conversation">Vous avez noté la conversation</string>
+    <string name="intercom_your_conversations">Vos conversations</string>
+    <string name="item_view_role_description">Tabulation</string>
+    <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
+    <string name="material_hour_selection">Sélectionnez une heure</string>
+    <string name="material_hour_suffix">%1$s h</string>
+    <string name="material_minute_selection">Sélectionner des minutes</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Passer en mode horloge pour la saisie de l\'heure.</string>
+    <string name="material_timepicker_hour">Heure</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Sélectionner l\'heure</string>
+    <string name="material_timepicker_text_input_mode_description">Passer en mode saisie de texte pour la saisie de l\'heure.</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_announce_current_selection">Sélection actuelle : %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Sélectionnez une date</string>
+    <string name="mtrl_picker_date_header_unselected">Date sélectionnée</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonne du jour de la semaine : %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format incorrect.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple : %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utiliser %1$s</string>
+    <string name="mtrl_picker_invalid_range">Plage non valide.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Accéder à l\'année %1$s</string>
+    <string name="mtrl_picker_out_of_range">Hors de portée : %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Date de début – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Date de fin</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Sélectionnez une période</string>
+    <string name="mtrl_picker_range_header_unselected">Date de début – Date de fin</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Date de fin</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Date de début</string>
+    <string name="mtrl_picker_text_input_day_abbr">j</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode de saisie Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour sélectionner un jour</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour sélectionner une année</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Continuer"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Mode \"Aperçu\" mis à jour."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Aperçu"</string>
+</resources>

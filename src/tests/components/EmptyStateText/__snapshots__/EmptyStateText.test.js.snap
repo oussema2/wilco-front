@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyStateText /> with the default props renders the EmptyStateText component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#767676",
+        "fontFamily": "NotoSansJP-Regular",
+        "fontSize": 14,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    empty section
+  </Text>
+</View>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HorizontalPadding with custom padding applies the given padding 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingHorizontal": 5,
+      },
+      null,
+    ]
+  }
+  testID="testID"
+>
+  <Text>
+    Sample text
+  </Text>
+</View>
+`;
+
+exports[`HorizontalPadding with custom testID prop uses the given testID 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingHorizontal": 20,
+      },
+      null,
+    ]
+  }
+  testID="testID"
+>
+  <Text>
+    Sample text
+  </Text>
+</View>
+`;
+
+exports[`HorizontalPadding with default props adds horizontal padding to the children 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingHorizontal": 20,
+      },
+      null,
+    ]
+  }
+  testID="horizontalPadding-component"
+>
+  <Text>
+    Sample text
+  </Text>
+</View>
+`;

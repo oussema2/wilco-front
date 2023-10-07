@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново известие</item>
+    <item quantity="other">%d нови известия</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Навигиране към началния екран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Навигиране нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Преглед на всички"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИЗКЛ."</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"клавиша за интервал"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Търсете…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Споделяне със: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
+    <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
+    <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
+    <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Активиране</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Актуализиране</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_signin_button_text">Вход</string>
+    <string name="common_signin_button_text_long">Вход с Google</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
+    <string name="fcm_fallback_notification_channel_label">Разни</string>
+    <string name="icon_content_description">Икона за диалогов прозорец</string>
+    <string name="intercom_access_background_location_message">Отворете настройките на устройството и активирайте приложението, за да използвате местоположението във фонов режим</string>
+    <string name="intercom_access_background_location_title">Разрешаване на постоянен достъп до вашето местоположение</string>
+    <string name="intercom_access_photos">Достъп до Вашите снимки</string>
+    <string name="intercom_active_15m_ago">Активност през последните {minutes}мин.</string>
+    <string name="intercom_active_day_ago">Активност преди {days}дни</string>
+    <string name="intercom_active_hour_ago">Активност преди {hours}часа</string>
+    <string name="intercom_active_minute_ago">Активност преди {minutes}мин.</string>
+    <string name="intercom_active_state">Активен</string>
+    <string name="intercom_active_week_ago">Активност преди повече от 1 седмица</string>
+    <string name="intercom_allow_access">Разрешаване на достъп</string>
+    <string name="intercom_allow_storage_access">Моля, разрешете достъп до хранилището, за да виждате снимките си</string>
+    <string name="intercom_also_in_this_conversation">Също в този разговор</string>
+    <string name="intercom_android_activated_message">Вашето приложение за Android вече е интегрирано в платформата Intercom</string>
+    <string name="intercom_app_settings">Настройки на приложения</string>
+    <string name="intercom_article_load_error">Неуспешно зареждане на статията</string>
+    <string name="intercom_article_question">Това отговори ли на вашия въпрос?</string>
+    <string name="intercom_article_response">Вие реагирахте с</string>
+    <string name="intercom_article_search_hint_text">Търсене в статии...</string>
+    <string name="intercom_ask_a_question">Задайте въпрос</string>
+    <string name="intercom_asked_about">Попитахте за</string>
+    <string name="intercom_attribute_collector_negative">Не</string>
+    <string name="intercom_attribute_collector_positive">Да</string>
+    <string name="intercom_away_state">Отсъстващ</string>
+    <string name="intercom_bot">Бот</string>
+    <string name="intercom_bot_expectation_text">Нашият бот може да отговори на много от често срещаните въпроси</string>
+    <string name="intercom_browse_all_help_topics">Преглед на всички теми за помощ</string>
+    <string name="intercom_browse_collections">Преглед на колекции</string>
+    <string name="intercom_cancel">Отказ</string>
+    <string name="intercom_choose_one">Изберете едно…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Изчисти</string>
+    <string name="intercom_close">Затваряне</string>
+    <string name="intercom_congratulations">Поздравления</string>
+    <string name="intercom_connected">Свързани сте</string>
+    <string name="intercom_continue_the_conversation">Продължаване на разговора</string>
+    <string name="intercom_conversation_card_office_hours_header">Ще бъдем отново онлайн</string>
+    <string name="intercom_conversation_card_reply_time_header">Обичайно време за отговор</string>
+    <string name="intercom_conversation_has_ended">Вашият разговор приключи</string>
+    <string name="intercom_conversations">Разговори</string>
+    <string name="intercom_conversations_with_app">Разговори с {name}</string>
+    <string name="intercom_copied_to_clipboard">Копирано в клипборда</string>
+    <string name="intercom_couldnt_complete_action">Неуспешно изпълнение на действието</string>
+    <string name="intercom_couldnt_load_apps">Неуспешно зареждане на приложения.</string>
+    <string name="intercom_couldnt_load_content">Неуспешно зареждане на съдържанието</string>
+    <string name="intercom_couldnt_load_messenger">Неуспешно зареждане на Messenger.</string>
+    <string name="intercom_delivered">Доставено</string>
+    <string name="intercom_disappointed_face_emoji">Разочаровано лице</string>
+    <string name="intercom_dismiss">Отхвърляне</string>
+    <string name="intercom_empty_conversations">Все още няма разговори с {name}</string>
+    <string name="intercom_error_loading_conversation">Неуспешно зареждане на разговорa</string>
+    <string name="intercom_expected_response_delay_10800">до 3 часа</string>
+    <string name="intercom_expected_response_delay_1200">до 20 минути</string>
+    <string name="intercom_expected_response_delay_14400">до 4 часа</string>
+    <string name="intercom_expected_response_delay_172800">2 дни</string>
+    <string name="intercom_expected_response_delay_1800">до 30 минути</string>
+    <string name="intercom_expected_response_delay_18000">до 5 часа</string>
+    <string name="intercom_expected_response_delay_21600">до 6 часа</string>
+    <string name="intercom_expected_response_delay_300">до 5 минути</string>
+    <string name="intercom_expected_response_delay_3600">до 1 час</string>
+    <string name="intercom_expected_response_delay_600">до 10 минути</string>
+    <string name="intercom_expected_response_delay_604800">до 1 седмица</string>
+    <string name="intercom_expected_response_delay_7200">до 2 часа</string>
+    <string name="intercom_expected_response_delay_86400">1 ден</string>
+    <string name="intercom_facebook_like">Харесайте ни във Facebook</string>
+    <string name="intercom_failed_delivery">Съобщението не може да бъде доставено</string>
+    <string name="intercom_failed_to_load_conversation">Неуспешно зареждане на Вашите разговори</string>
+    <string name="intercom_failed_to_send">Неуспешно изпращане</string>
+    <string name="intercom_file_access_failed">Няма достъп до файла</string>
+    <string name="intercom_file_too_big">Не могат да се изпращат файлове над 40MB</string>
+    <string name="intercom_get_help">Търсене на помощ</string>
+    <string name="intercom_gif_attribution">от {providername}</string>
+    <string name="intercom_gifs_load_error">Неуспешно зареждане на GIF картинки</string>
+    <string name="intercom_give_it_another_try">Опитай отново</string>
+    <string name="intercom_go_to_device_settings">За да разрешите достъп, отворете менюто Разрешения в настройките на приложенията на устройството си</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Ухилено лице с големи очи</string>
+    <string name="intercom_help_center">Помощен център</string>
+    <string name="intercom_how_can_we_help">Как можем да помогнем?</string>
+    <string name="intercom_image_attached">(приложено изображение)</string>
+    <string name="intercom_inbox_error_state_title">Нещо се обърка</string>
+    <string name="intercom_loading">Зареждане</string>
+    <string name="intercom_message_failed_try_again">Не е изпратено, докоснете за повторен опит</string>
+    <string name="intercom_message_seen">Видяно</string>
+    <string name="intercom_message_state_sending">Изпращане…</string>
+    <string name="intercom_message_unseen">Все още не е видяно</string>
+    <string name="intercom_name_and_1_other">{name} и още 1</string>
+    <string name="intercom_name_and_x_others">{name} и още {count}</string>
+    <string name="intercom_navigation_back">Назад</string>
+    <string name="intercom_neutral_face_emoji">Безизразно лице</string>
+    <string name="intercom_new_conversation">Нов разговор</string>
+    <string name="intercom_new_message">Ново съобщение</string>
+    <string name="intercom_new_messages">Имате {n} нови съобщения</string>
+    <string name="intercom_new_notifications">Нови известия</string>
+    <string name="intercom_no_articles_to_display">Няма статии за показване</string>
+    <string name="intercom_no_conversations">Няма разговори</string>
+    <string name="intercom_no_gifs_found">Няма намерени GIF картинки</string>
+    <string name="intercom_no_gifs_matching_query">Не успяхме да намерим GIF картинки, които отговарят на заявката Ви</string>
+    <string name="intercom_no_messages_from_the_team">Няма съобщения за екипа</string>
+    <string name="intercom_no_network_connection">Няма връзка с мрежа</string>
+    <string name="intercom_no_photos">Няма снимки</string>
+    <string name="intercom_no_photos_on_device">Няма снимки на това устройство</string>
+    <string name="intercom_no_results_for_searchterm">Няма резултати за {searchTerm}</string>
+    <string name="intercom_not_now">Не сега</string>
+    <string name="intercom_nothing_to_see_here_yet">Тук все още няма какво да се види</string>
+    <string name="intercom_notification_channel_actions_description">Съдържа връзки към действия в това приложение</string>
+    <string name="intercom_notification_channel_actions_title">Действия</string>
+    <string name="intercom_notification_channel_chat_replies_description">Известия за чат отговорите в това приложение</string>
+    <string name="intercom_notification_channel_chat_replies_title">Чат отговори</string>
+    <string name="intercom_notification_channel_new_chats_description">Нови чат съобщения, изпратени от това приложение</string>
+    <string name="intercom_notification_channel_new_chats_title">Нови чатове</string>
+    <string name="intercom_number_is_incorrect">Нещо не е наред с този номер</string>
+    <string name="intercom_one_new_message">Имате ново съобщение</string>
+    <string name="intercom_page_not_found">Тази страница вече не съществува</string>
+    <string name="intercom_permission_denied">Това разрешение е отказано</string>
+    <string name="intercom_photo_access_denied">Отказахте достъп до снимките си</string>
+    <string name="intercom_plus_x_more">+{n} още</string>
+    <string name="intercom_profile_location">{time} в {location}</string>
+    <string name="intercom_rate_your_conversation">Оценете разговора си</string>
+    <string name="intercom_reload">Презареждане</string>
+    <string name="intercom_reply">Отговор</string>
+    <string name="intercom_reply_from_admin">Отговор от {name}</string>
+    <string name="intercom_reply_to_conversation">Напишете отговор</string>
+    <string name="intercom_retry">Повторен опит</string>
+    <string name="intercom_search_browse_empty_state_text">За съжаление не успяхме да намерим резултати за това търсене. Опитайте да перифразирате търсенето.</string>
+    <string name="intercom_search_for_help">Търсене на помощни статии</string>
+    <string name="intercom_search_gif">Търсене на GIF картинки…</string>
+    <string name="intercom_search_help_articles">Търсене на статии за помощ</string>
+    <string name="intercom_see_all">Показване на всички</string>
+    <string name="intercom_see_all_conversations">Преглед на всички Ваши разговори</string>
+    <string name="intercom_see_past_conversations">Показване на стари разговори</string>
+    <string name="intercom_see_previous_conversations">Вижте предишните разговори</string>
+    <string name="intercom_send">Изпращане</string>
+    <string name="intercom_send_us_a_message">Изпратете ни съобщение</string>
+    <string name="intercom_some_things_failed_to_load">Неуспешно зареждане на някои елементи. Опитайте отново.</string>
+    <string name="intercom_something_went_wrong_try_again">Нещо се обърка. Опитайте отново.</string>
+    <string name="intercom_start_a_conversation">Започване на разговор</string>
+    <string name="intercom_start_another_conversation">Започване на друг разговор</string>
+    <string name="intercom_start_conversation">Започнете разговор</string>
+    <string name="intercom_storage_access_request">За да виждате снимките си, трябва да разрешите достъп до хранилището</string>
+    <string name="intercom_string_is_incorrect">Нещо не е наред с това</string>
+    <string name="intercom_submit">Подаване</string>
+    <string name="intercom_tap_to_send_image">Докоснете, за да изпратите изображение</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} обикновено отговаря в рамките на един ден.</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} обикновено отговаря за един работен ден</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} обикновено отговаря за два работни дни</string>
+    <string name="intercom_teammate_from_company">{name} от {company}</string>
+    <string name="intercom_tell_us_more">Кажете ни повече…</string>
+    <string name="intercom_tell_us_what_you_need">Кажете ни каква помощ ви е необходима и нашият bot ще се постарае да ви отговори</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Благодарим! Екипът ще отговори до един работен ден</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Благодарим! Екипът ще отговори до два работни дни</string>
+    <string name="intercom_thanks_for_letting_us_know">Благодарим Ви, че ни уведомихте</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Благодарим! Екипът ще отговори възможно най-скоро.</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Нещо не е наред с този код на държава</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Нещо не е наред с този имейл адрес</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Нещо не е наред с този номер</string>
+    <string name="intercom_that_number_has_too_many_digits">Този номер съдържа твърде много цифри</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">От този номер липсват няколко цифри</string>
+    <string name="intercom_that_number_needs_a_prefix">Към този номер трябва да се добави префикс (+ или 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Екипът също може да помогне, ако е необходимо</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Екипът обикновено отговаря в рамките на няколко часа.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Екипът обикновено отговаря за един работен ден.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Екипът обикновено отговаря за два работни дни</string>
+    <string name="intercom_time_day_ago">преди {delta}дни</string>
+    <string name="intercom_time_future_1h">след 1 час</string>
+    <string name="intercom_time_future_2h">след 2 часа</string>
+    <string name="intercom_time_future_30m">след 30 минути</string>
+    <string name="intercom_time_future_3h">след 3 часа</string>
+    <string name="intercom_time_future_day_0">понеделник</string>
+    <string name="intercom_time_future_day_1">вторник</string>
+    <string name="intercom_time_future_day_2">сряда</string>
+    <string name="intercom_time_future_day_3">четвъртък</string>
+    <string name="intercom_time_future_day_4">петък</string>
+    <string name="intercom_time_future_day_5">събота</string>
+    <string name="intercom_time_future_day_6">неделя</string>
+    <string name="intercom_time_future_later_today">по-късно днес</string>
+    <string name="intercom_time_future_next_week">следващата седмица</string>
+    <string name="intercom_time_future_tomorrow">утре</string>
+    <string name="intercom_time_hour_ago">преди {delta}часа</string>
+    <string name="intercom_time_just_now">Току-що</string>
+    <string name="intercom_time_minute_ago">преди {delta}мин.</string>
+    <string name="intercom_time_week_ago">преди {delta}седмици</string>
+    <string name="intercom_time_yesterday">вчера</string>
+    <string name="intercom_try_again">Опитайте отново</string>
+    <string name="intercom_try_again_minute">Опитайте отново след една минута.</string>
+    <string name="intercom_try_use_different_keywords">Опитайте да използвате други ключови думи или въведете пълния текст на въпроса</string>
+    <string name="intercom_twitter_follow">Последвайте ни в Twitter</string>
+    <string name="intercom_two_business_days">Два работни дни</string>
+    <string name="intercom_type_a_number">Напишете номер…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Обикновено отговаря за един работен ден</string>
+    <string name="intercom_typically_replies_in_two_business_days">Обикновено отговаря за два работни дни</string>
+    <string name="intercom_upfront_collection_form_close_out">Може да се върнете тук по всяко време, за да видите отговорите и да изпратите допълнителна информация.</string>
+    <string name="intercom_upfront_collection_form_introduction">Споделете контекст, за да помогнете на екипа да отговори по-точно и по-бързо.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Благодарим Ви, че изпратихте контекст. За да спестите време по-късно, не се колебайте да добавите повече подробности сега.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Изпращане на контекст на екипа</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Те ще вземат предвид този контекст</string>
+    <string name="intercom_upfront_collection_form_title">По-бързо получаване на помощ</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Изпратено на екипа!</string>
+    <string name="intercom_we_run_on_intercom">Ние използваме Intercom</string>
+    <string name="intercom_you">Вие</string>
+    <string name="intercom_you_rated_the_conversation">Оценихте разговора си</string>
+    <string name="intercom_your_conversations">Вашите разговори</string>
+    <string name="item_view_role_description">Раздел</string>
+    <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часа</string>
+    <string name="material_minute_selection">Избиране на минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Превключете към режима за часовник, за да въведете часа.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Избор на час</string>
+    <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известие</string>
+    <string name="mtrl_chip_close_icon_content_description">Премахване на %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Повече от %1$d нови известия</string>
+    <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
+    <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Избиране на дата</string>
+    <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона за дни: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Форматът е невалиден.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Използвайте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Невалиден диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$s г.</string>
+    <string name="mtrl_picker_out_of_range">Извън диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Начална дата – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – крайна дата</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Избиране на период от време</string>
+    <string name="mtrl_picker_range_header_unselected">Начална дата – крайна дата</string>
+    <string name="mtrl_picker_save">Запазване</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Крайна дата</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Начална дата</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Превключване към режим на въвеждане в календар</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string name="password_toggle_content_description">Показване на паролата</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Търсене"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Напред"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Режимът за визуализация е актуализиран."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Визуализация"</string>
+</resources>

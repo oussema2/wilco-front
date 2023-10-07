@@ -1,0 +1,1104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditAvatar /> when the variant is "aircraft when a source is provided renders the provided image source and the button with text "Change aircraft photo" 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 165,
+      "justifyContent": "space-between",
+      "marginTop": 39,
+    }
+  }
+  testID="edit-avatar-component-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="edit-avatar-image-testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+      testID="Avatar-Component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 68,
+              "height": "100%",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <FastImageView
+          onFastImageLoadEnd={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "sample_uri",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 44,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "height": 18,
+                  "marginLeft": 2,
+                  "width": 24,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/aircraft.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="Avatar-Component-loader"
+              tintColor="#FFFFFF"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="edit-avatar-button-testID"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#12A3BE",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Change aircraft photo
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<EditAvatar /> when the variant is "aircraft when no source is provided renders the button with text "Add aircraft photo" 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 165,
+      "justifyContent": "space-between",
+      "marginTop": 39,
+    }
+  }
+  testID="edit-avatar-component-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="edit-avatar-image-testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+      testID="Avatar-Component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 18,
+              "marginLeft": 2,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          onFastImageLoadEnd={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/aircraft.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image"
+          tintColor="#FFFFFF"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 44,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "height": 18,
+                  "marginLeft": 2,
+                  "width": 24,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/aircraft.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="Avatar-Component-loader"
+              tintColor="#FFFFFF"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="edit-avatar-button-testID"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#12A3BE",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Add aircraft photo
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<EditAvatar /> when the variant is "user" when a source is provided renders the provided image source and the button with text "Change profile photo" 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 165,
+      "justifyContent": "space-between",
+      "marginTop": 39,
+    }
+  }
+  testID="edit-avatar-component-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="edit-avatar-image-testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+      testID="Avatar-Component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 68,
+              "height": "100%",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <FastImageView
+          onFastImageLoadEnd={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "sample_uri",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 44,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "aspectRatio": 1,
+                  "height": 24,
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/user.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="Avatar-Component-loader"
+              tintColor="#FFFFFF"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="edit-avatar-button-testID"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#12A3BE",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Change profile photo
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<EditAvatar /> when the variant is "user" when no source is provided renders the button with text "Add profile photo" 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 165,
+      "justifyContent": "space-between",
+      "marginTop": 39,
+    }
+  }
+  testID="edit-avatar-component-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="edit-avatar-image-testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+      testID="Avatar-Component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "aspectRatio": 1,
+              "height": 24,
+              "width": 32,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          onFastImageLoadEnd={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/user.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image"
+          tintColor="#FFFFFF"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 44,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "aspectRatio": 1,
+                  "height": 24,
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/user.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="Avatar-Component-loader"
+              tintColor="#FFFFFF"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="edit-avatar-button-testID"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#12A3BE",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Add profile photo
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<EditAvatar /> with the default props renders the EditAvatar component correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 165,
+      "justifyContent": "space-between",
+      "marginTop": 39,
+    }
+  }
+  testID="edit-avatar-component-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="edit-avatar-image-testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 68,
+          "display": "flex",
+          "height": 44,
+          "justifyContent": "center",
+        }
+      }
+      testID="Avatar-Component"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "aspectRatio": 1,
+              "height": 24,
+              "width": 32,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          onFastImageLoadEnd={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/user.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image"
+          tintColor="#FFFFFF"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 44,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "aspectRatio": 1,
+                  "height": 24,
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/user.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="Avatar-Component-loader"
+              tintColor="#FFFFFF"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 3,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "busy": false,
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="edit-avatar-button-testID"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "backgroundColor": "transparent",
+            "borderColor": "#2089dc",
+            "borderRadius": 26,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#12A3BE",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 15,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+              "paddingVertical": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          Add profile photo
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 件の新しい通知</item>
+    <item quantity="other">%d 件の新しい通知</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">有効にする</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string name="fcm_fallback_notification_channel_label">その他</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string name="intercom_access_background_location_message">バックグラウンドでロケーションを使用するには、デバイスの設定でアプリを有効化します。</string>
+    <string name="intercom_access_background_location_title">ロケーションへのアクセスを常に許可</string>
+    <string name="intercom_access_photos">写真にアクセスする</string>
+    <string name="intercom_active_15m_ago">{minutes}分間アクティブ</string>
+    <string name="intercom_active_day_ago">{days}日前にアクティブ</string>
+    <string name="intercom_active_hour_ago">{hours}時間前にアクティブ</string>
+    <string name="intercom_active_minute_ago">{minutes}分前にアクティブ</string>
+    <string name="intercom_active_state">アクティブ</string>
+    <string name="intercom_active_week_ago">1週間以上前からアクティブ</string>
+    <string name="intercom_allow_access">アクセスを許可する</string>
+    <string name="intercom_allow_storage_access">写真を見るには、ストレージへのアクセスを許可してください</string>
+    <string name="intercom_also_in_this_conversation">もこの会話に参加中</string>
+    <string name="intercom_android_activated_message">あなたのAndroidアプリはIntercomのプラットフォームに統合されました</string>
+    <string name="intercom_app_settings">アプリ設定</string>
+    <string name="intercom_article_load_error">記事をロードできません</string>
+    <string name="intercom_article_question">こちらの回答で解決しましたか？</string>
+    <string name="intercom_article_response">対応状況</string>
+    <string name="intercom_article_search_hint_text">記事を検索...</string>
+    <string name="intercom_ask_a_question">質問する</string>
+    <string name="intercom_asked_about">質問内容</string>
+    <string name="intercom_attribute_collector_negative">いいえ</string>
+    <string name="intercom_attribute_collector_positive">はい</string>
+    <string name="intercom_away_state">退席中</string>
+    <string name="intercom_bot">Bot</string>
+    <string name="intercom_bot_expectation_text">よくある一般的な質問にボットがお答えします</string>
+    <string name="intercom_browse_all_help_topics">すべてのヘルプトピックを参照</string>
+    <string name="intercom_browse_collections">コレクションを見る</string>
+    <string name="intercom_cancel">キャンセル</string>
+    <string name="intercom_choose_one">1つ選択してください…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">クリア</string>
+    <string name="intercom_close">クローズ</string>
+    <string name="intercom_congratulations">おめでとうございます</string>
+    <string name="intercom_connected">つながりました</string>
+    <string name="intercom_continue_the_conversation">会話を続行</string>
+    <string name="intercom_conversation_card_office_hours_header">営業再開日</string>
+    <string name="intercom_conversation_card_reply_time_header">通常の返信までの時間</string>
+    <string name="intercom_conversation_has_ended">会話が終了しました</string>
+    <string name="intercom_conversations">会話</string>
+    <string name="intercom_conversations_with_app">{name}との会話</string>
+    <string name="intercom_copied_to_clipboard">クリップボードにコピー</string>
+    <string name="intercom_couldnt_complete_action">この操作を完了できませんでした</string>
+    <string name="intercom_couldnt_load_apps">アプリをロードできません。</string>
+    <string name="intercom_couldnt_load_content">コンテンツを読み込めませんでした</string>
+    <string name="intercom_couldnt_load_messenger">Messengerを読み込めませんでした。</string>
+    <string name="intercom_delivered">配信済み</string>
+    <string name="intercom_disappointed_face_emoji">ガッカリした顔</string>
+    <string name="intercom_dismiss">拒絶する</string>
+    <string name="intercom_empty_conversations">{name}との会話はまだ行われていません。</string>
+    <string name="intercom_error_loading_conversation">会話を読み込めませんでした</string>
+    <string name="intercom_expected_response_delay_10800">3時間以内</string>
+    <string name="intercom_expected_response_delay_1200">20分以内</string>
+    <string name="intercom_expected_response_delay_14400">4時間以内</string>
+    <string name="intercom_expected_response_delay_172800">2日</string>
+    <string name="intercom_expected_response_delay_1800">30分以内</string>
+    <string name="intercom_expected_response_delay_18000">5時間以内</string>
+    <string name="intercom_expected_response_delay_21600">6時間以内</string>
+    <string name="intercom_expected_response_delay_300">5分以内</string>
+    <string name="intercom_expected_response_delay_3600">1時間以内</string>
+    <string name="intercom_expected_response_delay_600">10分以内</string>
+    <string name="intercom_expected_response_delay_604800">1週間以内</string>
+    <string name="intercom_expected_response_delay_7200">2時間以内</string>
+    <string name="intercom_expected_response_delay_86400">1日</string>
+    <string name="intercom_facebook_like">Facebookで「いいね」</string>
+    <string name="intercom_failed_delivery">メッセージを配信できませんでした</string>
+    <string name="intercom_failed_to_load_conversation">あなたの会話を読み込めませんでした</string>
+    <string name="intercom_failed_to_send">送信できませんでした</string>
+    <string name="intercom_file_access_failed">そのファイルにアクセスできません</string>
+    <string name="intercom_file_too_big">40MBを越えるファイルは送信できません</string>
+    <string name="intercom_get_help">ヘルプを得る</string>
+    <string name="intercom_gif_attribution">{providername}経由</string>
+    <string name="intercom_gifs_load_error">GIFファイルを読み込めませんでした</string>
+    <string name="intercom_give_it_another_try">もう一度お試しください</string>
+    <string name="intercom_go_to_device_settings">アクセスを許可するには、デバイスのアプリ設定にある許可メニューを使用してください</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">大きく目を開けて笑っている顔</string>
+    <string name="intercom_help_center">ヘルプセンター</string>
+    <string name="intercom_how_can_we_help">お困りですか？</string>
+    <string name="intercom_image_attached">（画像添付）</string>
+    <string name="intercom_inbox_error_state_title">不具合が起きました</string>
+    <string name="intercom_loading">ロード中</string>
+    <string name="intercom_message_failed_try_again">送信エラーです、タップして再度試してください</string>
+    <string name="intercom_message_seen">既読</string>
+    <string name="intercom_message_state_sending">送信中…</string>
+    <string name="intercom_message_unseen">未読</string>
+    <string name="intercom_name_and_1_other">{name}と他1名</string>
+    <string name="intercom_name_and_x_others">{name}と他{count}名</string>
+    <string name="intercom_navigation_back">戻る</string>
+    <string name="intercom_neutral_face_emoji">無表情な顔</string>
+    <string name="intercom_new_conversation">新しい会話</string>
+    <string name="intercom_new_message">新しいメッセージ</string>
+    <string name="intercom_new_messages">{n}件の新しいメッセージがあります</string>
+    <string name="intercom_new_notifications">新しい通知</string>
+    <string name="intercom_no_articles_to_display">表示する記事はありません</string>
+    <string name="intercom_no_conversations">会話はありません</string>
+    <string name="intercom_no_gifs_found">GIFファイルが見つかりませんでした</string>
+    <string name="intercom_no_gifs_matching_query">検索に一致するGIFが見つかりませんでした</string>
+    <string name="intercom_no_messages_from_the_team">チームからのメッセージはありません</string>
+    <string name="intercom_no_network_connection">ネットワーク接続なし</string>
+    <string name="intercom_no_photos">写真がありません</string>
+    <string name="intercom_no_photos_on_device">デバイスに写真がありません</string>
+    <string name="intercom_no_results_for_searchterm">{searchTerm}の結果はありません</string>
+    <string name="intercom_not_now">今は行いません</string>
+    <string name="intercom_nothing_to_see_here_yet">現在は表示するものがありません</string>
+    <string name="intercom_notification_channel_actions_description">このアプリには操作するためのリンクが含まれています</string>
+    <string name="intercom_notification_channel_actions_title">アクション</string>
+    <string name="intercom_notification_channel_chat_replies_description">このアプリのチャットから返信の通知です</string>
+    <string name="intercom_notification_channel_chat_replies_title">チャット返信</string>
+    <string name="intercom_notification_channel_new_chats_description">このアプリから送信された新しいチャットメッセージです</string>
+    <string name="intercom_notification_channel_new_chats_title">新しいチャット</string>
+    <string name="intercom_number_is_incorrect">番号に間違えがあるようです</string>
+    <string name="intercom_one_new_message">新しいメッセージがあります</string>
+    <string name="intercom_page_not_found">そのページはなくなりました</string>
+    <string name="intercom_permission_denied">この許可は拒否されました</string>
+    <string name="intercom_photo_access_denied">写真へのアクセスを拒否しました</string>
+    <string name="intercom_plus_x_more">+{n}件以上</string>
+    <string name="intercom_profile_location">{time} 、 {location}</string>
+    <string name="intercom_rate_your_conversation">会話を評価してください</string>
+    <string name="intercom_reload">再読み込み</string>
+    <string name="intercom_reply">返信する</string>
+    <string name="intercom_reply_from_admin">返信 {name}</string>
+    <string name="intercom_reply_to_conversation">返信を書く</string>
+    <string name="intercom_retry">再試行</string>
+    <string name="intercom_search_browse_empty_state_text">申し訳ありません。該当する結果は見つかりませんでした。検索条件を変更してみてください。</string>
+    <string name="intercom_search_for_help">ヘルプの検索</string>
+    <string name="intercom_search_gif">GIFファイルを検索する…</string>
+    <string name="intercom_search_help_articles">ヘルプ記事を検索</string>
+    <string name="intercom_see_all">すべてを見る</string>
+    <string name="intercom_see_all_conversations">すべての会話を表示</string>
+    <string name="intercom_see_past_conversations">過去の会話を見る</string>
+    <string name="intercom_see_previous_conversations">以前の会話を表示</string>
+    <string name="intercom_send">送信</string>
+    <string name="intercom_send_us_a_message">メッセージを送信</string>
+    <string name="intercom_some_things_failed_to_load">ロードできないものがありました。もう一度お試しください。</string>
+    <string name="intercom_something_went_wrong_try_again">問題が発生しました。もう一度お試しください。</string>
+    <string name="intercom_start_a_conversation">会話を開始</string>
+    <string name="intercom_start_another_conversation">新しい会話を開始</string>
+    <string name="intercom_start_conversation">会話を開始</string>
+    <string name="intercom_storage_access_request">写真を見るには、ストレージへのアクセスを許可してください</string>
+    <string name="intercom_string_is_incorrect">間違えがあるようです</string>
+    <string name="intercom_submit">送信する</string>
+    <string name="intercom_tap_to_send_image">タップして送信する</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name}が通常1営業日以内に返信いたします</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name}が通常1営業日以内に返信いたします</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name}が通常2営業日以内に返信いたします</string>
+    <string name="intercom_teammate_from_company">{name} （{company}）</string>
+    <string name="intercom_tell_us_more">もう少しご意見をお聞かせください。</string>
+    <string name="intercom_tell_us_what_you_need">サポートをご希望の内容をお教えください。当社の Bot が回答します</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">ありがとうございました。1営業日以内に返信いたします。</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">ありがとうございました。チームが2営業日以内に返信いたします。</string>
+    <string name="intercom_thanks_for_letting_us_know">回答いただきありがとうございます</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">ありがとうございます！出来る限り早く返信いたします</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">国コードに間違えがあるようです</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">メールアドレスに間違えがあるようです</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">番号に間違えがあるようです</string>
+    <string name="intercom_that_number_has_too_many_digits">番号が多すぎます</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">番号が足りません</string>
+    <string name="intercom_that_number_needs_a_prefix">この番号には局番（+または00）が必要です</string>
+    <string name="intercom_the_team_can_help_if_needed">必要に応じてチームがお手伝いします</string>
+    <string name="intercom_the_team_typically_replies_in_hours">サポートチームが通常数時間以内に返信いたしますので、しばらくの間お待ちください。</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">通常、返信は1営業日以内となっております。</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">チームが通常2営業日以内に返信いたします。</string>
+    <string name="intercom_time_day_ago">{delta}日前</string>
+    <string name="intercom_time_future_1h">1時間</string>
+    <string name="intercom_time_future_2h">2時間</string>
+    <string name="intercom_time_future_30m">30分</string>
+    <string name="intercom_time_future_3h">3時間</string>
+    <string name="intercom_time_future_day_0">月曜日</string>
+    <string name="intercom_time_future_day_1">火曜日</string>
+    <string name="intercom_time_future_day_2">水曜日</string>
+    <string name="intercom_time_future_day_3">木曜日</string>
+    <string name="intercom_time_future_day_4">金曜日</string>
+    <string name="intercom_time_future_day_5">土曜日</string>
+    <string name="intercom_time_future_day_6">日曜日</string>
+    <string name="intercom_time_future_later_today">本日中</string>
+    <string name="intercom_time_future_next_week">来週</string>
+    <string name="intercom_time_future_tomorrow">明日</string>
+    <string name="intercom_time_hour_ago">{delta}時間前</string>
+    <string name="intercom_time_just_now">今</string>
+    <string name="intercom_time_minute_ago">{delta}分前</string>
+    <string name="intercom_time_week_ago">{delta}週間前</string>
+    <string name="intercom_time_yesterday">昨日</string>
+    <string name="intercom_try_again">再度お試しください</string>
+    <string name="intercom_try_again_minute">しばらくしてから再度お試しください。</string>
+    <string name="intercom_try_use_different_keywords">別のキーワードを使用するか、質問の全文を入力してみてください</string>
+    <string name="intercom_twitter_follow">TwitterでIntercomをフォロー</string>
+    <string name="intercom_two_business_days">2営業日</string>
+    <string name="intercom_type_a_number">数字を入力してください…</string>
+    <string name="intercom_typically_replies_in_one_business_day">通常1営業日以内に返信いたします</string>
+    <string name="intercom_typically_replies_in_two_business_days">通常2営業日以内に返信いたします</string>
+    <string name="intercom_upfront_collection_form_close_out">回答の確認や最新情報の送信は、いつでもこちらからおこなえます。</string>
+    <string name="intercom_upfront_collection_form_introduction">チームがより効果的かつ迅速に対応できるように、コンテキストを共有しましょう。</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">コンテキストを送信いただきありがとうございます。今詳細を追加いただくと、後ほど時間の節約つながります。</string>
+    <string name="intercom_upfront_collection_form_subtitle">チームにコンテキストを送信する</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">コンテキストを参考にさせていただきます</string>
+    <string name="intercom_upfront_collection_form_title">より早くヘルプを得ましょう</string>
+    <string name="intercom_upfront_collection_form_title_submitted">チームに送信しました！</string>
+    <string name="intercom_we_run_on_intercom">私たちはIntercomを使っています</string>
+    <string name="intercom_you">あなた</string>
+    <string name="intercom_you_rated_the_conversation">会話を評価しました</string>
+    <string name="intercom_your_conversations">あなたの会話</string>
+    <string name="item_view_role_description">タブ</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"続行"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"プレビュー モードを更新しました。"</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"プレビュー"</string>
+</resources>

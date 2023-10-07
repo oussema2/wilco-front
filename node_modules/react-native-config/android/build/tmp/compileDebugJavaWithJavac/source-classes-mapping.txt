@@ -1,0 +1,6 @@
+com/lugg/ReactNativeConfig/BuildConfig.java
+ com.lugg.ReactNativeConfig.BuildConfig
+com/lugg/ReactNativeConfig/ReactNativeConfigPackage.java
+ com.lugg.ReactNativeConfig.ReactNativeConfigPackage
+com/lugg/ReactNativeConfig/ReactNativeConfigModule.java
+ com.lugg.ReactNativeConfig.ReactNativeConfigModule

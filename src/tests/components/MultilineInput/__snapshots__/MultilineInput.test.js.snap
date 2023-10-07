@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultilineInput /> with the default props renders the MultilineInput component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    editable={true}
+    multiline={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder=""
+    placeholderTextColor="#A0A0A0"
+    scrollEnabled={false}
+    selectionColor="#12A3BE"
+    style={
+      Object {
+        "backgroundColor": "#F2F2F2",
+        "borderRadius": 8,
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "minHeight": 48,
+        "paddingBottom": 16,
+        "paddingHorizontal": 12,
+        "paddingTop": 16,
+        "textAlignVertical": "top",
+      }
+    }
+    testID="testing-MultilineInput-Component"
+    value=""
+  />
+</View>
+`;

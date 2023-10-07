@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title with the default props renders the Title component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#000000",
+        "fontFamily": "NotoSansJP-Black",
+        "fontSize": 16,
+        "fontWeight": undefined,
+        "letterSpacing": -0.3,
+        "lineHeight": 22,
+        "minHeight": 22,
+        "textTransform": "capitalize",
+      }
+    }
+    testID="testing-title-component"
+  >
+    A title
+  </Text>
+</View>
+`;

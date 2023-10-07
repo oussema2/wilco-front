@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button when the size is big renders the big button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 335,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Button when the size is custom renders the button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Button when the size is medium renders the medium button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 52,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 236,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Button when the size is small renders the small button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 52,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 164,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Button with button styles renders the button correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "borderColor": "#2089dc",
+          "borderRadius": 2,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 10,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Button with button styles with an icon renders the icon correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 52,
+          "iconStyle": Object {
+            "source": Object {
+              "testUri": "../../../src/assets/icons/plus.png",
+            },
+            "tintColor": "red",
+          },
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 236,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/plus.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="icon"
+          tintColor="red"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button with the default props renders the Button component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="button"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 52,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 236,
+        }
+      }
+    />
+  </View>
+</View>
+`;

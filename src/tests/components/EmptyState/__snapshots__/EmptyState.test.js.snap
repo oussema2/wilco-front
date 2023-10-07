@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyState /> with the default props renders the EmptyState component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 47,
+          "marginBottom": 25,
+          "marginTop": 40,
+          "width": 67,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/cloud.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="emptyStateImage-testID"
+      tintColor="#F2F2F2"
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#767676",
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "textAlign": "center",
+      }
+    }
+    testID="emptyStateText-testID"
+  >
+    empty section
+  </Text>
+</View>
+`;

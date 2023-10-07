@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentBar /> with the default props renders the CommentBar component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginVertical": 8,
+    }
+  }
+  testID="testing-CommentBar-Component"
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      autoCapitalize="sentences"
+      editable={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      placeholderTextColor="#A0A0A0"
+      scrollEnabled={false}
+      selectionColor="#12A3BE"
+      style={
+        Object {
+          "backgroundColor": "#F2F2F2",
+          "borderRadius": 8,
+          "color": "#000000",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingHorizontal": 12,
+          "paddingTop": 16,
+          "textAlignVertical": "top",
+        }
+      }
+      testID="comment-Input"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginLeft": 12,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 3,
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 3,
+          },
+          undefined,
+          false,
+        ]
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "busy": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="reply-TextButton"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "backgroundColor": "transparent",
+              "borderColor": "#2089dc",
+              "borderRadius": 26,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#12A3BE",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 15,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+                "paddingVertical": 1,
+                "textAlign": "center",
+              }
+            }
+          >
+            Reply
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

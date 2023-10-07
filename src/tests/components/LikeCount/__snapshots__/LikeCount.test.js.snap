@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LikeCount with a custom testID renders the LikeCount component with the given test ID 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="customID"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/thumbsUp.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16.67,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="like-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="like-count-text"
+    >
+      0 likes
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LikeCount with count prop equal to 1 renders the LikeCount component with "1 like" text 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="likeCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/thumbsUp.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16.67,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="like-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="like-count-text"
+    >
+      1 like
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LikeCount with count prop greater than 1 renders the LikeCount component with "<count> likes" text 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="likeCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/thumbsUp.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16.67,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="like-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="like-count-text"
+    >
+      537 likes
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LikeCount with the default props renders the LikeCount component correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="likeCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/thumbsUp.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16.67,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="like-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="like-count-text"
+    >
+      0 likes
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LikeCount with the liked property adds color to the icon and text 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="likeCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/thumbsUp.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16.67,
+          "tintColor": "#12A3BE",
+          "width": 16.67,
+        }
+      }
+      testID="like-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#12A3BE",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="like-count-text"
+    >
+      0 likes
+    </Text>
+  </View>
+</View>
+`;

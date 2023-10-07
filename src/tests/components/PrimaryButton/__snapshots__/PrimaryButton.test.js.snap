@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryButton with button styles renders the button correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="primaryButton"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`PrimaryButton with the default props renders the PrimaryButton component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="primaryButton"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "padding": 8,
+          "width": 335,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`PrimaryButton with title renders the title correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="primaryButton"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#12A3BE",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 15,
+            "fontWeight": undefined,
+            "letterSpacing": 0.4,
+            "lineHeight": 20,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
+</View>
+`;

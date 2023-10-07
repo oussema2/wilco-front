@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">404438257634-4kssmsb3m8jecmqn11406v652bfl7q64.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">404438257634</string>
+    <string name="google_api_key" translatable="false">AIzaSyBN_dLUKowDV6i8MWg3hZilpmjP6VE0DNM</string>
+    <string name="google_app_id" translatable="false">1:404438257634:android:6e174d2061eac84afb73bb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBN_dLUKowDV6i8MWg3hZilpmjP6VE0DNM</string>
+    <string name="google_storage_bucket" translatable="false">wilco---production.appspot.com</string>
+    <string name="project_id" translatable="false">wilco---production</string>
+</resources>

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageCarousel when provided a removeImage function renders removable images 1`] = `
+<View
+  testID="test-ID"
+>
+  <RCTScrollView
+    CellRendererComponent={[Function]}
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    contentContainerStyle={
+      Array [
+        Object {
+          "paddingLeft": 0,
+          "paddingRight": 0,
+        },
+        Object {},
+      ]
+    }
+    data={Array []}
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    disableScrollViewPanResponder={false}
+    enableSnap={true}
+    firstItem={0}
+    forwardedRef={[Function]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    initialNumToRender={6}
+    initialScrollIndex={0}
+    invertStickyHeaders={false}
+    inverted={false}
+    itemWidth={750}
+    keyExtractor={[Function]}
+    layout="default"
+    loop={false}
+    loopClonesPerSide={3}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollIndexChanged={[Function]}
+    onSnapToItem={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    pointerEvents="auto"
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={Object {}}
+    sliderWidth={750}
+    snapToOffsets={Array []}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexDirection": "row",
+        "width": 750,
+      }
+    }
+    useExperimentalSnap={false}
+    useScrollView={false}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={3}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    testID="pagination-testID"
+  />
+</View>
+`;
+
+exports[`ImageCarousel with the default props renders the ImageCarousel component correctly 1`] = `
+<View
+  testID="test-ID"
+>
+  <RCTScrollView
+    CellRendererComponent={[Function]}
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    contentContainerStyle={
+      Array [
+        Object {
+          "paddingLeft": 0,
+          "paddingRight": 0,
+        },
+        Object {},
+      ]
+    }
+    data={Array []}
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    disableScrollViewPanResponder={false}
+    enableSnap={true}
+    firstItem={0}
+    forwardedRef={[Function]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    initialNumToRender={6}
+    initialScrollIndex={0}
+    invertStickyHeaders={false}
+    inverted={false}
+    itemWidth={750}
+    keyExtractor={[Function]}
+    layout="default"
+    loop={false}
+    loopClonesPerSide={3}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollIndexChanged={[Function]}
+    onSnapToItem={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    pointerEvents="auto"
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={Object {}}
+    sliderWidth={750}
+    snapToOffsets={Array []}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexDirection": "row",
+        "width": 750,
+      }
+    }
+    useExperimentalSnap={false}
+    useScrollView={false}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={3}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    testID="pagination-testID"
+  />
+</View>
+`;

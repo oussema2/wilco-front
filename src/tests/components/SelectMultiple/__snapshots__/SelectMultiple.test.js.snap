@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectMultiple Autolink component with the default props renders the SelectMultiple component correctly 1`] = `
+<View
+  testID="select-multiple-testID"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="row-1-testID"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderBottomColor": "#cccccc",
+            "borderBottomWidth": 1,
+            "flex": 1,
+            "flexDirection": "row",
+            "padding": 15,
+          },
+          Object {},
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/icons/checkboxUnselected.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "marginRight": 5,
+              "width": 24,
+            },
+            Object {},
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {},
+              Object {},
+            ]
+          }
+        >
+          label 1
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

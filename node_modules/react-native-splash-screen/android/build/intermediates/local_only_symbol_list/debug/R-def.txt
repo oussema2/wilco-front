@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+layout launch_screen
+string app_name
+style SplashScreen_Fullscreen
+style SplashScreen_SplashAnimation
+style SplashScreen_SplashTheme

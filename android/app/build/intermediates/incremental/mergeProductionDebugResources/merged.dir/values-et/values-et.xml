@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d uus märguanne</item>
+    <item quantity="other">%d uut märguannet</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Liigu avalehele"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Liigu üles"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Rohkem valikuid"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Kuva kõik"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Valige rakendus"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VÄLJAS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"SEES"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"kustuta"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"sisestusklahv"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktsiooniklahv +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Tõstuklahv +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"tühik"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menüü +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Otsige …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Päringu tühistamine"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Otsingupäring"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Otsing"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Päringu esitamine"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Häälotsing"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaga:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jagamine rakendusega <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ahendamine"</string>
+    <string name="bottomsheet_action_expand_halfway">Laiendamine poolenisti</string>
+    <string name="character_counter_content_description">Sisestatud tähemärgid: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">Tähemärgipiirang on ületatud: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Kustuta tekst</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Luba</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Rakendus %1$s töötab ainult siis, kui lubate Google Play teenused.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play teenuste lubamine</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installi</string>
+    <string name="common_google_play_services_install_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes pole.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play teenuste hankimine</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play teenuste saadavalolek</string>
+    <string name="common_google_play_services_notification_ticker">Viga Google Play teenustes</string>
+    <string name="common_google_play_services_unknown_issue">Rakendusel %1$s on probleeme Google Play teenustega. Proovige uuesti.</string>
+    <string name="common_google_play_services_unsupported_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes ei toetata.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Värskenda</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Rakenduse %1$s töötamiseks peate värskendama Google Play teenuseid.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play teenuste värskendamine</string>
+    <string name="common_google_play_services_updating_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida praegu värskendatakse.</string>
+    <string name="common_google_play_services_wear_update_text">Vajalik on Google Play teenuste uus versioon. See värskendab end peagi.</string>
+    <string name="common_open_on_phone">Ava telefonis</string>
+    <string name="common_signin_button_text">Logi sisse</string>
+    <string name="common_signin_button_text_long">Logi sisse Google\'i kontoga</string>
+    <string name="error_icon_content_description">Viga</string>
+    <string name="exposed_dropdown_menu_content_description">Kuva rippmenüü</string>
+    <string name="fcm_fallback_notification_channel_label">Muu</string>
+    <string name="icon_content_description">Dialoogi ikoon</string>
+    <string name="intercom_access_background_location_message">Minge oma seadme sätetesse, et lubada rakendusel kasutada taustal teie asukohta</string>
+    <string name="intercom_access_background_location_title">Lubage juurdepääs oma asukohale kogu aeg</string>
+    <string name="intercom_access_photos">Juurdepääs fotodele</string>
+    <string name="intercom_active_15m_ago">Aktiivne viimase {minutes} min jooksul</string>
+    <string name="intercom_active_day_ago">Aktiivne {days} p tagasi</string>
+    <string name="intercom_active_hour_ago">Aktiivne {hours} h tagasi</string>
+    <string name="intercom_active_minute_ago">Aktiivne {minutes} min tagasi</string>
+    <string name="intercom_active_state">Aktiivne</string>
+    <string name="intercom_active_week_ago">Aktiivne rohkem kui 1 nädal tagasi</string>
+    <string name="intercom_allow_access">Luba juurdepääs</string>
+    <string name="intercom_allow_storage_access">Oma fotode nägemiseks lubage juurdepääs mälule</string>
+    <string name="intercom_also_in_this_conversation">Ka selles vestluses</string>
+    <string name="intercom_android_activated_message">Teie Androidi rakendus on nüüd Intercomi platvormi integreeritud</string>
+    <string name="intercom_app_settings">Rakenduse sätted</string>
+    <string name="intercom_article_load_error">Ei saanud artiklit laadida</string>
+    <string name="intercom_article_question">Kas see vastas sinu küsimusele?</string>
+    <string name="intercom_article_response">Sinu reaktsioon</string>
+    <string name="intercom_article_search_hint_text">Artiklite otsimine...</string>
+    <string name="intercom_ask_a_question">Esitage küsimus</string>
+    <string name="intercom_asked_about">Seoses teemaga</string>
+    <string name="intercom_attribute_collector_negative">Ei</string>
+    <string name="intercom_attribute_collector_positive">Jah</string>
+    <string name="intercom_away_state">Eemal</string>
+    <string name="intercom_bot">Bot</string>
+    <string name="intercom_bot_expectation_text">Meie bot oskab vastata paljudele levinud küsimustele</string>
+    <string name="intercom_browse_all_help_topics">Sirvi kõiki abiteemasid</string>
+    <string name="intercom_browse_collections">Sirvi kollektsioone</string>
+    <string name="intercom_cancel">Tühista</string>
+    <string name="intercom_choose_one">Vali üks…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Tühjenda</string>
+    <string name="intercom_close">Sule</string>
+    <string name="intercom_congratulations">Õnnitleme</string>
+    <string name="intercom_connected">Olete ühendatud</string>
+    <string name="intercom_continue_the_conversation">Jätka vestlust</string>
+    <string name="intercom_conversation_card_office_hours_header">Kui me oleme võrgus tagasi</string>
+    <string name="intercom_conversation_card_reply_time_header">Meie tavaline vastamisaeg</string>
+    <string name="intercom_conversation_has_ended">Sinu vestlus on lõppenud</string>
+    <string name="intercom_conversations">Vestlused</string>
+    <string name="intercom_conversations_with_app">Vestlused kasutajaga {name}</string>
+    <string name="intercom_copied_to_clipboard">Kopeeritud lõikelauale</string>
+    <string name="intercom_couldnt_complete_action">Ei saanud toimingut lõpetada</string>
+    <string name="intercom_couldnt_load_apps">Rakendusi ei õnnestunud laadida.</string>
+    <string name="intercom_couldnt_load_content">Ei saanud sisu laadida</string>
+    <string name="intercom_couldnt_load_messenger">Messengeri ei õnnestunud laadida.</string>
+    <string name="intercom_delivered">Tarnitud</string>
+    <string name="intercom_disappointed_face_emoji">Pettunud nägu</string>
+    <string name="intercom_dismiss">Loobu</string>
+    <string name="intercom_empty_conversations">Ei ole veel vestlusi kasutajaga {name}</string>
+    <string name="intercom_error_loading_conversation">Vestlust ei saanud laadida</string>
+    <string name="intercom_expected_response_delay_10800">alla 3 tunni</string>
+    <string name="intercom_expected_response_delay_1200">alla 20 minuti</string>
+    <string name="intercom_expected_response_delay_14400">alla 4 tunni</string>
+    <string name="intercom_expected_response_delay_172800">2 päeva</string>
+    <string name="intercom_expected_response_delay_1800">alla 30 minuti</string>
+    <string name="intercom_expected_response_delay_18000">alla 5 tunni</string>
+    <string name="intercom_expected_response_delay_21600">alla 6 tunni</string>
+    <string name="intercom_expected_response_delay_300">alla 5 minuti</string>
+    <string name="intercom_expected_response_delay_3600">alla 1 tunni</string>
+    <string name="intercom_expected_response_delay_600">alla 10 minuti</string>
+    <string name="intercom_expected_response_delay_604800">alla 1 nädala</string>
+    <string name="intercom_expected_response_delay_7200">alla 2 tunni</string>
+    <string name="intercom_expected_response_delay_86400">1 päev</string>
+    <string name="intercom_facebook_like">Märkige meid Facebookis meeldivaks</string>
+    <string name="intercom_failed_delivery">Teate edastamine ebaõnnestus</string>
+    <string name="intercom_failed_to_load_conversation">Teie vestlusi ei saanud laadida</string>
+    <string name="intercom_failed_to_send">Saatmine ebaõnnestus</string>
+    <string name="intercom_file_access_failed">Sellele failile ei saa juurdepääsu</string>
+    <string name="intercom_file_too_big">Ei saa saata faile, mis on suuremad kui 40 MB</string>
+    <string name="intercom_get_help">Küsi abi</string>
+    <string name="intercom_gif_attribution">{providername} kaudu</string>
+    <string name="intercom_gifs_load_error">Ei saanud GIF-e laadida</string>
+    <string name="intercom_give_it_another_try">Proovi veel</string>
+    <string name="intercom_go_to_device_settings">Juurdepääsu lubamiseks minge seadme rakenduse sätete lubade menüüsse</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Naeratav nägu suurte silmadega</string>
+    <string name="intercom_help_center">Abikeskus</string>
+    <string name="intercom_how_can_we_help">Kuidas me saame aidata?</string>
+    <string name="intercom_image_attached">(pilt manustatud)</string>
+    <string name="intercom_inbox_error_state_title">Midagi läks valesti</string>
+    <string name="intercom_loading">Laeb</string>
+    <string name="intercom_message_failed_try_again">Saatmine ebaõnnestus, koputage uuesti proovimiseks</string>
+    <string name="intercom_message_seen">Nähtud</string>
+    <string name="intercom_message_state_sending">Saatmine…</string>
+    <string name="intercom_message_unseen">Pole veel nähtud</string>
+    <string name="intercom_name_and_1_other">{name} ja veel 1</string>
+    <string name="intercom_name_and_x_others">{name} ja veel {count}</string>
+    <string name="intercom_navigation_back">Tagasi</string>
+    <string name="intercom_neutral_face_emoji">Neutraalne nägu</string>
+    <string name="intercom_new_conversation">Uus vestlus</string>
+    <string name="intercom_new_message">Uus sõnum</string>
+    <string name="intercom_new_messages">Teile on {n} uut sõnumit</string>
+    <string name="intercom_new_notifications">Uued teated</string>
+    <string name="intercom_no_articles_to_display">Pole artikleid, mida kuvada</string>
+    <string name="intercom_no_conversations">Vestlusi pole</string>
+    <string name="intercom_no_gifs_found">Ühtegi GIF-i ei leitud</string>
+    <string name="intercom_no_gifs_matching_query">Ei leidnud ühtegi GIF-i teie märksõnaga</string>
+    <string name="intercom_no_messages_from_the_team">Meeskonnalt sõnumeid ei ole</string>
+    <string name="intercom_no_network_connection">Võrguühendus puudub</string>
+    <string name="intercom_no_photos">Fotosid pole</string>
+    <string name="intercom_no_photos_on_device">Selles seadmes ei ole ühtegi fotot</string>
+    <string name="intercom_no_results_for_searchterm">{searchTerm} kohta pole tulemusi</string>
+    <string name="intercom_not_now">Mitte praegu</string>
+    <string name="intercom_nothing_to_see_here_yet">Siin pole veel midagi näha</string>
+    <string name="intercom_notification_channel_actions_description">Sisaldab linke, et tegutseda selle rakenduse abil</string>
+    <string name="intercom_notification_channel_actions_title">Tegevused</string>
+    <string name="intercom_notification_channel_chat_replies_description">Vasta vestluste teavitustele selles rakenduses</string>
+    <string name="intercom_notification_channel_chat_replies_title">Vestluse vastused</string>
+    <string name="intercom_notification_channel_new_chats_description">Uute vestluste teavitused, mis on saadetud sellest rakendusest</string>
+    <string name="intercom_notification_channel_new_chats_title">Uued vestlused</string>
+    <string name="intercom_number_is_incorrect">See telefoninumber ei tundu õige</string>
+    <string name="intercom_one_new_message">Teile on uus sõnum</string>
+    <string name="intercom_page_not_found">Seda lehte ei ole enam olemas</string>
+    <string name="intercom_permission_denied">Selle loa andmisest keelduti</string>
+    <string name="intercom_photo_access_denied">Keelasite juurdepääsu oma fotodele</string>
+    <string name="intercom_plus_x_more">+{n}</string>
+    <string name="intercom_profile_location">{time} kohas {location}</string>
+    <string name="intercom_rate_your_conversation">Hinda vestlust</string>
+    <string name="intercom_reload">Uuesti laadimine</string>
+    <string name="intercom_reply">Vasta</string>
+    <string name="intercom_reply_from_admin">Vastus kasutajalt {name}</string>
+    <string name="intercom_reply_to_conversation">Kirjuta vastus</string>
+    <string name="intercom_retry">Proovi uuesti</string>
+    <string name="intercom_search_browse_empty_state_text">Vabandust, me ei leidnud selle kohta tulemusi. Proovige oma otsing ümber sõnastada.</string>
+    <string name="intercom_search_for_help">Otsi abi</string>
+    <string name="intercom_search_gif">Otsi GIF-e…</string>
+    <string name="intercom_search_help_articles">Otsi abiartikleid</string>
+    <string name="intercom_see_all">Vaata kõiki</string>
+    <string name="intercom_see_all_conversations">Vaata oma kõiki vestluseid</string>
+    <string name="intercom_see_past_conversations">Vaata eelmisi vestlusi</string>
+    <string name="intercom_see_previous_conversations">Vaadake oma eelmiseid vestluseid</string>
+    <string name="intercom_send">Saada</string>
+    <string name="intercom_send_us_a_message">Saatke meile sõnum</string>
+    <string name="intercom_some_things_failed_to_load">Mõne asja laadimine nurjus. Proovi uuesti.</string>
+    <string name="intercom_something_went_wrong_try_again">Midagi läks valesti. Proovi uuesti.</string>
+    <string name="intercom_start_a_conversation">Alusta vestlust</string>
+    <string name="intercom_start_another_conversation">Alusta uut vestlust</string>
+    <string name="intercom_start_conversation">Alusta vestlust</string>
+    <string name="intercom_storage_access_request">Piltide nägemiseks peate lubama juurdepääsu mälule</string>
+    <string name="intercom_string_is_incorrect">See ei näe päris õige välja</string>
+    <string name="intercom_submit">Esita</string>
+    <string name="intercom_tap_to_send_image">Saada pilt</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} vastab tavaliselt päeva jooksul</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} vastab tavaliselt ühe tööpäeva jooksul</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} vastab tavaliselt kahe tööpäeva jooksul</string>
+    <string name="intercom_teammate_from_company">{name} ettevõttest {company}</string>
+    <string name="intercom_tell_us_more">Räägi rohkem…</string>
+    <string name="intercom_tell_us_what_you_need">Öelge meile, millega te abi vajate ja meie bot annab endast parima, et vastata</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Aitäh! Töörühm vastab ühe tööpäeva jooksul</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Aitäh! Tiim vastab kahe tööpäeva jooksul</string>
+    <string name="intercom_thanks_for_letting_us_know">Täname, et andsid meile teada</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Täname! Meeskond vastab esimesel võimalusel</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">See riigi suunakood ei tundu õige</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">See e-posti aadress ei tundu õige</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">See telefoninumber ei tundu õige</string>
+    <string name="intercom_that_number_has_too_many_digits">Sellel telefoninumbril on liiga palju numbreid</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Sellel telefoninumbril on mõned numbrid puudu</string>
+    <string name="intercom_that_number_needs_a_prefix">See telefoninumber vajab eesliidet (+ või 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Vajadusel saab tiim aidata</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Meeskond vastab tavaliselt mõne tunni jooksul.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Töörühm vastab tavaliselt ühe tööpäeva jooksul.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Tiim vastab tavaliselt kahe tööpäeva jooksul</string>
+    <string name="intercom_time_day_ago">{delta} p tagasi</string>
+    <string name="intercom_time_future_1h">1 tund</string>
+    <string name="intercom_time_future_2h">2 tundi</string>
+    <string name="intercom_time_future_30m">30 minutit</string>
+    <string name="intercom_time_future_3h">3 tundi</string>
+    <string name="intercom_time_future_day_0">Esmaspäev</string>
+    <string name="intercom_time_future_day_1">Teisipäev</string>
+    <string name="intercom_time_future_day_2">Kolmapäev</string>
+    <string name="intercom_time_future_day_3">Neljapäev</string>
+    <string name="intercom_time_future_day_4">Reede</string>
+    <string name="intercom_time_future_day_5">Laupäev</string>
+    <string name="intercom_time_future_day_6">Pühapäeval</string>
+    <string name="intercom_time_future_later_today">Täna hiljem</string>
+    <string name="intercom_time_future_next_week">Järgmisel nädalal</string>
+    <string name="intercom_time_future_tomorrow">Homme</string>
+    <string name="intercom_time_hour_ago">{delta} h tagasi</string>
+    <string name="intercom_time_just_now">Praegu</string>
+    <string name="intercom_time_minute_ago">{delta} min tagasi</string>
+    <string name="intercom_time_week_ago">{delta} n tagasi</string>
+    <string name="intercom_time_yesterday">eile</string>
+    <string name="intercom_try_again">Proovi uuesti</string>
+    <string name="intercom_try_again_minute">Proovi mõne hetke pärast uuesti.</string>
+    <string name="intercom_try_use_different_keywords">Proovige kasutada erinevaid märksõnu või sisestage oma küsimus</string>
+    <string name="intercom_twitter_follow">Jälgige meid Twitteris</string>
+    <string name="intercom_two_business_days">Kaks tööpäeva</string>
+    <string name="intercom_type_a_number">Trüki number…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Vastab tavaliselt ühe tööpäeva jooksul</string>
+    <string name="intercom_typically_replies_in_two_business_days">Vastab tavaliselt kahe tööpäeva jooksul</string>
+    <string name="intercom_upfront_collection_form_close_out">Saad siia igal ajal tagasi tulla, et vaadata vastuseid ja saata uuendusi.</string>
+    <string name="intercom_upfront_collection_form_introduction">Jaga veidi konteksti, et aidata tiimil paremini ja kiiremini vastata.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Täname, et saatsid selle konteksti. Lisa juba täna rohkem üksikasju, et hiljem aega säästa.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Saada tiimile veidi konteksti</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Nad peavad seda kontkesti meeles</string>
+    <string name="intercom_upfront_collection_form_title">Kiirem abi</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Tiimile saadetud saadetud!</string>
+    <string name="intercom_we_run_on_intercom">Töötame platvormil Intercom</string>
+    <string name="intercom_you">Teie</string>
+    <string name="intercom_you_rated_the_conversation">Hindasid vestlust</string>
+    <string name="intercom_your_conversations">Sinu vestlused</string>
+    <string name="item_view_role_description">Vaheleht</string>
+    <string name="material_clock_toggle_content_description">Valige AM või PM</string>
+    <string name="material_hour_selection">Valige tund</string>
+    <string name="material_hour_suffix">Kell %1$s</string>
+    <string name="material_minute_selection">Minutite valimine</string>
+    <string name="material_minute_suffix">%1$s minutit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aktiveerige kellaaja sisestamiseks kellarežiim.</string>
+    <string name="material_timepicker_hour">Tunnid</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Aja valimine</string>
+    <string name="material_timepicker_text_input_mode_description">Aktiveerige kellaaja sisestamiseks tekstisisestusrežiim.</string>
+    <string name="mtrl_badge_numberless_content_description">Uus märguanne</string>
+    <string name="mtrl_chip_close_icon_content_description">Üksuse %1$s eemaldamine</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Rohkem kui %1$d uut märguannet</string>
+    <string name="mtrl_picker_a11y_next_month">Vaheta järgmisele kuule</string>
+    <string name="mtrl_picker_a11y_prev_month">Vaheta eelmisele kuule</string>
+    <string name="mtrl_picker_announce_current_selection">Praegune valik: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Valige kuupäev</string>
+    <string name="mtrl_picker_date_header_unselected">Valitud kuupäev</string>
+    <string name="mtrl_picker_day_of_week_column_header">Päevade veerg: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Sobimatu vorming.</string>
+    <string name="mtrl_picker_invalid_format_example">Näide: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Kasutage: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Sobimatu vahemik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Mine aastasse %1$s</string>
+    <string name="mtrl_picker_out_of_range">Vahemikust väljas: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Alguskuupäev – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – lõppkuupäev</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Valige vahemik</string>
+    <string name="mtrl_picker_range_header_unselected">Alguskuupäev – lõppkuupäev</string>
+    <string name="mtrl_picker_save">Salvesta</string>
+    <string name="mtrl_picker_text_input_date_hint">Kuupäev</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Lõppkuupäev</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Alguskuupäev</string>
+    <string name="mtrl_picker_text_input_day_abbr">p</string>
+    <string name="mtrl_picker_text_input_month_abbr">k</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Lülitu kalendrisisestusrežiimile</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Puudutage, et lülituda päeva valimisele</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Lülitu tekstisisestusrežiimile</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Puudutage, et lülituda aasta valimisele</string>
+    <string name="password_toggle_content_description">Parooli kuvamine</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Otsing"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Jätka"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Eelvaaterežiimi värskendati."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Eelvaade"</string>
+</resources>

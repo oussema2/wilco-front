@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentCount with a custom testID renders the CommentCount component with the given test ID 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="customID"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/comment.png",
+        }
+      }
+      style={
+        Object {
+          "height": 14.58,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="comment-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="comment-count-text"
+    >
+      0 comments
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CommentCount with count prop equal to 1 renders the CommentCount component with "1 comment" text 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="commentCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/comment.png",
+        }
+      }
+      style={
+        Object {
+          "height": 14.58,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="comment-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="comment-count-text"
+    >
+      1 comment
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CommentCount with count prop greater than 1 renders the CommentCount component with "<count> comments" text 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="commentCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/comment.png",
+        }
+      }
+      style={
+        Object {
+          "height": 14.58,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="comment-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="comment-count-text"
+    >
+      537 comments
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CommentCount with the default props renders the CommentCount component correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="commentCount-component"
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/comment.png",
+        }
+      }
+      style={
+        Object {
+          "height": 14.58,
+          "tintColor": "#5B5B5B",
+          "width": 16.67,
+        }
+      }
+      testID="comment-count-image"
+    />
+    <Text
+      style={
+        Object {
+          "color": "#5B5B5B",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 13,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 9.67,
+        }
+      }
+      testID="comment-count-text"
+    >
+      0 comments
+    </Text>
+  </View>
+</View>
+`;

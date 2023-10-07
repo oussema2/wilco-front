@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/oussema/Desktop/wilco-frontend-master/android/app/build/intermediates/incremental/mergeStagingDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/home/oussema/.gradle/caches/transforms-3/9e6af4941cdab5312bb2a642433d9674/transformed/jetified-android-composer-gallery-3.2.0/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,127",
+                        "endColumns": "71,79",
+                        "endOffsets": "122,202"
+                    }
+                }
+            ]
+        }
+    ]
+}

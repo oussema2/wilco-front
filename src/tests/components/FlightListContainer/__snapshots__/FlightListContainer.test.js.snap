@@ -1,0 +1,2669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightListContainer /> with the default props renders the FlightList component correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+  testID="testing-FlightList-Component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        null,
+      ]
+    }
+    testID="horizontalPadding-component"
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "NotoSansJP-Black",
+            "fontSize": 16,
+            "fontWeight": undefined,
+            "letterSpacing": -0.3,
+            "lineHeight": 22,
+            "minHeight": 22,
+            "textTransform": "none",
+          }
+        }
+        testID="flightList-Title"
+      >
+        Flight data - Select flight
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontSize": 16,
+          }
+        }
+        testID="required-testID"
+      >
+         *
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  />
+  <View
+    testID="-Component"
+  >
+    <RCTScrollView
+      CellRendererComponent={[Function]}
+      activeSlideAlignment="center"
+      activeSlideOffset={20}
+      apparitionDelay={0}
+      automaticallyAdjustContentInsets={false}
+      autoplay={false}
+      autoplayDelay={1000}
+      autoplayInterval={3000}
+      callbackOffsetMargin={5}
+      containerCustomStyle={Object {}}
+      contentContainerCustomStyle={Object {}}
+      contentContainerStyle={
+        Array [
+          Object {
+            "paddingLeft": 0,
+            "paddingRight": 0,
+          },
+          Object {},
+        ]
+      }
+      data={
+        Array [
+          Array [
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-1",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-2",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-3",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-4",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-5",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+          ],
+          Array [
+            FlightToDisplay {
+              "flight": Object {
+                "aircraft_id": undefined,
+                "arrival_time": 2021-06-29T23:42:55.075Z,
+                "departure_time": 2021-06-29T22:41:55.075Z,
+                "external_id": "N922DE-1454974819-adhoc-6",
+                "from": "KHPN",
+                "max_altitude": 0,
+                "max_speed": 0,
+                "to": "JFK",
+              },
+            },
+          ],
+        ]
+      }
+      decelerationRate="fast"
+      directionalLockEnabled={true}
+      disableScrollViewPanResponder={false}
+      enableSnap={true}
+      firstItem={0}
+      forwardedRef={[Function]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      hasParallaxImages={false}
+      horizontal={true}
+      inactiveSlideOpacity={0.7}
+      inactiveSlideScale={0.9}
+      inactiveSlideShift={0}
+      initialNumToRender={6}
+      initialScrollIndex={0}
+      invertStickyHeaders={false}
+      inverted={false}
+      itemWidth={750}
+      keyExtractor={[Function]}
+      layout="default"
+      loop={false}
+      loopClonesPerSide={3}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      onScrollIndexChanged={[Function]}
+      onSnapToItem={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      overScrollMode="never"
+      pinchGestureEnabled={false}
+      pointerEvents="auto"
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEnabled={true}
+      scrollEventThrottle={1}
+      scrollsToTop={false}
+      shouldOptimizeUpdates={true}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      slideStyle={Object {}}
+      sliderWidth={750}
+      snapToOffsets={
+        Array [
+          0,
+          750,
+        ]
+      }
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "flexDirection": "row",
+          "width": 750,
+        }
+      }
+      useExperimentalSnap={false}
+      useScrollView={false}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={3}
+    >
+      <View>
+        <View
+          CellRendererComponent={[Function]}
+          cellKey="flatlist-item-0"
+          fillRateHelper={
+            FillRateHelper {
+              "_anyBlankStartTime": null,
+              "_enabled": false,
+              "_getFrameMetrics": [Function],
+              "_info": Info {
+                "any_blank_count": 0,
+                "any_blank_ms": 0,
+                "any_blank_speed_sum": 0,
+                "mostly_blank_count": 0,
+                "mostly_blank_ms": 0,
+                "pixels_blank": 0,
+                "pixels_sampled": 0,
+                "pixels_scrolled": 0,
+                "sample_count": 0,
+                "total_time_spent": 0,
+              },
+              "_mostlyBlankStartTime": null,
+              "_samplesStartTime": null,
+            }
+          }
+          horizontal={true}
+          inversionStyle={null}
+          item={
+            Array [
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-1",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-2",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-3",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-4",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-5",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+            ]
+          }
+          onUnmount={[Function]}
+          onUpdateSeparators={[Function]}
+          parentProps={
+            Object {
+              "CellRendererComponent": [Function],
+              "activeSlideAlignment": "center",
+              "activeSlideOffset": 20,
+              "apparitionDelay": 0,
+              "automaticallyAdjustContentInsets": false,
+              "autoplay": false,
+              "autoplayDelay": 1000,
+              "autoplayInterval": 3000,
+              "callbackOffsetMargin": 5,
+              "containerCustomStyle": Object {},
+              "contentContainerCustomStyle": Object {},
+              "contentContainerStyle": Array [
+                Object {
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                },
+                Object {},
+              ],
+              "data": Array [
+                Array [
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-1",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-2",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-3",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-4",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-5",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                ],
+                Array [
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-6",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                ],
+              ],
+              "decelerationRate": "fast",
+              "directionalLockEnabled": true,
+              "disableScrollViewPanResponder": false,
+              "enableSnap": true,
+              "firstItem": 0,
+              "forwardedRef": [Function],
+              "getItem": [Function],
+              "getItemCount": [Function],
+              "getItemLayout": [Function],
+              "hasParallaxImages": false,
+              "horizontal": true,
+              "inactiveSlideOpacity": 0.7,
+              "inactiveSlideScale": 0.9,
+              "inactiveSlideShift": 0,
+              "initialNumToRender": 6,
+              "initialScrollIndex": 0,
+              "inverted": false,
+              "itemWidth": 750,
+              "keyExtractor": [Function],
+              "layout": "default",
+              "loop": false,
+              "loopClonesPerSide": 3,
+              "maxToRenderPerBatch": 10,
+              "onLayout": [Function],
+              "onMomentumScrollEnd": [Function],
+              "onScroll": [Function],
+              "onScrollIndexChanged": [Function],
+              "onSnapToItem": [Function],
+              "onTouchEnd": [Function],
+              "onTouchStart": [Function],
+              "overScrollMode": "never",
+              "pinchGestureEnabled": false,
+              "pointerEvents": "auto",
+              "removeClippedSubviews": false,
+              "renderItem": [Function],
+              "scrollEnabled": true,
+              "scrollEventThrottle": 1,
+              "scrollsToTop": false,
+              "shouldOptimizeUpdates": true,
+              "showsHorizontalScrollIndicator": false,
+              "showsVerticalScrollIndicator": false,
+              "slideStyle": Object {},
+              "sliderWidth": 750,
+              "snapToOffsets": Array [
+                0,
+                750,
+              ],
+              "style": Object {
+                "flexDirection": "row",
+                "width": 750,
+              },
+              "useExperimentalSnap": false,
+              "useScrollView": false,
+              "viewabilityConfigCallbackPairs": Array [],
+              "windowSize": 3,
+            }
+          }
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ],
+              Object {
+                "zIndex": 2,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            pointerEvents="box-none"
+            style={
+              Object {
+                "opacity": 1,
+                "transform": Array [
+                  Object {
+                    "scale": 1,
+                  },
+                ],
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#E6F6F9",
+                  "borderColor": "#12A3BE",
+                  "borderRadius": 8,
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-1-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": true,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#008BA5",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderColor": "transparent",
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-2-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#bfbfbf",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderColor": "transparent",
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-3-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#bfbfbf",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderColor": "transparent",
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-4-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#bfbfbf",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderColor": "transparent",
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-5-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#bfbfbf",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          CellRendererComponent={[Function]}
+          cellKey="flatlist-item-1"
+          fillRateHelper={
+            FillRateHelper {
+              "_anyBlankStartTime": null,
+              "_enabled": false,
+              "_getFrameMetrics": [Function],
+              "_info": Info {
+                "any_blank_count": 0,
+                "any_blank_ms": 0,
+                "any_blank_speed_sum": 0,
+                "mostly_blank_count": 0,
+                "mostly_blank_ms": 0,
+                "pixels_blank": 0,
+                "pixels_sampled": 0,
+                "pixels_scrolled": 0,
+                "sample_count": 0,
+                "total_time_spent": 0,
+              },
+              "_mostlyBlankStartTime": null,
+              "_samplesStartTime": null,
+            }
+          }
+          horizontal={true}
+          inversionStyle={null}
+          item={
+            Array [
+              FlightToDisplay {
+                "flight": Object {
+                  "aircraft_id": undefined,
+                  "arrival_time": 2021-06-29T23:42:55.075Z,
+                  "departure_time": 2021-06-29T22:41:55.075Z,
+                  "external_id": "N922DE-1454974819-adhoc-6",
+                  "from": "KHPN",
+                  "max_altitude": 0,
+                  "max_speed": 0,
+                  "to": "JFK",
+                },
+              },
+            ]
+          }
+          onUnmount={[Function]}
+          onUpdateSeparators={[Function]}
+          parentProps={
+            Object {
+              "CellRendererComponent": [Function],
+              "activeSlideAlignment": "center",
+              "activeSlideOffset": 20,
+              "apparitionDelay": 0,
+              "automaticallyAdjustContentInsets": false,
+              "autoplay": false,
+              "autoplayDelay": 1000,
+              "autoplayInterval": 3000,
+              "callbackOffsetMargin": 5,
+              "containerCustomStyle": Object {},
+              "contentContainerCustomStyle": Object {},
+              "contentContainerStyle": Array [
+                Object {
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                },
+                Object {},
+              ],
+              "data": Array [
+                Array [
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-1",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-2",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-3",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-4",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-5",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                ],
+                Array [
+                  FlightToDisplay {
+                    "flight": Object {
+                      "aircraft_id": undefined,
+                      "arrival_time": 2021-06-29T23:42:55.075Z,
+                      "departure_time": 2021-06-29T22:41:55.075Z,
+                      "external_id": "N922DE-1454974819-adhoc-6",
+                      "from": "KHPN",
+                      "max_altitude": 0,
+                      "max_speed": 0,
+                      "to": "JFK",
+                    },
+                  },
+                ],
+              ],
+              "decelerationRate": "fast",
+              "directionalLockEnabled": true,
+              "disableScrollViewPanResponder": false,
+              "enableSnap": true,
+              "firstItem": 0,
+              "forwardedRef": [Function],
+              "getItem": [Function],
+              "getItemCount": [Function],
+              "getItemLayout": [Function],
+              "hasParallaxImages": false,
+              "horizontal": true,
+              "inactiveSlideOpacity": 0.7,
+              "inactiveSlideScale": 0.9,
+              "inactiveSlideShift": 0,
+              "initialNumToRender": 6,
+              "initialScrollIndex": 0,
+              "inverted": false,
+              "itemWidth": 750,
+              "keyExtractor": [Function],
+              "layout": "default",
+              "loop": false,
+              "loopClonesPerSide": 3,
+              "maxToRenderPerBatch": 10,
+              "onLayout": [Function],
+              "onMomentumScrollEnd": [Function],
+              "onScroll": [Function],
+              "onScrollIndexChanged": [Function],
+              "onSnapToItem": [Function],
+              "onTouchEnd": [Function],
+              "onTouchStart": [Function],
+              "overScrollMode": "never",
+              "pinchGestureEnabled": false,
+              "pointerEvents": "auto",
+              "removeClippedSubviews": false,
+              "renderItem": [Function],
+              "scrollEnabled": true,
+              "scrollEventThrottle": 1,
+              "scrollsToTop": false,
+              "shouldOptimizeUpdates": true,
+              "showsHorizontalScrollIndicator": false,
+              "showsVerticalScrollIndicator": false,
+              "slideStyle": Object {},
+              "sliderWidth": 750,
+              "snapToOffsets": Array [
+                0,
+                750,
+              ],
+              "style": Object {
+                "flexDirection": "row",
+                "width": 750,
+              },
+              "useExperimentalSnap": false,
+              "useScrollView": false,
+              "viewabilityConfigCallbackPairs": Array [],
+              "windowSize": 3,
+            }
+          }
+          prevCellKey="flatlist-item-0"
+          style={
+            Array [
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ],
+              Object {
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            pointerEvents="box-none"
+            style={
+              Object {
+                "opacity": 0.7,
+                "transform": Array [
+                  Object {
+                    "scale": 0.9,
+                  },
+                ],
+                "width": 750,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderColor": "transparent",
+                  "borderWidth": 1,
+                  "marginBottom": 5,
+                  "marginHorizontal": 8,
+                }
+              }
+              testID="selectableListItem-Component"
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginHorizontal": 8,
+                    "marginLeft": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 40,
+                      "marginTop": 4,
+                    }
+                  }
+                  testID="flight-N922DE-1454974819-adhoc-6-FlightListItem"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 40,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityRole="checkbox"
+                      accessibilityState={
+                        Object {
+                          "checked": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                          "marginLeft": 10,
+                          "marginRight": 10,
+                          "opacity": 1,
+                          "padding": 0,
+                          "width": 20,
+                        }
+                      }
+                      testID="checkbox"
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#bfbfbf",
+                                "fontSize": 24,
+                              },
+                              Object {
+                                "minWidth": 24,
+                              },
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flex": 1,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="departureAirport-Text"
+                      >
+                        KHPN
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "marginHorizontal": 4,
+                            "marginVertical": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "height": 15,
+                                "width": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <FastImageView
+                            resizeMode="cover"
+                            source={
+                              Object {
+                                "testUri": "../../../src/assets/icons/arrowRight.png",
+                              }
+                            }
+                            style={
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                            testID="rightArrow-Image"
+                            tintColor="#A0A0A0"
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "maxWidth": 55,
+                            "textTransform": "uppercase",
+                          }
+                        }
+                        testID="arrivalAirport-Text"
+                      >
+                        JFK
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "marginHorizontal": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        22:41
+                      </Text>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#5B5B5B",
+                            "fontFamily": "NotoSansJP-Bold",
+                            "fontSize": 13,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                            "marginHorizontal": 8,
+                          }
+                        }
+                        testID="hourSeparator-Text"
+                      >
+                        •
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#767676",
+                            "fontFamily": "NotoSansJP-Regular",
+                            "fontSize": 14,
+                            "fontWeight": undefined,
+                            "letterSpacing": 0,
+                            "lineHeight": 20,
+                          }
+                        }
+                      >
+                        23:42
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#767676",
+                          "fontFamily": "NotoSansJP-Regular",
+                          "fontSize": 14,
+                          "fontWeight": undefined,
+                          "letterSpacing": 0,
+                          "lineHeight": 20,
+                          "textAlign": "right",
+                        }
+                      }
+                    >
+                      06/29
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      testID="pagination-testID"
+    >
+      <View
+        accessible={false}
+        pointerEvents="box-none"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "paddingHorizontal": 20,
+              "paddingVertical": 30,
+            },
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "marginTop": 8,
+              "paddingVertical": 0,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={false}
+          collapsable={false}
+          focusable={false}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 4,
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#12A3BE",
+                "borderRadius": 5,
+                "height": 8,
+                "opacity": 1,
+                "transform": Array [
+                  Object {
+                    "scale": 1,
+                  },
+                ],
+                "width": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          accessible={false}
+          collapsable={false}
+          focusable={false}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 4,
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "backgroundColor": "#D3D3D3",
+                "borderRadius": 5,
+                "height": 8,
+                "opacity": 1,
+                "transform": Array [
+                  Object {
+                    "scale": 1,
+                  },
+                ],
+                "width": 8,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<FlightListContainer /> without flights renders an empty list view with the expected text 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 20,
+    }
+  }
+  testID="testing-FlightList-Component"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        null,
+      ]
+    }
+    testID="horizontalPadding-component"
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "NotoSansJP-Black",
+            "fontSize": 16,
+            "fontWeight": undefined,
+            "letterSpacing": -0.3,
+            "lineHeight": 22,
+            "minHeight": 22,
+            "textTransform": "none",
+          }
+        }
+        testID="flightList-Title"
+      >
+        Flight data - Select flight
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontSize": 16,
+          }
+        }
+        testID="required-testID"
+      >
+         *
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+        },
+        Object {
+          "marginBottom": 20,
+        },
+      ]
+    }
+    testID="horizontalPadding-component"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 47,
+              "marginBottom": 25,
+              "marginTop": 40,
+              "width": 67,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/cloud.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="emptyStateImage-testID"
+          tintColor="#F2F2F2"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#767676",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "textAlign": "center",
+          }
+        }
+        testID="emptyStateText-testID"
+      >
+        We couldn’t find any flights for this tail number. Try another or upload manually!
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,25 @@
+com/reactnative/ivpusic/imagepicker/GeoDegree.java
+ com.reactnative.ivpusic.imagepicker.GeoDegree
+com/reactnative/ivpusic/imagepicker/BuildConfig.java
+ com.reactnative.ivpusic.imagepicker.BuildConfig
+com/reactnative/ivpusic/imagepicker/RealPathUtil.java
+ com.reactnative.ivpusic.imagepicker.RealPathUtil
+com/reactnative/ivpusic/imagepicker/PickerModule.java
+ com.reactnative.ivpusic.imagepicker.PickerModule
+ com.reactnative.ivpusic.imagepicker.PickerModule$1
+ com.reactnative.ivpusic.imagepicker.PickerModule$2
+ com.reactnative.ivpusic.imagepicker.PickerModule$3
+ com.reactnative.ivpusic.imagepicker.PickerModule$4
+ com.reactnative.ivpusic.imagepicker.PickerModule$5
+ com.reactnative.ivpusic.imagepicker.PickerModule$6
+ com.reactnative.ivpusic.imagepicker.PickerModule$7
+ com.reactnative.ivpusic.imagepicker.PickerModule$7$1
+ com.reactnative.ivpusic.imagepicker.PickerModule$7$2
+com/reactnative/ivpusic/imagepicker/PickerPackage.java
+ com.reactnative.ivpusic.imagepicker.PickerPackage
+com/reactnative/ivpusic/imagepicker/Compression.java
+ com.reactnative.ivpusic.imagepicker.Compression
+com/reactnative/ivpusic/imagepicker/ResultCollector.java
+ com.reactnative.ivpusic.imagepicker.ResultCollector
+com/reactnative/ivpusic/imagepicker/ExifExtractor.java
+ com.reactnative.ivpusic.imagepicker.ExifExtractor

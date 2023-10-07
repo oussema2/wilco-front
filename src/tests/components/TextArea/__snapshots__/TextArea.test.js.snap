@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea when the required prop is set renders the TextArea component with a mandatory mark next to the label 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textArea"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#D60A50",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 14,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "marginLeft": 4,
+        }
+      }
+      testID="input-required"
+    >
+      *
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      editable={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      placeholderTextColor="#A0A0A0"
+      scrollEnabled={false}
+      selectionColor="#12A3BE"
+      style={
+        Object {
+          "backgroundColor": "#F2F2F2",
+          "borderRadius": 8,
+          "color": "#000000",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingHorizontal": 12,
+          "paddingTop": 16,
+          "textAlignVertical": "top",
+        }
+      }
+      testID="input"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`TextArea with the default props renders the TextArea component correctly 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 98,
+    }
+  }
+  testID="textArea"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontFamily": "NotoSansJP-Black",
+          "fontSize": 16,
+          "fontWeight": undefined,
+          "letterSpacing": -0.3,
+          "lineHeight": 22,
+          "marginBottom": 4,
+        }
+      }
+      testID="input-label"
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      editable={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      placeholderTextColor="#A0A0A0"
+      scrollEnabled={false}
+      selectionColor="#12A3BE"
+      style={
+        Object {
+          "backgroundColor": "#F2F2F2",
+          "borderRadius": 8,
+          "color": "#000000",
+          "fontFamily": "NotoSansJP-Bold",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingHorizontal": 12,
+          "paddingTop": 16,
+          "textAlignVertical": "top",
+        }
+      }
+      testID="input"
+      value=""
+    />
+  </View>
+</View>
+`;

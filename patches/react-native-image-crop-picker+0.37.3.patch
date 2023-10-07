@@ -1,0 +1,32 @@
+diff --git a/node_modules/react-native-image-crop-picker/android/build.gradle b/node_modules/react-native-image-crop-picker/android/build.gradle
+index 48443cc..3d9714f 100644
+--- a/node_modules/react-native-image-crop-picker/android/build.gradle
++++ b/node_modules/react-native-image-crop-picker/android/build.gradle
+@@ -22,5 +22,5 @@ android {
+ dependencies {
+     implementation 'com.facebook.react:react-native:+'
+     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+-    implementation 'com.github.yalantis:ucrop:2.2.6-native'
++    implementation 'io.github.lucksiege:pictureselector:v2.7.3-rc08'
+ }
+diff --git a/node_modules/react-native-image-crop-picker/android/src/main/java/com/reactnative/ivpusic/imagepicker/PickerModule.java b/node_modules/react-native-image-crop-picker/android/src/main/java/com/reactnative/ivpusic/imagepicker/PickerModule.java
+index 6335949..8bd57b0 100644
+--- a/node_modules/react-native-image-crop-picker/android/src/main/java/com/reactnative/ivpusic/imagepicker/PickerModule.java
++++ b/node_modules/react-native-image-crop-picker/android/src/main/java/com/reactnative/ivpusic/imagepicker/PickerModule.java
+@@ -19,6 +19,7 @@ import android.webkit.MimeTypeMap;
+ 
+ import androidx.core.app.ActivityCompat;
+ import androidx.core.content.FileProvider;
++import androidx.appcompat.app.AppCompatActivity;
+ 
+ import com.facebook.react.bridge.ActivityEventListener;
+ import com.facebook.react.bridge.Callback;
+@@ -691,7 +692,7 @@ class PickerModule extends ReactContextBaseJavaModule implements ActivityEventLi
+             uCrop.withAspectRatio(width, height);
+         }
+ 
+-        uCrop.start(activity);
++        uCrop.start(activity, UCrop.REQUEST_CROP);
+     }
+ 
+     private void imagePickerResult(Activity activity, final int requestCode, final int resultCode, final Intent data) {

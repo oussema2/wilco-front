@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextWithIcon /> with a numberOfLines renders the TextWithIcon component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      null,
+    ]
+  }
+  testID="text-with-icon"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 28,
+        "justifyContent": "center",
+        "width": 28,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/aircraft.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 14,
+            "tintColor": "#1F2E4E",
+            "width": 20,
+          },
+          null,
+        ]
+      }
+    />
+  </View>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "marginLeft": 4,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`<TextWithIcon /> with a text renders the TextWithIcon component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      null,
+    ]
+  }
+  testID="text-with-icon"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 28,
+        "justifyContent": "center",
+        "width": 28,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/aircraft.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 14,
+            "tintColor": "#1F2E4E",
+            "width": 20,
+          },
+          null,
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "marginLeft": 4,
+      }
+    }
+  >
+    label
+  </Text>
+</View>
+`;
+
+exports[`<TextWithIcon /> with the default props renders the TextWithIcon component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      null,
+    ]
+  }
+  testID="text-with-icon"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 28,
+        "justifyContent": "center",
+        "width": 28,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/icons/aircraft.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 14,
+            "tintColor": "#1F2E4E",
+            "width": 20,
+          },
+          null,
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "NotoSansJP-Bold",
+        "fontSize": 14,
+        "fontWeight": undefined,
+        "letterSpacing": 0,
+        "lineHeight": 20,
+        "marginLeft": 4,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;

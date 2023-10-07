@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d yeni bildirim</item>
+    <item quantity="other">%d yeni bildirim</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AÇ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"sil"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Üst Karakter+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"boşluk"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menü+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Güncelle</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">Google\'da oturum aç</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string name="fcm_fallback_notification_channel_label">Çeşitli</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="intercom_access_background_location_message">Uygulamanın arka planda konumunuzu kullanmasını etkinleştirmek için cihaz ayarlarına gidin</string>
+    <string name="intercom_access_background_location_title">Konumunuza erişime her zaman izin verin</string>
+    <string name="intercom_access_photos">Fotoğraflarınıza erişin</string>
+    <string name="intercom_active_15m_ago">Son {minutes}dk içinde aktif</string>
+    <string name="intercom_active_day_ago">{days}g önce aktif</string>
+    <string name="intercom_active_hour_ago">{hours}sa önce aktif</string>
+    <string name="intercom_active_minute_ago">{minutes}dk önce aktif</string>
+    <string name="intercom_active_state">Aktif</string>
+    <string name="intercom_active_week_ago">1 haftadan uzun bir süre önce aktif</string>
+    <string name="intercom_allow_access">Erişime izin ver</string>
+    <string name="intercom_allow_storage_access">Fotoğraflarınızı görüntülemek için lütfen belleğe erişim izni verin</string>
+    <string name="intercom_also_in_this_conversation">Ayrıca bu sohbette</string>
+    <string name="intercom_android_activated_message">Android uygulamanız artık Intercom platformuyla entegre</string>
+    <string name="intercom_app_settings">Uygulama ayarları</string>
+    <string name="intercom_article_load_error">Yazı yüklenemedi</string>
+    <string name="intercom_article_question">Bu yanıt sorunuz için yeterli oldu mu?</string>
+    <string name="intercom_article_response">Şu şekilde yanıt verdiniz:</string>
+    <string name="intercom_article_search_hint_text">Makalelerde ara...</string>
+    <string name="intercom_ask_a_question">Soru sor</string>
+    <string name="intercom_asked_about">Şununla ilgili soru soruldu</string>
+    <string name="intercom_attribute_collector_negative">Hayır</string>
+    <string name="intercom_attribute_collector_positive">Evet</string>
+    <string name="intercom_away_state">Uzakta</string>
+    <string name="intercom_bot">Bot</string>
+    <string name="intercom_bot_expectation_text">Bot\'umuz sıkça sorulan birçok soruyu yanıtlayabilir</string>
+    <string name="intercom_browse_all_help_topics">Tüm yardım konularına göz atın</string>
+    <string name="intercom_browse_collections">Koleksiyonlara göz atın</string>
+    <string name="intercom_cancel">İptal</string>
+    <string name="intercom_choose_one">Bir seçim yapın…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Sil</string>
+    <string name="intercom_close">Kapat</string>
+    <string name="intercom_congratulations">Tebrikler</string>
+    <string name="intercom_connected">Bağlandın</string>
+    <string name="intercom_continue_the_conversation">Sohbete devam et</string>
+    <string name="intercom_conversation_card_office_hours_header">Tekrar çevrimiçi olacağımız zaman</string>
+    <string name="intercom_conversation_card_reply_time_header">Ortalama yanıt süremiz</string>
+    <string name="intercom_conversation_has_ended">Sohbetiniz sona erdi</string>
+    <string name="intercom_conversations">Sohbetler</string>
+    <string name="intercom_conversations_with_app">{name} ile sohbetler</string>
+    <string name="intercom_copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="intercom_couldnt_complete_action">Bu faaliyet tamamlanamadı</string>
+    <string name="intercom_couldnt_load_apps">Uygulamalar yüklenemedi.</string>
+    <string name="intercom_couldnt_load_content">İçerik yüklenemedi</string>
+    <string name="intercom_couldnt_load_messenger">Messenger yüklenemedi.</string>
+    <string name="intercom_delivered">İletildi</string>
+    <string name="intercom_disappointed_face_emoji">Hayal kırıklığına uğramış yüz</string>
+    <string name="intercom_dismiss">Son Ver</string>
+    <string name="intercom_empty_conversations">{name} kişisi ile henüz bir görüşme gerçekleştirilmedi</string>
+    <string name="intercom_error_loading_conversation">Sohbet yüklenemiyor</string>
+    <string name="intercom_expected_response_delay_10800">3 saatten az</string>
+    <string name="intercom_expected_response_delay_1200">20 dakikadan az</string>
+    <string name="intercom_expected_response_delay_14400">4 saatten az</string>
+    <string name="intercom_expected_response_delay_172800">2 gün</string>
+    <string name="intercom_expected_response_delay_1800">30 dakikadan az</string>
+    <string name="intercom_expected_response_delay_18000">5 saatten az</string>
+    <string name="intercom_expected_response_delay_21600">6 saatten az</string>
+    <string name="intercom_expected_response_delay_300">5 dakikadan az</string>
+    <string name="intercom_expected_response_delay_3600">1 saatten az</string>
+    <string name="intercom_expected_response_delay_600">10 dakikadan az</string>
+    <string name="intercom_expected_response_delay_604800">1 haftadan az</string>
+    <string name="intercom_expected_response_delay_7200">2 saatten az</string>
+    <string name="intercom_expected_response_delay_86400">1 gün</string>
+    <string name="intercom_facebook_like">Bizi Facebook\'ta beğen</string>
+    <string name="intercom_failed_delivery">Mesaj iletilemedi</string>
+    <string name="intercom_failed_to_load_conversation">Sohbetlerin yüklenemiyor</string>
+    <string name="intercom_failed_to_send">Gönderilemedi</string>
+    <string name="intercom_file_access_failed">Bu dosyaya ulaşılamıyor</string>
+    <string name="intercom_file_too_big">40MB\'tan büyük dosyalar gönderilemez</string>
+    <string name="intercom_get_help">Yardım alın</string>
+    <string name="intercom_gif_attribution">{providername} aracılığıyla</string>
+    <string name="intercom_gifs_load_error">GIF\'ler yüklenemedi</string>
+    <string name="intercom_give_it_another_try">Tekrar deneyin</string>
+    <string name="intercom_go_to_device_settings">Erişim izni vermek için cihazınızın uygulama ayarları izinleri menüsüne gidin</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Kocaman gözlerle gülen yüz</string>
+    <string name="intercom_help_center">Yardım Merkezi</string>
+    <string name="intercom_how_can_we_help">Nasıl yardımcı olabiliriz?</string>
+    <string name="intercom_image_attached">(görüntü ekli)</string>
+    <string name="intercom_inbox_error_state_title">Bir sorun yaşandı</string>
+    <string name="intercom_loading">Yükleniyor</string>
+    <string name="intercom_message_failed_try_again">Gönderilemedi, yeniden dene düğmesine dokun</string>
+    <string name="intercom_message_seen">Görüldü</string>
+    <string name="intercom_message_state_sending">Gönderiliyor…</string>
+    <string name="intercom_message_unseen">Henüz görülmedi</string>
+    <string name="intercom_name_and_1_other">{name} ve 1 diğer</string>
+    <string name="intercom_name_and_x_others">{name} ve {count} diğer</string>
+    <string name="intercom_navigation_back">Geri</string>
+    <string name="intercom_neutral_face_emoji">Nötr yüz</string>
+    <string name="intercom_new_conversation">Yeni Sohbet</string>
+    <string name="intercom_new_message">Yeni mesaj</string>
+    <string name="intercom_new_messages">{n} yeni mesajın var</string>
+    <string name="intercom_new_notifications">Yeni bildirimler</string>
+    <string name="intercom_no_articles_to_display">Görüntülenecek makale yok</string>
+    <string name="intercom_no_conversations">Sohbet yok</string>
+    <string name="intercom_no_gifs_found">GIF bulunamadı</string>
+    <string name="intercom_no_gifs_matching_query">Aramanızla eşleşen bir GIF bulamadık</string>
+    <string name="intercom_no_messages_from_the_team">Ekipten mesaj yok</string>
+    <string name="intercom_no_network_connection">Ağ bağlantısı yok</string>
+    <string name="intercom_no_photos">Fotoğraf yok</string>
+    <string name="intercom_no_photos_on_device">Bu cihazda hiç fotoğraf yok</string>
+    <string name="intercom_no_results_for_searchterm">{searchTerm} için sonuç bulunamadı</string>
+    <string name="intercom_not_now">Şimdi değil</string>
+    <string name="intercom_nothing_to_see_here_yet">Burada henüz gösterilecek bir şey yok</string>
+    <string name="intercom_notification_channel_actions_description">Bu uygulama üzerinde bir faaliyet gerçekleştirmek üzere bağlantılar yer alır</string>
+    <string name="intercom_notification_channel_actions_title">Faaliyetler</string>
+    <string name="intercom_notification_channel_chat_replies_description">Bu uygulamadaki sohbetlerden gelen bildirimleri yanıtlayın</string>
+    <string name="intercom_notification_channel_chat_replies_title">Sohbet yanıtları</string>
+    <string name="intercom_notification_channel_new_chats_description">Bu uygulamadan gönderilen yeni sohbet mesajları</string>
+    <string name="intercom_notification_channel_new_chats_title">Yeni sohbetler</string>
+    <string name="intercom_number_is_incorrect">Bu numara doğru gibi gözükmüyor</string>
+    <string name="intercom_one_new_message">Yeni bir mesajın var</string>
+    <string name="intercom_page_not_found">O sayfa artık burada değil</string>
+    <string name="intercom_permission_denied">Bu izin reddedildi</string>
+    <string name="intercom_photo_access_denied">Fotoğraflara erişim izni vermediniz</string>
+    <string name="intercom_plus_x_more">+{n} dosya daha</string>
+    <string name="intercom_profile_location">{time} in {location}</string>
+    <string name="intercom_rate_your_conversation">Görüşmenizi değerlendirin</string>
+    <string name="intercom_reload">Yeniden yükleyin</string>
+    <string name="intercom_reply">Yanıtla</string>
+    <string name="intercom_reply_from_admin">Yanıtlayan {name}</string>
+    <string name="intercom_reply_to_conversation">Yanıt yaz</string>
+    <string name="intercom_retry">Yeniden Dene</string>
+    <string name="intercom_search_browse_empty_state_text">Üzgünüz. Bu aramayla ilgili hiçbir sonuç bulunamadı. Aramanızı başka sözcüklerle yapmayı deneyin.</string>
+    <string name="intercom_search_for_help">Yardım makalesi arayın</string>
+    <string name="intercom_search_gif">GIF ara…</string>
+    <string name="intercom_search_help_articles">Yardım makalelerini arayın</string>
+    <string name="intercom_see_all">Tümünü gör</string>
+    <string name="intercom_see_all_conversations">Tüm sohbetlerinizi görün</string>
+    <string name="intercom_see_past_conversations">Geçmiş sohbetleri gör</string>
+    <string name="intercom_see_previous_conversations">Önceki sohbetlerinizi görün</string>
+    <string name="intercom_send">Gönder</string>
+    <string name="intercom_send_us_a_message">Bize mesaj gönderin</string>
+    <string name="intercom_some_things_failed_to_load">Bazı şeyler yüklenemedi. Yeniden deneyin.</string>
+    <string name="intercom_something_went_wrong_try_again">Bir sorunla karşılaşıldı. Tekrar deneyiniz.</string>
+    <string name="intercom_start_a_conversation">Bir sohbet başlat</string>
+    <string name="intercom_start_another_conversation">Başka bir sohbet başlat</string>
+    <string name="intercom_start_conversation">Bir sohbet başlat</string>
+    <string name="intercom_storage_access_request">Fotoğraflarınızı görüntülemek için belleğe erişim izni vermeniz gerekmektedir</string>
+    <string name="intercom_string_is_incorrect">Bu bilgi doğru gibi gözükmüyor</string>
+    <string name="intercom_submit">Gönder</string>
+    <string name="intercom_tap_to_send_image">Bir görüntü göndermek için dokunun</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} genellikle gün içinde yanıt verir.</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} genellikle bir iş günü içinde yanıt verir</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} genellikle iki iş günü içinde yanıt verir</string>
+    <string name="intercom_teammate_from_company">{company} şirketinden {name}</string>
+    <string name="intercom_tell_us_more">Bize daha ayrıntılı bilgi verin…</string>
+    <string name="intercom_tell_us_what_you_need">Hangi konuda yardıma ihtiyacınız olduğunu belirtirseniz bot sizi yanıtlamaya çalışacaktır</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Teşekkürler! Ekibimiz bir iş günü içinde yanıt verecektir</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Teşekkürler! Ekibimiz iki iş günü içinde yanıt verecektir</string>
+    <string name="intercom_thanks_for_letting_us_know">Bize bildirdiğiniz için teşekkür ederiz</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Teşekkürler! Ekip en kısa sürede yanıt verecektir.</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">Bu ülke kodu doğru gibi gözükmüyor</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">Bu e-posta adresi doğru gibi gözükmüyor</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">Bu numara doğru gibi gözükmüyor</string>
+    <string name="intercom_that_number_has_too_many_digits">Bu numarada çok fazla rakam bulunuyor</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">Bu numarada birkaç rakam eksik</string>
+    <string name="intercom_that_number_needs_a_prefix">Bu ülke kodu için bir ön ek gerekiyor (+ veya 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">Gerekirse ekibimiz size yardımcı olabilir</string>
+    <string name="intercom_the_team_typically_replies_in_hours">Ekip genellikle birkaç saat içinde yanıt verir.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">Ekibimiz genelde bir iş günü içinde yanıt verir.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">Ekibimiz genellikle iki iş günü içinde yanıt verir</string>
+    <string name="intercom_time_day_ago">{delta}g önce</string>
+    <string name="intercom_time_future_1h">1 saat</string>
+    <string name="intercom_time_future_2h">2 saat</string>
+    <string name="intercom_time_future_30m">30 dakika</string>
+    <string name="intercom_time_future_3h">3 saat</string>
+    <string name="intercom_time_future_day_0">Pazartesi</string>
+    <string name="intercom_time_future_day_1">Salı</string>
+    <string name="intercom_time_future_day_2">Çarşamba</string>
+    <string name="intercom_time_future_day_3">Perşembe</string>
+    <string name="intercom_time_future_day_4">Cuma</string>
+    <string name="intercom_time_future_day_5">Cumartesi</string>
+    <string name="intercom_time_future_day_6">Pazar</string>
+    <string name="intercom_time_future_later_today">Günün ilerleyen saatlerinde</string>
+    <string name="intercom_time_future_next_week">Gelecek hafta</string>
+    <string name="intercom_time_future_tomorrow">Yarın</string>
+    <string name="intercom_time_hour_ago">{delta}sa önce</string>
+    <string name="intercom_time_just_now">Az önce</string>
+    <string name="intercom_time_minute_ago">{delta}dk önce</string>
+    <string name="intercom_time_week_ago">{delta}h önce</string>
+    <string name="intercom_time_yesterday">dün</string>
+    <string name="intercom_try_again">Tekrar Dene</string>
+    <string name="intercom_try_again_minute">Birazdan tekrar deneyin.</string>
+    <string name="intercom_try_use_different_keywords">Farklı anahtar sözcükler kullanmayı deneyin veya sorunuzun tamamını girin</string>
+    <string name="intercom_twitter_follow">Bizi Twitter\'da takip et</string>
+    <string name="intercom_two_business_days">İki iş günü</string>
+    <string name="intercom_type_a_number">Bir numara yazın…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Genellikle bir iş günü içinde yanıt verir</string>
+    <string name="intercom_typically_replies_in_two_business_days">Genellikle iki iş günü içinde yanıt verir</string>
+    <string name="intercom_upfront_collection_form_close_out">Yanıtları görmek ve güncelleme göndermek için her zaman buraya geri dönebilirsiniz.</string>
+    <string name="intercom_upfront_collection_form_introduction">Ekibin daha iyi ve daha hızlı yanıt vermesine yardımcı olmak için biraz bağlam paylaşın.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Bu bağlamı gönderdiğiniz için teşekkür ederiz. Daha sonra zamandan kazanmak için şimdi daha fazla ayrıntı vermekten çekinmeyin.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Ekibe biraz bağlam gönderin</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">Bu bağlamı dikkate alacaklar</string>
+    <string name="intercom_upfront_collection_form_title">Daha hızlı yardım alın</string>
+    <string name="intercom_upfront_collection_form_title_submitted">Ekibe gönderildi!</string>
+    <string name="intercom_we_run_on_intercom">Intercom üzerinden faaliyet gösteriyoruz</string>
+    <string name="intercom_you">Sen</string>
+    <string name="intercom_you_rated_the_conversation">Görüşmenizi değerlendirdiniz</string>
+    <string name="intercom_your_conversations">Sohbetleriniz</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="material_clock_toggle_content_description">ÖÖ veya ÖS\'yi seçin</string>
+    <string name="material_hour_selection">Saat seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dakikayı seçin</string>
+    <string name="material_minute_suffix">%1$s dakika</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zaman girişi için saat moduna geçin.</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dakika</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Zamanı seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
+    <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarih</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">a</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Devam"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Önizleme modu güncellendi."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Önizleme"</string>
+</resources>

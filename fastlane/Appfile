@@ -1,0 +1,11 @@
+json_key_file("") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("aero.rogerwilco.app") # e.g. com.krausefx.app
+
+app_identifier("aero.rogerwilco.app") # The bundle identifier of your app
+apple_id(ENV["APPLE_ID"]) # Your Apple email address
+
+itc_team_id("125006487") # App Store Connect Team ID
+team_id("4JG78VVZJ7") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> with the default props renders the Input component correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F2F2F2",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "borderRadius": 8,
+          "flexDirection": "row",
+          "marginBottom": 5,
+          "minHeight": 52,
+          "paddingHorizontal": 12,
+          "textAlignVertical": "center",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder=""
+        placeholderTextColor="#A0A0A0"
+        returnKeyType="default"
+        scrollEnabled={true}
+        secureTextEntry={false}
+        selectionColor="#12A3BE"
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "minHeight": 40,
+            "paddingVertical": 0,
+          }
+        }
+        testID="testing-Input-Component"
+        textAlignVertical="center"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#D60A50",
+          "fontFamily": "NotoSansJP-Regular",
+          "fontSize": 12,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 16,
+          "margin": 0,
+          "marginLeft": 0,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Input /> with the isPassword renders the password visibility switch 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F2F2F2",
+          "borderBottomWidth": 0,
+          "borderColor": "#86939e",
+          "borderRadius": 8,
+          "flexDirection": "row",
+          "marginBottom": 5,
+          "minHeight": 52,
+          "paddingHorizontal": 12,
+          "textAlignVertical": "center",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={true}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder=""
+        placeholderTextColor="#A0A0A0"
+        returnKeyType="default"
+        scrollEnabled={true}
+        secureTextEntry={false}
+        selectionColor="#12A3BE"
+        style={
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 14,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "minHeight": 40,
+            "paddingVertical": 0,
+          }
+        }
+        testID="testing-Input-Component"
+        textAlignVertical="center"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "marginVertical": 4,
+            "paddingRight": 4,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#D60A50",
+          "fontFamily": "NotoSansJP-Regular",
+          "fontSize": 12,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 16,
+          "margin": 0,
+          "marginLeft": 0,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

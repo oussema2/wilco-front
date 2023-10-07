@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> when the switch is set to false renders with the correct colors 1`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  accessibilityState={
+    Object {
+      "checked": false,
+      "disabled": false,
+    }
+  }
+  disabled={false}
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="#12A3BE"
+  style={
+    Array [
+      Object {
+        "height": 31,
+        "width": 51,
+      },
+      Object {
+        "backgroundColor": "#767676",
+        "borderRadius": 16,
+      },
+    ]
+  }
+  testID="testing-Switch-Component"
+  tintColor=""
+  value={false}
+/>
+`;

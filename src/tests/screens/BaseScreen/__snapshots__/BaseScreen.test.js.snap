@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseScreen edgeTop when edgeTop is true renders the BaseScreen screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="base-screen"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      testID="view"
+    />
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`BaseScreen edgeTop with the edgeTop prop renders the BaseScreen screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="testID"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+        "right",
+        "bottom",
+        "left",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      testID="view"
+    />
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;
+
+exports[`BaseScreen isLoading with the isLoading prop renders the BaseScreen screen with a screen loader 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="testID"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+        "right",
+        "bottom",
+        "left",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      testID="view"
+    />
+  </RNCSafeAreaView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.6)",
+        "display": "flex",
+        "flexDirection": "column-reverse",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+    testID="screenLoader"
+  >
+    <View
+      animated={true}
+      animationConfig={
+        Object {
+          "bounciness": 0,
+        }
+      }
+      animationType="spring"
+      indeterminate={true}
+      indeterminateAnimationDuration={1000}
+      onLayout={[Function]}
+      progress={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "borderColor": "#12A3BE",
+            "borderRadius": 0,
+            "borderWidth": 0,
+            "overflow": "hidden",
+            "width": null,
+          },
+          undefined,
+        ]
+      }
+      testID="progress-bar"
+      useNativeDriver={false}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#12A3BE",
+            "height": 6,
+            "transform": Array [
+              Object {
+                "translateX": -0,
+              },
+              Object {
+                "translateX": -0,
+              },
+              Object {
+                "scaleX": 0.30007,
+              },
+            ],
+          }
+        }
+      />
+    </View>
+  </View>
+</BVLinearGradient>
+`;
+
+exports[`BaseScreen isLoading without the isLoading prop renders the BaseScreen screen correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.25,
+      "y": 0.3,
+    }
+  }
+  locations={
+    Array [
+      0.5,
+      1,
+    ]
+  }
+  startPoint={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 5,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  testID="testID"
+>
+  <RNCSafeAreaView
+    edges={
+      Array [
+        "top",
+        "right",
+        "bottom",
+        "left",
+      ]
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      testID="view"
+    />
+  </RNCSafeAreaView>
+</BVLinearGradient>
+`;

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextButton /> when the variant is desttructive renders the destructive TextButton 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="textButton-Component"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "flex-end",
+          "backgroundColor": "transparent",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#D60A50",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 15,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        Button title
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<TextButton /> with the default props renders the TextButton component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 3,
+      },
+      undefined,
+      false,
+    ]
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "busy": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="testing-TextButton-Component"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "flex-end",
+          "backgroundColor": "transparent",
+          "borderColor": "#2089dc",
+          "borderRadius": 26,
+          "borderWidth": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#12A3BE",
+            "fontFamily": "NotoSansJP-Bold",
+            "fontSize": 15,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paddingVertical": 1,
+            "textAlign": "center",
+          }
+        }
+      >
+        Button title
+      </Text>
+    </View>
+  </View>
+</View>
+`;

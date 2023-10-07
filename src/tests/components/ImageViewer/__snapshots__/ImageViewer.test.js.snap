@@ -1,0 +1,855 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageViewer when provided more than one photo renders ImageView component with pagination 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={true}
+  onRequestClose={[Function]}
+  presentationStyle="fullScreen"
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#000",
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#000",
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "top": 16,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00000077",
+              "borderRadius": 22,
+              "height": 44,
+              "justifyContent": "center",
+              "marginRight": 8,
+              "marginTop": 8,
+              "opacity": 1,
+              "width": 44,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 19,
+                "includeFontPadding": false,
+                "lineHeight": 22,
+                "textAlign": "center",
+              }
+            }
+          >
+            ✕
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "uri": "https://example.photo",
+          },
+          Object {
+            "uri": "https://second.example.photo/2",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      horizontal={true}
+      initialNumToRender={1}
+      initialScrollIndex={0}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={1}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={Array []}
+      windowSize={2}
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View>
+            <RCTScrollView
+              contentContainerStyle={
+                Object {
+                  "height": 1334,
+                }
+              }
+              maximumZoomScale={1}
+              onScroll={[Function]}
+              onScrollEndDrag={[Function]}
+              pinchGestureEnabled={true}
+              scrollEnabled={true}
+              scrollEventThrottle={1}
+              showsHorizontalScrollIndicator={false}
+              showsVerticalScrollIndicator={false}
+              style={
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "height": 1334,
+                      "justifyContent": "center",
+                      "width": 750,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    color="#FFF"
+                    size="small"
+                  />
+                </View>
+                <Image
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onLoad={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  source={
+                    Object {
+                      "uri": "https://example.photo",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 0,
+                      "opacity": 1,
+                      "width": 0,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "bottom": 0,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000077",
+            "marginBottom": 40,
+            "paddingTop": 25,
+            "paddingVertical": 30,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          testID="pagination-testID"
+        >
+          <View
+            accessible={false}
+            pointerEvents="box-none"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "paddingHorizontal": 20,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                  "marginTop": 8,
+                  "paddingVertical": 0,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={false}
+              collapsable={false}
+              focusable={false}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "marginHorizontal": 4,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#12A3BE",
+                    "borderRadius": 5,
+                    "height": 8,
+                    "opacity": 1,
+                    "transform": Array [
+                      Object {
+                        "scale": 1,
+                      },
+                    ],
+                    "width": 8,
+                  }
+                }
+              />
+            </View>
+            <View
+              accessible={false}
+              collapsable={false}
+              focusable={false}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "marginHorizontal": 4,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                nativeID="animatedComponent"
+                style={
+                  Object {
+                    "backgroundColor": "#D3D3D3",
+                    "borderRadius": 5,
+                    "height": 8,
+                    "opacity": 1,
+                    "transform": Array [
+                      Object {
+                        "scale": 1,
+                      },
+                    ],
+                    "width": 8,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`ImageViewer with the default props when the Modal is not visible renders the ImageViewer component correctly 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={true}
+  onRequestClose={[Function]}
+  presentationStyle="fullScreen"
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#000",
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#000",
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "top": 16,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00000077",
+              "borderRadius": 22,
+              "height": 44,
+              "justifyContent": "center",
+              "marginRight": 8,
+              "marginTop": 8,
+              "opacity": 1,
+              "width": 44,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 19,
+                "includeFontPadding": false,
+                "lineHeight": 22,
+                "textAlign": "center",
+              }
+            }
+          >
+            ✕
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "uri": "https://example.photo",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      horizontal={true}
+      initialNumToRender={1}
+      initialScrollIndex={0}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={1}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={Array []}
+      windowSize={2}
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View>
+            <RCTScrollView
+              contentContainerStyle={
+                Object {
+                  "height": 1334,
+                }
+              }
+              maximumZoomScale={1}
+              onScroll={[Function]}
+              onScrollEndDrag={[Function]}
+              pinchGestureEnabled={true}
+              scrollEnabled={true}
+              scrollEventThrottle={1}
+              showsHorizontalScrollIndicator={false}
+              showsVerticalScrollIndicator={false}
+              style={
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "height": 1334,
+                      "justifyContent": "center",
+                      "width": 750,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    color="#FFF"
+                    size="small"
+                  />
+                </View>
+                <Image
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onLoad={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  source={
+                    Object {
+                      "uri": "https://example.photo",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 0,
+                      "opacity": 1,
+                      "width": 0,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "bottom": 0,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</Modal>
+`;
+
+exports[`ImageViewer with the default props when the Modal is visible renders the ImageViewer component correctly 1`] = `
+<Modal
+  animationType="fade"
+  hardwareAccelerated={true}
+  onRequestClose={[Function]}
+  presentationStyle="fullScreen"
+  supportedOrientations={
+    Array [
+      "portrait",
+    ]
+  }
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#000",
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#000",
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "position": "absolute",
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "top": 16,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00000077",
+              "borderRadius": 22,
+              "height": 44,
+              "justifyContent": "center",
+              "marginRight": 8,
+              "marginTop": 8,
+              "opacity": 1,
+              "width": 44,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 19,
+                "includeFontPadding": false,
+                "lineHeight": 22,
+                "textAlign": "center",
+              }
+            }
+          >
+            ✕
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "uri": "https://example.photo",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      horizontal={true}
+      initialNumToRender={1}
+      initialScrollIndex={0}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={1}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      pagingEnabled={true}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={Array []}
+      windowSize={2}
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View>
+            <RCTScrollView
+              contentContainerStyle={
+                Object {
+                  "height": 1334,
+                }
+              }
+              maximumZoomScale={1}
+              onScroll={[Function]}
+              onScrollEndDrag={[Function]}
+              pinchGestureEnabled={true}
+              scrollEnabled={true}
+              scrollEventThrottle={1}
+              showsHorizontalScrollIndicator={false}
+              showsVerticalScrollIndicator={false}
+              style={
+                Object {
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "height": 1334,
+                      "justifyContent": "center",
+                      "width": 750,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    color="#FFF"
+                    size="small"
+                  />
+                </View>
+                <Image
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onLoad={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  source={
+                    Object {
+                      "uri": "https://example.photo",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 0,
+                      "opacity": 1,
+                      "width": 0,
+                    }
+                  }
+                />
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "bottom": 0,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</Modal>
+`;

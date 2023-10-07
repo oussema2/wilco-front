@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< ActionSheetGradient/> with the default props renders the ActionSheetGradient component correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4291295231,
+      4294967295,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.9,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 1,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "borderRadius": 5,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+  testID="linearGradient"
+>
+  <Text>
+    children
+  </Text>
+</BVLinearGradient>
+`;

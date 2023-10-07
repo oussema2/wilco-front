@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.intercom.android:intercom-sdk:10.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3e6fb26898f30fb7e9d260dc7f0665ce/transformed/jetified-intercom-sdk-10.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e6fb26898f30fb7e9d260dc7f0665ce/transformed/jetified-intercom-sdk-10.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3e6fb26898f30fb7e9d260dc7f0665ce/transformed/jetified-intercom-sdk-10.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

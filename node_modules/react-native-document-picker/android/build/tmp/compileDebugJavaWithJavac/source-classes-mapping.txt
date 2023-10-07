@@ -1,0 +1,8 @@
+com/reactnativedocumentpicker/DocumentPickerPackage.java
+ com.reactnativedocumentpicker.DocumentPickerPackage
+com/reactnativedocumentpicker/BuildConfig.java
+ com.reactnativedocumentpicker.BuildConfig
+com/reactnativedocumentpicker/DocumentPickerModule.java
+ com.reactnativedocumentpicker.DocumentPickerModule
+ com.reactnativedocumentpicker.DocumentPickerModule$1
+ com.reactnativedocumentpicker.DocumentPickerModule$ProcessDataTask

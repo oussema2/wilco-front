@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificació nova</item>
+    <item quantity="other">%d notificacions noves</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navega fins a la pàgina d\'inici"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navega cap amunt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Mostra-ho tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVA"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVA"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Supr"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Retorn"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funció+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espai"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Comparteix amb <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
+    <string name="character_counter_content_description">Caràcters introduïts: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">S\'ha superat el límit de caràcters (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Esborra el text</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activa</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s no funcionarà si no actives Serveis de Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activa Serveis de Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instal·la</string>
+    <string name="common_google_play_services_install_text">%1$s no s\'executarà si Serveis de Google Play no està instal·lat al dispositiu.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Obtén Serveis de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilitat de serveis de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Serveis de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s té problemes amb Serveis de Google Play. Torna-ho a provar.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s no es pot executar sense Serveis de Google Play, que no és compatible amb el teu dispositiu.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualitza</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s no s\'executarà si no actualitzes Serveis de Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualitza Serveis de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no s\'executarà sense Serveis de Google Play, que s\'està actualitzant en aquest moment.</string>
+    <string name="common_google_play_services_wear_update_text">Cal una nova versió de Serveis de Google Play. S\'actualitzarà automàticament aviat.</string>
+    <string name="common_open_on_phone">Obre al telèfon</string>
+    <string name="common_signin_button_text">Inicia sessió</string>
+    <string name="common_signin_button_text_long">Inicia la sessió amb Google</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostra el menú desplegable</string>
+    <string name="fcm_fallback_notification_channel_label">Altres</string>
+    <string name="icon_content_description">Icona del quadre de diàleg</string>
+    <string name="intercom_access_background_location_message">Entreu a la configuració del vostre dispositiu per permetre que l\'app utilitzi la vostra ubicació en un segon pla</string>
+    <string name="intercom_access_background_location_title">Permeteu l\'accés a la vostra ubicació en tot moment</string>
+    <string name="intercom_access_photos">Accedir a les seves fotos</string>
+    <string name="intercom_active_15m_ago">Actiu en els darrers {minutes} min</string>
+    <string name="intercom_active_day_ago">Actiu fa {days} dia(es)</string>
+    <string name="intercom_active_hour_ago">Actiu fa {hours} h</string>
+    <string name="intercom_active_minute_ago">Actiu fa {minutes} min</string>
+    <string name="intercom_active_state">Actiu</string>
+    <string name="intercom_active_week_ago">Actiu fa més d’1 setmana</string>
+    <string name="intercom_allow_access">Permetre l\'accés</string>
+    <string name="intercom_allow_storage_access">Permeti l\'accés a l\'emmagatzematge per veure les fotos</string>
+    <string name="intercom_also_in_this_conversation">També a aquesta conversa</string>
+    <string name="intercom_android_activated_message">La teva app d’Android ja està integrada amb la plataforma d’Intercom</string>
+    <string name="intercom_app_settings">Configuració de l\'aplicació</string>
+    <string name="intercom_article_load_error">No ha estat possible carregar l\'article</string>
+    <string name="intercom_article_question">¿Va respondre això a la seva pregunta?</string>
+    <string name="intercom_article_response">Ha reaccionat amb</string>
+    <string name="intercom_article_search_hint_text">Cerca articles...</string>
+    <string name="intercom_ask_a_question">Fes una pregunta</string>
+    <string name="intercom_asked_about">Va preguntar sobre</string>
+    <string name="intercom_attribute_collector_negative">No</string>
+    <string name="intercom_attribute_collector_positive">Sí</string>
+    <string name="intercom_away_state">Absent</string>
+    <string name="intercom_bot">Robot</string>
+    <string name="intercom_bot_expectation_text">El nostre robot pot respondre moltes preguntes habituals</string>
+    <string name="intercom_browse_all_help_topics">Exploreu tots els temes d\'ajuda</string>
+    <string name="intercom_browse_collections">Explora les col·leccions</string>
+    <string name="intercom_cancel">Cancel·la</string>
+    <string name="intercom_choose_one">Tria una opció…</string>
+    <string name="intercom_choose_the_date">Choose the date…</string>
+    <string name="intercom_clear">Esborra</string>
+    <string name="intercom_close">Tanca</string>
+    <string name="intercom_congratulations">Felicitats</string>
+    <string name="intercom_connected">Estàs connectat</string>
+    <string name="intercom_continue_the_conversation">Continua la conversa</string>
+    <string name="intercom_conversation_card_office_hours_header">Quan tornarem a estar en línia</string>
+    <string name="intercom_conversation_card_reply_time_header">El nostre temps habitual per respondre</string>
+    <string name="intercom_conversation_has_ended">La vostra conversa ha acabat</string>
+    <string name="intercom_conversations">Converses</string>
+    <string name="intercom_conversations_with_app">Converses amb {name}</string>
+    <string name="intercom_copied_to_clipboard">S’ha copiat al porta-retalls</string>
+    <string name="intercom_couldnt_complete_action">No s”ha pogut completar aquesta acció</string>
+    <string name="intercom_couldnt_load_apps">No s”han pogut carregar les aplicacions.</string>
+    <string name="intercom_couldnt_load_content">No s”ha pogut carregar el contingut</string>
+    <string name="intercom_couldnt_load_messenger">No s”ha pogut carregar Messenger.</string>
+    <string name="intercom_delivered">Lliurat</string>
+    <string name="intercom_disappointed_face_emoji">Cara decebuda</string>
+    <string name="intercom_dismiss">Descarta</string>
+    <string name="intercom_empty_conversations">Encara no hi ha cap conversa amb {name}.</string>
+    <string name="intercom_error_loading_conversation">No s’ha pogut carregar la conversa</string>
+    <string name="intercom_expected_response_delay_10800">menys de 3 hores</string>
+    <string name="intercom_expected_response_delay_1200">menys de 20 minuts</string>
+    <string name="intercom_expected_response_delay_14400">menys de 4 hores</string>
+    <string name="intercom_expected_response_delay_172800">2 dies</string>
+    <string name="intercom_expected_response_delay_1800">menys de 30 minuts</string>
+    <string name="intercom_expected_response_delay_18000">menys de 5 hores</string>
+    <string name="intercom_expected_response_delay_21600">menys de 6 hores</string>
+    <string name="intercom_expected_response_delay_300">menys de 5 minuts</string>
+    <string name="intercom_expected_response_delay_3600">menys d\'1 hora</string>
+    <string name="intercom_expected_response_delay_600">menys de 10 minuts</string>
+    <string name="intercom_expected_response_delay_604800">menys d\'1 setmana</string>
+    <string name="intercom_expected_response_delay_7200">menys de 2 hores</string>
+    <string name="intercom_expected_response_delay_86400">1 dia</string>
+    <string name="intercom_facebook_like">Fes clic a M’agrada al Facebook</string>
+    <string name="intercom_failed_delivery">No s’ha pogut lliurar el missatge</string>
+    <string name="intercom_failed_to_load_conversation">No s’han pogut carregar les converses</string>
+    <string name="intercom_failed_to_send">No s’ha pogut enviar</string>
+    <string name="intercom_file_access_failed">No es pot accedir a aquest fitxer</string>
+    <string name="intercom_file_too_big">No es poden enviar fitxers de més de 40 MB</string>
+    <string name="intercom_get_help">Rep ajuda</string>
+    <string name="intercom_gif_attribution">mitjançant {providername}</string>
+    <string name="intercom_gifs_load_error">No s\'han pogut carregar GIFs</string>
+    <string name="intercom_give_it_another_try">Torna a provar-ho</string>
+    <string name="intercom_go_to_device_settings">Per permetre l\'accés, vagi al menu de configuració de permisos de l\'aplicació del dispositiu</string>
+    <string name="intercom_grinning_face_with_big_eyes_emoji">Cara somrient amb uns ulls com unes taronges</string>
+    <string name="intercom_help_center">Centre d’ajuda</string>
+    <string name="intercom_how_can_we_help">Com et podem ajudar?</string>
+    <string name="intercom_image_attached">(imatge adjunta)</string>
+    <string name="intercom_inbox_error_state_title">S’ha produït un error</string>
+    <string name="intercom_loading">Carregant</string>
+    <string name="intercom_message_failed_try_again">No s’ha pogut enviar, toca per tornar-ho a provar</string>
+    <string name="intercom_message_seen">Vist</string>
+    <string name="intercom_message_state_sending">S’està enviant…</string>
+    <string name="intercom_message_unseen">No s’ha vist encara</string>
+    <string name="intercom_name_and_1_other">{name} i 1 més</string>
+    <string name="intercom_name_and_x_others">{name} i {count} més</string>
+    <string name="intercom_navigation_back">Enrere</string>
+    <string name="intercom_neutral_face_emoji">Cara neutral</string>
+    <string name="intercom_new_conversation">Nova conversa</string>
+    <string name="intercom_new_message">Missatge nou</string>
+    <string name="intercom_new_messages">Tens {n} missatges nous</string>
+    <string name="intercom_new_notifications">Notificacions noves</string>
+    <string name="intercom_no_articles_to_display">No hi ha cap article per mostrar</string>
+    <string name="intercom_no_conversations">Cap conversa</string>
+    <string name="intercom_no_gifs_found">No s\'ha trobat cap GIF</string>
+    <string name="intercom_no_gifs_matching_query">No hem pogut trobar cap GIF que coincideixi amb la seva consulta</string>
+    <string name="intercom_no_messages_from_the_team">No hi ha missatges de l”equip</string>
+    <string name="intercom_no_network_connection">Cap connexió de xarxa</string>
+    <string name="intercom_no_photos">No hi ha cap foto</string>
+    <string name="intercom_no_photos_on_device">No hi ha cap foto en aquest dispositiu</string>
+    <string name="intercom_no_results_for_searchterm">No s\'han trobat resultats per a {searchTerm}</string>
+    <string name="intercom_not_now">Ara no</string>
+    <string name="intercom_nothing_to_see_here_yet">Aquí encara no hi ha res per veure</string>
+    <string name="intercom_notification_channel_actions_description">Conté enllaços per realitzar una acció en aquesta aplicació</string>
+    <string name="intercom_notification_channel_actions_title">Accions</string>
+    <string name="intercom_notification_channel_chat_replies_description">Notificacions de respostes dels xats en aquesta aplicació</string>
+    <string name="intercom_notification_channel_chat_replies_title">Respostes del xat</string>
+    <string name="intercom_notification_channel_new_chats_description">Missatges de xat nous enviats des d”aquesta aplicació</string>
+    <string name="intercom_notification_channel_new_chats_title">Xats nous</string>
+    <string name="intercom_number_is_incorrect">Aquest número no sembla correcte</string>
+    <string name="intercom_one_new_message">Tens un missatge nou</string>
+    <string name="intercom_page_not_found">Aquesta pàgina ja no és aquí</string>
+    <string name="intercom_permission_denied">Aquest permís s\'ha denegat</string>
+    <string name="intercom_photo_access_denied">Vostè ha denegat l\'accés a les fotos</string>
+    <string name="intercom_plus_x_more">+{n} més</string>
+    <string name="intercom_profile_location">{time} a {location}</string>
+    <string name="intercom_rate_your_conversation">Valorar la conversa</string>
+    <string name="intercom_reload">Torna a carregar-la</string>
+    <string name="intercom_reply">Respon</string>
+    <string name="intercom_reply_from_admin">Resposta de {name}</string>
+    <string name="intercom_reply_to_conversation">Escriu una resposta</string>
+    <string name="intercom_retry">Torna-ho a provar</string>
+    <string name="intercom_search_browse_empty_state_text">Ho sentim, no hem trobat cap resultat per a la vostra cerca. Proveu de reformular-la.</string>
+    <string name="intercom_search_for_help">Cerqueu ajuda</string>
+    <string name="intercom_search_gif">Cercar GIFs…</string>
+    <string name="intercom_search_help_articles">Cerqueu articles d\'ajuda</string>
+    <string name="intercom_see_all">Veu totes</string>
+    <string name="intercom_see_all_conversations">Mostra totes les teves converses</string>
+    <string name="intercom_see_past_conversations">Mostra les converses anteriors</string>
+    <string name="intercom_see_previous_conversations">Mostra les teves converses anteriors</string>
+    <string name="intercom_send">Envia</string>
+    <string name="intercom_send_us_a_message">Envieu-nos un missatge</string>
+    <string name="intercom_some_things_failed_to_load">Alguna cosa no s\'ha pogut carregar. Torneu-ho a provar.</string>
+    <string name="intercom_something_went_wrong_try_again">Alguna cosa no està bé Torni a intentar-ho</string>
+    <string name="intercom_start_a_conversation">Inicia una conversa</string>
+    <string name="intercom_start_another_conversation">Inicia una altra conversa</string>
+    <string name="intercom_start_conversation">Inicia una conversa</string>
+    <string name="intercom_storage_access_request">Per poder veure les fotos ha de permetre l\'accés a l\'emmagatzematge</string>
+    <string name="intercom_string_is_incorrect">No sembla correcte</string>
+    <string name="intercom_submit">Envia</string>
+    <string name="intercom_tap_to_send_image">Toqui per enviar una imatge</string>
+    <string name="intercom_team_name_custom_response_delay_2">{app_name} sol respondre en 1 dia</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_one_business_day">{app_name} acostuma a respondre en un dia laborable.</string>
+    <string name="intercom_team_name_proactive_expected_response_delay_two_business_days">{app_name} acostuma a respondre en dos dies laborables.</string>
+    <string name="intercom_teammate_from_company">{name} de {company}</string>
+    <string name="intercom_tell_us_more">Digui’ns més…</string>
+    <string name="intercom_tell_us_what_you_need">Explica\'ns en què necessites ajuda i el nostre bot farà tot el possible per donar-te una resposta</string>
+    <string name="intercom_thanks_custom_response_delay_one_business_day">Gràcies! L\'equip respondrà en un dia laborable</string>
+    <string name="intercom_thanks_custom_response_delay_two_business_days">Gràcies! L\'equip respondrà en dos dies laborables.</string>
+    <string name="intercom_thanks_for_letting_us_know">Gràcies per informar-nos</string>
+    <string name="intercom_thanks_proactive_expected_response_delay_unknown">Gràcies. L’equip respondrà al més aviat possible</string>
+    <string name="intercom_that_country_code_doesnt_look_quite_right">El codi de país no sembla correcte</string>
+    <string name="intercom_that_email_address_doesnt_look_quite_right">La direcció de correu electrònic no sembla correcta</string>
+    <string name="intercom_that_number_doesnt_look_quite_right">El número de telèfon no sembla correcte</string>
+    <string name="intercom_that_number_has_too_many_digits">El número de telèfon té massa números</string>
+    <string name="intercom_that_number_is_missing_a_few_digits">El número de telèfon no està complet</string>
+    <string name="intercom_that_number_needs_a_prefix">Aquest número necessita un prefix (+ o 00)</string>
+    <string name="intercom_the_team_can_help_if_needed">L’equip pot ajudar si cal</string>
+    <string name="intercom_the_team_typically_replies_in_hours">L’equip sol respondre en qüestió d’hores.</string>
+    <string name="intercom_the_team_typically_replies_in_one_business_day">L\'equip sol respondre en un dia laborable.</string>
+    <string name="intercom_the_team_typically_replies_in_two_business_days">L\'equip sol respondre en dos dies laborables.</string>
+    <string name="intercom_time_day_ago">Fa {delta} dia(es)</string>
+    <string name="intercom_time_future_1h">1 hora</string>
+    <string name="intercom_time_future_2h">2 hores</string>
+    <string name="intercom_time_future_30m">30 minuts</string>
+    <string name="intercom_time_future_3h">3 hores</string>
+    <string name="intercom_time_future_day_0">Dilluns</string>
+    <string name="intercom_time_future_day_1">Dimarts</string>
+    <string name="intercom_time_future_day_2">Dimecres</string>
+    <string name="intercom_time_future_day_3">Dijous</string>
+    <string name="intercom_time_future_day_4">Divendres</string>
+    <string name="intercom_time_future_day_5">Dissabte</string>
+    <string name="intercom_time_future_day_6">Diumenge</string>
+    <string name="intercom_time_future_later_today">Avui més endavant</string>
+    <string name="intercom_time_future_next_week">La setmana vinent</string>
+    <string name="intercom_time_future_tomorrow">Demà</string>
+    <string name="intercom_time_hour_ago">Fa {delta} h</string>
+    <string name="intercom_time_just_now">Just ara</string>
+    <string name="intercom_time_minute_ago">Fa {delta} min</string>
+    <string name="intercom_time_week_ago">Fa {delta} setmana(es)</string>
+    <string name="intercom_time_yesterday">ahir</string>
+    <string name="intercom_try_again">Torna-ho a provar</string>
+    <string name="intercom_try_again_minute">Provi una altra vegada d\'aquí a un minut.</string>
+    <string name="intercom_try_use_different_keywords">Proveu de fer servir paraules clau diferents o escriviu la vostra pregunta completa</string>
+    <string name="intercom_twitter_follow">Segueix-nos al Twitter</string>
+    <string name="intercom_two_business_days">Dos dies laborables</string>
+    <string name="intercom_type_a_number">Escriu un número…</string>
+    <string name="intercom_typically_replies_in_one_business_day">Acostuma a respondre en un dia laborable.</string>
+    <string name="intercom_typically_replies_in_two_business_days">Acostuma a respondre en dos dies laborables.</string>
+    <string name="intercom_upfront_collection_form_close_out">Pots tornar aquí sempre que vulguis per veure les respostes i enviar actualitzacions.</string>
+    <string name="intercom_upfront_collection_form_introduction">Comparteix una mica de context per ajudar l\'equip a respondre amb més rapidesa i precisió.</string>
+    <string name="intercom_upfront_collection_form_submission_confirmation">Gràcies per enviar el context. Per estalviar temps més endavant, no dubtis a afegir més detalls ara mateix.</string>
+    <string name="intercom_upfront_collection_form_subtitle">Envia una mica de context a l\'equip</string>
+    <string name="intercom_upfront_collection_form_subtitle_submitted">El tindran en compte</string>
+    <string name="intercom_upfront_collection_form_title">Rep ajuda més ràpid</string>
+    <string name="intercom_upfront_collection_form_title_submitted">S\'ha enviat a l\'equip!</string>
+    <string name="intercom_we_run_on_intercom">Utilitzem Intercom</string>
+    <string name="intercom_you">Tu</string>
+    <string name="intercom_you_rated_the_conversation">Va valorar la conversa</string>
+    <string name="intercom_your_conversations">Les teves converses</string>
+    <string name="item_view_role_description">Tabulador</string>
+    <string name="material_clock_toggle_content_description">Selecciona a. m. o p. m.</string>
+    <string name="material_hour_selection">Seleccioneu l\'hora</string>
+    <string name="material_hour_suffix">%1$s en punt</string>
+    <string name="material_minute_selection">Selecciona els minuts</string>
+    <string name="material_minute_suffix">%1$s minuts</string>
+    <string name="material_timepicker_am">a. m.</string>
+    <string name="material_timepicker_clock_mode_description">Canvia al mode de rellotge per introduir l\'hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p. m.</string>
+    <string name="material_timepicker_select_time">Selecció de l\'hora</string>
+    <string name="material_timepicker_text_input_mode_description">Canvia al mode d\'introducció de text per introduir l\'hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
+    <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Més de %1$d notificacions noves</string>
+    <string name="mtrl_picker_a11y_next_month">Canvia al mes següent</string>
+    <string name="mtrl_picker_a11y_prev_month">Canvia al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selecció actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una data</string>
+    <string name="mtrl_picker_date_header_unselected">Data seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de dies: %1$s</string>
+    <string name="mtrl_picker_invalid_format">El format no és vàlid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utilitza: %1$s</string>
+    <string name="mtrl_picker_invalid_range">L\'interval no és vàlid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Canvia a l\'any %1$s</string>
+    <string name="mtrl_picker_out_of_range">La data està fora de l\'interval: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data d\'inici - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - data de finalització</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un interval</string>
+    <string name="mtrl_picker_range_header_unselected">Data d\'inici - data de finalització</string>
+    <string name="mtrl_picker_save">Desa</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de finalització</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data d\'inici</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Canvia al mode d\'introducció de dades del calendari</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca per canviar a la selecció del dia</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Canvia al mode d\'introducció de text</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca per canviar a la selecció de l\'any</string>
+    <string name="password_toggle_content_description">Mostra la contrasenya</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Continua"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"El mode de previsualització s\'ha actualitzat."</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Previsualització"</string>
+</resources>

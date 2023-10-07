@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextWithMentions /> with the default props renders the TextWithMentions component correctly 1`] = `
+<Text
+  style={Object {}}
+  testID="testing-MentionInput-Component"
+>
+  <Text
+    style={Object {}}
+    testID="autolink-testID"
+  />
+</Text>
+`;

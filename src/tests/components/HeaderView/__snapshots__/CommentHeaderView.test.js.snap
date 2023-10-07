@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentHeaderView renders the headerView 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "minHeight": 40,
+    }
+  }
+  testID="testing-headerView-component"
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "minHeight": 44,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "#A0A0A0",
+          "borderRadius": 22,
+          "height": 28,
+          "marginTop": 6,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "aspectRatio": 1,
+              "backgroundColor": "#A0A0A0",
+              "borderRadius": 68,
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+            }
+          }
+          testID="userAvatar-image"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "aspectRatio": 1,
+                  "height": 15,
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              onFastImageLoadEnd={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/icons/user.png",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image"
+              tintColor="#FFFFFF"
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "aspectRatio": 1,
+                  "backgroundColor": "#A0A0A0",
+                  "borderRadius": 68,
+                  "display": "flex",
+                  "height": 28,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "aspectRatio": 1,
+                      "height": 15,
+                      "width": 32,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/icons/user.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="userAvatar-image-loader"
+                  tintColor="#FFFFFF"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+          "marginLeft": 10,
+          "marginVertical": 2,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#1F2E4E",
+              "flexWrap": "wrap",
+              "fontFamily": "NotoSansJP-Bold",
+              "fontSize": 14,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 20,
+            }
+          }
+          testID="pilotName-text"
+        >
+          <Text>
+            A pilot name
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#5B5B5B",
+                "fontFamily": "NotoSansJP-Bold",
+                "fontSize": 13,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 20,
+              }
+            }
+            testID="titleExtraInfoSeparator-Text"
+          >
+             • 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#767676",
+                "fontFamily": "NotoSansJP-Regular",
+                "fontSize": 12,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 16,
+              }
+            }
+            testID="titleExtraInfo-text"
+          >
+            4h
+          </Text>
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+            "marginTop": 0,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#767676",
+              "flexWrap": "wrap",
+              "fontFamily": "NotoSansJP-Regular",
+              "fontSize": 12,
+              "fontWeight": undefined,
+              "letterSpacing": 0,
+              "lineHeight": 16,
+            }
+          }
+          testID="bodyInfo-text"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

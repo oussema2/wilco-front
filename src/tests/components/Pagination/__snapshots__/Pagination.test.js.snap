@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination with activeIndex renders the Pagination component correctly 1`] = `undefined`;
+
+exports[`Pagination with the default props renders the Pagination component correctly 1`] = `undefined`;

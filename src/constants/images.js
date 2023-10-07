@@ -1,0 +1,1 @@
+export const PHOTO_AND_TRACK_ASPECT_RATIO = 1.442;

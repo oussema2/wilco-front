@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxList with the default props renders the CheckboxList component correctly 1`] = `
+<View
+  testID="testID"
+>
+  <View
+    testID="select-multiple-testID"
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="row-Item 1-testID"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#cccccc",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 15,
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomWidth": 0,
+              "borderWidth": 0,
+              "marginHorizontal": 0,
+              "marginVertical": 5,
+              "paddingHorizontal": 0,
+            },
+            null,
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/checkbox.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 24,
+                "marginRight": 5,
+                "width": 24,
+              },
+              Object {
+                "backgroundColor": "#E3E3E3",
+                "borderRadius": 4,
+                "borderWidth": 0,
+                "height": 20,
+                "marginRight": 12,
+                "width": 20,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {},
+                Object {
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                },
+                Object {
+                  "fontFamily": "NotoSansJP-Bold",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                },
+              ]
+            }
+          >
+            Item 1
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="row-Item 2-testID"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffffff",
+              "borderBottomColor": "#cccccc",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "padding": 15,
+            },
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomWidth": 0,
+              "borderWidth": 0,
+              "marginHorizontal": 0,
+              "marginVertical": 5,
+              "paddingHorizontal": 0,
+            },
+            null,
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/checkbox.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 24,
+                "marginRight": 5,
+                "width": 24,
+              },
+              Object {
+                "backgroundColor": "#E3E3E3",
+                "borderRadius": 4,
+                "borderWidth": 0,
+                "height": 20,
+                "marginRight": 12,
+                "width": 20,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {},
+                Object {
+                  "fontFamily": "NotoSansJP-Regular",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                },
+                Object {
+                  "fontFamily": "NotoSansJP-Bold",
+                  "fontSize": 14,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 20,
+                },
+              ]
+            }
+          >
+            Item 2
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

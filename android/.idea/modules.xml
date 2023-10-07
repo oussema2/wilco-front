@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wilco.iml" filepath="$PROJECT_DIR$/.idea/modules/Wilco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wilco.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wilco.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-954880163/Wilco.baronha_react-native-multiple-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-954880163/Wilco.baronha_react-native-multiple-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/381616295/Wilco.intercom_intercom-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/381616295/Wilco.intercom_intercom-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1161026399/Wilco.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1161026399/Wilco.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1426186514/Wilco.react-native-config.iml" filepath="$PROJECT_DIR$/.idea/modules/-1426186514/Wilco.react-native-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-419118992/Wilco.react-native-cross-actionsheet.iml" filepath="$PROJECT_DIR$/.idea/modules/-419118992/Wilco.react-native-cross-actionsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/45530913/Wilco.react-native-date-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/45530913/Wilco.react-native-date-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1174875815/Wilco.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1174875815/Wilco.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/735607828/Wilco.react-native-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/735607828/Wilco.react-native-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1968665002/Wilco.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/-1968665002/Wilco.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1625799714/Wilco.react-native-firebase_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/1625799714/Wilco.react-native-firebase_analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-590222147/Wilco.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-590222147/Wilco.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1863942068/Wilco.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-1863942068/Wilco.react-native-firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/121870773/Wilco.react-native-firebase_crashlytics.iml" filepath="$PROJECT_DIR$/.idea/modules/121870773/Wilco.react-native-firebase_crashlytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1613203015/Wilco.react-native-firebase_dynamic-links.iml" filepath="$PROJECT_DIR$/.idea/modules/1613203015/Wilco.react-native-firebase_dynamic-links.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2065696352/Wilco.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-2065696352/Wilco.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1528281971/Wilco.react-native-firebase_perf.iml" filepath="$PROJECT_DIR$/.idea/modules/-1528281971/Wilco.react-native-firebase_perf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1205761467/Wilco.react-native-firebase_remote-config.iml" filepath="$PROJECT_DIR$/.idea/modules/-1205761467/Wilco.react-native-firebase_remote-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1306981241/Wilco.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1306981241/Wilco.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1831327578/Wilco.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1831327578/Wilco.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/884603277/Wilco.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/884603277/Wilco.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-586976788/Wilco.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-586976788/Wilco.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1866486807/Wilco.react-native-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/-1866486807/Wilco.react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1843688596/Wilco.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1843688596/Wilco.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1483439323/Wilco.react-native-masked-view_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1483439323/Wilco.react-native-masked-view_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1063545189/Wilco.react-native-mmkv-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1063545189/Wilco.react-native-mmkv-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-866326757/Wilco.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-866326757/Wilco.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-688871144/Wilco.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-688871144/Wilco.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/582938059/Wilco.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/582938059/Wilco.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-359262590/Wilco.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-359262590/Wilco.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-379420349/Wilco.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-379420349/Wilco.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1101990171/Wilco.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1101990171/Wilco.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-643581533/Wilco.react-native-sound.iml" filepath="$PROJECT_DIR$/.idea/modules/-643581533/Wilco.react-native-sound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1223628838/Wilco.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/1223628838/Wilco.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1038290620/Wilco.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1038290620/Wilco.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1546574095/Wilco.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1546574095/Wilco.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/360932749/Wilco.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/360932749/Wilco.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1870951419/Wilco.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-1870951419/Wilco.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>
